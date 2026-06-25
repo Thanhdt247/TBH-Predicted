@@ -1,0 +1,4410 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -2378050947708348859
+  },
+  "m_Name": "ItemTable_en-US",
+  "m_LocaleId": {
+    "m_Code": "en-US"
+  },
+  "m_SharedData": {
+    "m_FileID": 2,
+    "m_PathID": -1933338285342846232
+  },
+  "m_Metadata": {
+    "m_Items": []
+  },
+  "m_TableData": [
+    {
+      "m_Id": 60546367488,
+      "m_Localized": "Goblin Hide",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973824,
+      "m_Localized": "Skeleton Bone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973825,
+      "m_Localized": "Wolf Fang",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973826,
+      "m_Localized": "Spider Silk",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168128,
+      "m_Localized": "Bat Wing Membrane",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168129,
+      "m_Localized": "Ogre Blood",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168130,
+      "m_Localized": "Mushroom Spore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168131,
+      "m_Localized": "Ancient Tree Sap",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168134,
+      "m_Localized": "Scroll of Common Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168136,
+      "m_Localized": "Scroll of Uncommon Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168137,
+      "m_Localized": "Wood",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168138,
+      "m_Localized": "Bronze Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168139,
+      "m_Localized": "Silver Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168142,
+      "m_Localized": "Soulstone - Normal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168143,
+      "m_Localized": "Soulstone - Nightmare",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168144,
+      "m_Localized": "Soulstone - Hell",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168145,
+      "m_Localized": "Soulstone - Torment",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168146,
+      "m_Localized": "Long Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168147,
+      "m_Localized": "Cutlas",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168148,
+      "m_Localized": "Rapier",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168149,
+      "m_Localized": "Bastard Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168150,
+      "m_Localized": "Great Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168151,
+      "m_Localized": "Heavy Blade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168152,
+      "m_Localized": "Knight Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362432,
+      "m_Localized": "Commander's Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362433,
+      "m_Localized": "Rune Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362434,
+      "m_Localized": "Legend Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362435,
+      "m_Localized": "Fate Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362436,
+      "m_Localized": "Hero Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362437,
+      "m_Localized": "Short Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362438,
+      "m_Localized": "Hunting Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362439,
+      "m_Localized": "Long Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362440,
+      "m_Localized": "Composite Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362441,
+      "m_Localized": "War Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362442,
+      "m_Localized": "Scarlet Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362443,
+      "m_Localized": "Dusk Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362444,
+      "m_Localized": "Jade Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362445,
+      "m_Localized": "Elite Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362446,
+      "m_Localized": "Rune Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362447,
+      "m_Localized": "Mystic Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362448,
+      "m_Localized": "Swift Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362449,
+      "m_Localized": "Wooden Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362450,
+      "m_Localized": "Herald Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362451,
+      "m_Localized": "Long Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362452,
+      "m_Localized": "Witch Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362453,
+      "m_Localized": "Azure Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362454,
+      "m_Localized": "Elder Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362455,
+      "m_Localized": "Sage Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362456,
+      "m_Localized": "Mystic Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362457,
+      "m_Localized": "Comet Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362458,
+      "m_Localized": "Crystal Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362459,
+      "m_Localized": "Void Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362460,
+      "m_Localized": "Conqueror Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362461,
+      "m_Localized": "Novice Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362462,
+      "m_Localized": "Iron Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362463,
+      "m_Localized": "Blessed Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362464,
+      "m_Localized": "Steel Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362465,
+      "m_Localized": "Sacred Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362466,
+      "m_Localized": "Bishop's Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362467,
+      "m_Localized": "Devout Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362468,
+      "m_Localized": "Heavy Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362469,
+      "m_Localized": "Rune Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362470,
+      "m_Localized": "Legend Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362471,
+      "m_Localized": "Fate Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362472,
+      "m_Localized": "Hero Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362473,
+      "m_Localized": "Short Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362474,
+      "m_Localized": "Leather Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362475,
+      "m_Localized": "Long Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362476,
+      "m_Localized": "Complete Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362477,
+      "m_Localized": "Exceptional Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362478,
+      "m_Localized": "Reinforced Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362479,
+      "m_Localized": "Iron Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362480,
+      "m_Localized": "Wing Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362481,
+      "m_Localized": "Elite Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362482,
+      "m_Localized": "Large Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362483,
+      "m_Localized": "Mystic Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362484,
+      "m_Localized": "Fast Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362485,
+      "m_Localized": "Wooden Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362486,
+      "m_Localized": "Iron Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362487,
+      "m_Localized": "Battle Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362488,
+      "m_Localized": "Steel Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362489,
+      "m_Localized": "War Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362490,
+      "m_Localized": "Knight's Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362491,
+      "m_Localized": "Great Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362492,
+      "m_Localized": "Heavy Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362493,
+      "m_Localized": "Rune Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362494,
+      "m_Localized": "Legend Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362495,
+      "m_Localized": "Fate Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362496,
+      "m_Localized": "Hero Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362497,
+      "m_Localized": "Buckler",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362498,
+      "m_Localized": "Wooden Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362499,
+      "m_Localized": "Iron Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362500,
+      "m_Localized": "Heater Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556736,
+      "m_Localized": "Heavy Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556737,
+      "m_Localized": "Forest Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556738,
+      "m_Localized": "War Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556739,
+      "m_Localized": "Barrier Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556740,
+      "m_Localized": "Elite Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556741,
+      "m_Localized": "Crimson Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556742,
+      "m_Localized": "Mystic Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556743,
+      "m_Localized": "Grand Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556744,
+      "m_Localized": "Wooden Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556745,
+      "m_Localized": "Iron Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556746,
+      "m_Localized": "Hunter's Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556747,
+      "m_Localized": "Barbed Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556748,
+      "m_Localized": "Azure Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556749,
+      "m_Localized": "Brutal Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556750,
+      "m_Localized": "Gale Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556751,
+      "m_Localized": "Serpent Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556752,
+      "m_Localized": "Rune Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556753,
+      "m_Localized": "Tribal Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556754,
+      "m_Localized": "Fate Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556755,
+      "m_Localized": "Storm Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556756,
+      "m_Localized": "Magic Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556757,
+      "m_Localized": "Elder Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556758,
+      "m_Localized": "Brilliant Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556759,
+      "m_Localized": "Frozen Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556760,
+      "m_Localized": "Prophecy Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556761,
+      "m_Localized": "Dark Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556762,
+      "m_Localized": "Rune Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556763,
+      "m_Localized": "Shining Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556764,
+      "m_Localized": "Arcane Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556765,
+      "m_Localized": "Fate Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556766,
+      "m_Localized": "Mystic Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556767,
+      "m_Localized": "Sky Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556804,
+      "m_Localized": "Wooden Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556805,
+      "m_Localized": "Empire Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556806,
+      "m_Localized": "Iron Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556807,
+      "m_Localized": "Knight Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751040,
+      "m_Localized": "Chain Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751041,
+      "m_Localized": "Medium Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751042,
+      "m_Localized": "War Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751043,
+      "m_Localized": "Emperor Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751044,
+      "m_Localized": "Rune Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751045,
+      "m_Localized": "Red Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751046,
+      "m_Localized": "Fate Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751047,
+      "m_Localized": "Great Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751048,
+      "m_Localized": "Wooden Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751049,
+      "m_Localized": "Empire Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751050,
+      "m_Localized": "Iron Plate",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751051,
+      "m_Localized": "Chain Mail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751052,
+      "m_Localized": "Knight's Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751053,
+      "m_Localized": "Fate Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751054,
+      "m_Localized": "War Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751055,
+      "m_Localized": "Heavy Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945344,
+      "m_Localized": "Rune Plate",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945345,
+      "m_Localized": "Dragon Scale Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945346,
+      "m_Localized": "Mystic Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945347,
+      "m_Localized": "Great Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945348,
+      "m_Localized": "Leather Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945349,
+      "m_Localized": "Empire Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945350,
+      "m_Localized": "Iron Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945351,
+      "m_Localized": "Knight Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945352,
+      "m_Localized": "Chain Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945353,
+      "m_Localized": "Fate Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945354,
+      "m_Localized": "War Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945355,
+      "m_Localized": "Heavy Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945356,
+      "m_Localized": "Rune Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945357,
+      "m_Localized": "Plate Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945358,
+      "m_Localized": "Mystic Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945359,
+      "m_Localized": "Great Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945360,
+      "m_Localized": "Wooden Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945361,
+      "m_Localized": "Empire Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945362,
+      "m_Localized": "Iron Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945363,
+      "m_Localized": "Knight Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945364,
+      "m_Localized": "Chain Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945365,
+      "m_Localized": "Fate Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945366,
+      "m_Localized": "War Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945367,
+      "m_Localized": "Heavy Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945368,
+      "m_Localized": "Rune Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945369,
+      "m_Localized": "Plate Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945370,
+      "m_Localized": "Mystic Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945371,
+      "m_Localized": "Great Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945372,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945373,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945374,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945375,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945376,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945377,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945378,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945379,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139658,
+      "m_Localized": "Material required to summon Normal difficulty bosses.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139659,
+      "m_Localized": "Material required to summon Nightmare difficulty bosses.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139660,
+      "m_Localized": "Material required to summon Hell difficulty bosses.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139661,
+      "m_Localized": "Material required to summon Torment difficulty bosses.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139662,
+      "m_Localized": "Storm Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139663,
+      "m_Localized": "Vengeance Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139664,
+      "m_Localized": "Void Blade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139665,
+      "m_Localized": "Crystal Blade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139666,
+      "m_Localized": "Dimensional Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139667,
+      "m_Localized": "Shadow Blade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139668,
+      "m_Localized": "Eternal Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139669,
+      "m_Localized": "Radiant Sword",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139670,
+      "m_Localized": "Ancient Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139671,
+      "m_Localized": "Limitless Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139672,
+      "m_Localized": "Chaos Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139673,
+      "m_Localized": "Storm Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139674,
+      "m_Localized": "Shadow Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139675,
+      "m_Localized": "Tempest Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139676,
+      "m_Localized": "Eternal Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139677,
+      "m_Localized": "Radiant Bow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139678,
+      "m_Localized": "Ancient Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139679,
+      "m_Localized": "Sacred Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139680,
+      "m_Localized": "Abyssal Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139681,
+      "m_Localized": "Chaos Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139682,
+      "m_Localized": "Tempest Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139683,
+      "m_Localized": "Nova Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139684,
+      "m_Localized": "Eternal Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139685,
+      "m_Localized": "Radiant Staff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139686,
+      "m_Localized": "Storm Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139687,
+      "m_Localized": "Limitless Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139688,
+      "m_Localized": "Chaos Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139689,
+      "m_Localized": "Power Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139690,
+      "m_Localized": "Dimensional Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139691,
+      "m_Localized": "Shadow Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139692,
+      "m_Localized": "Eternal Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139693,
+      "m_Localized": "Radiant Scepter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139694,
+      "m_Localized": "Ancient Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139695,
+      "m_Localized": "Limitless Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139696,
+      "m_Localized": "Chaos Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139697,
+      "m_Localized": "Power Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139698,
+      "m_Localized": "Dimensional Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139699,
+      "m_Localized": "Shadow Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139700,
+      "m_Localized": "Eternal Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139701,
+      "m_Localized": "Radiant Crossbow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139702,
+      "m_Localized": "Storm Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139703,
+      "m_Localized": "Limitless Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139704,
+      "m_Localized": "Chaos Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139705,
+      "m_Localized": "Power Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139706,
+      "m_Localized": "Dimensional Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139707,
+      "m_Localized": "Shadow Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139708,
+      "m_Localized": "Eternal Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139709,
+      "m_Localized": "Radiant Axe",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139790,
+      "m_Localized": "Ancient Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139791,
+      "m_Localized": "Radiant Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139792,
+      "m_Localized": "Void Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139793,
+      "m_Localized": "Divine Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139794,
+      "m_Localized": "Dimensional Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139795,
+      "m_Localized": "Shadow Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139796,
+      "m_Localized": "Eternal Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139797,
+      "m_Localized": "Dragon Shield",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139798,
+      "m_Localized": "Obsidian Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139799,
+      "m_Localized": "Haste Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139800,
+      "m_Localized": "Void Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139801,
+      "m_Localized": "Poison Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139802,
+      "m_Localized": "Dimensional Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139803,
+      "m_Localized": "Shadow Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139804,
+      "m_Localized": "Ancient Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139805,
+      "m_Localized": "Exalted Arrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139806,
+      "m_Localized": "Storm Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139807,
+      "m_Localized": "Fighter's Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139808,
+      "m_Localized": "Void Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139809,
+      "m_Localized": "Crystal Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139810,
+      "m_Localized": "Dimensional Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139811,
+      "m_Localized": "Shadow Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139812,
+      "m_Localized": "Eternal Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139813,
+      "m_Localized": "Radiant Helmet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139814,
+      "m_Localized": "Ancient Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139815,
+      "m_Localized": "Shine Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139816,
+      "m_Localized": "Void Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139817,
+      "m_Localized": "Dragon Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139818,
+      "m_Localized": "Dimensional Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139819,
+      "m_Localized": "Shadow Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139820,
+      "m_Localized": "Eternal Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139821,
+      "m_Localized": "Radiant Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139822,
+      "m_Localized": "Ancient Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139823,
+      "m_Localized": "Shine Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139824,
+      "m_Localized": "Void Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139825,
+      "m_Localized": "Dragon Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139826,
+      "m_Localized": "Dimensional Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139827,
+      "m_Localized": "Shadow Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139828,
+      "m_Localized": "Eternal Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139829,
+      "m_Localized": "Radiant Gloves",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139830,
+      "m_Localized": "Ancient Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139831,
+      "m_Localized": "Shine Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139832,
+      "m_Localized": "Void Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139833,
+      "m_Localized": "Crystal Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139834,
+      "m_Localized": "Dimensional Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139835,
+      "m_Localized": "Shadow Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139836,
+      "m_Localized": "Eternal Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139837,
+      "m_Localized": "Radiant Boots",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139838,
+      "m_Localized": "Copper Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139839,
+      "m_Localized": "Bronze Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139840,
+      "m_Localized": "Silver Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139841,
+      "m_Localized": "Gold Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139842,
+      "m_Localized": "Platinum Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139843,
+      "m_Localized": "Crystal Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139844,
+      "m_Localized": "Moonstone Pendant",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139845,
+      "m_Localized": "Amber Pendant",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139846,
+      "m_Localized": "Ruby Pendant",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139847,
+      "m_Localized": "Amethyst Pendant",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139848,
+      "m_Localized": "Emerald Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139849,
+      "m_Localized": "Diamond Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139850,
+      "m_Localized": "Stardust Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139851,
+      "m_Localized": "Eclipse Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139852,
+      "m_Localized": "Celestial Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139853,
+      "m_Localized": "Astral Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139854,
+      "m_Localized": "Ethereal Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139855,
+      "m_Localized": "Void Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139856,
+      "m_Localized": "Abyss Amulet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139857,
+      "m_Localized": "Copper Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139858,
+      "m_Localized": "Bronze Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139859,
+      "m_Localized": "Silver Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139860,
+      "m_Localized": "Gold Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139861,
+      "m_Localized": "Platinum Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139862,
+      "m_Localized": "Crystal Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139863,
+      "m_Localized": "Emerald Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139864,
+      "m_Localized": "Jade Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139865,
+      "m_Localized": "Tiger Eye Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139866,
+      "m_Localized": "Garnet Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139867,
+      "m_Localized": "Sapphire Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139868,
+      "m_Localized": "Diamond Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139869,
+      "m_Localized": "Moonstone Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139870,
+      "m_Localized": "Celestial Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139871,
+      "m_Localized": "Eclipse Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139872,
+      "m_Localized": "Astral Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139873,
+      "m_Localized": "Ethereal Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139874,
+      "m_Localized": "Void Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139875,
+      "m_Localized": "Abyss Earring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139876,
+      "m_Localized": "Copper Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139877,
+      "m_Localized": "Bronze Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139878,
+      "m_Localized": "Silver Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139879,
+      "m_Localized": "Gold Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139880,
+      "m_Localized": "Platinum Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139881,
+      "m_Localized": "Crystal Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139882,
+      "m_Localized": "Amber Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139883,
+      "m_Localized": "Topaz Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139884,
+      "m_Localized": "Amethyst Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139885,
+      "m_Localized": "Garnet Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139886,
+      "m_Localized": "Emerald Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139887,
+      "m_Localized": "Diamond Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139888,
+      "m_Localized": "Moonstone Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139889,
+      "m_Localized": "Eclipse Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139890,
+      "m_Localized": "Celestial Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139891,
+      "m_Localized": "Astral Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139892,
+      "m_Localized": "Ethereal Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139893,
+      "m_Localized": "Void Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139894,
+      "m_Localized": "Abyss Ring",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139895,
+      "m_Localized": "Copper Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139896,
+      "m_Localized": "Bronze Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139897,
+      "m_Localized": "Silver Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139898,
+      "m_Localized": "Gold Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139899,
+      "m_Localized": "Platinum Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139900,
+      "m_Localized": "Crystal Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139901,
+      "m_Localized": "Obsidian Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139902,
+      "m_Localized": "Shadow Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139903,
+      "m_Localized": "Crimson Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139904,
+      "m_Localized": "Bloodstone Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139905,
+      "m_Localized": "Emerald Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139906,
+      "m_Localized": "Diamond Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139907,
+      "m_Localized": "Stardust Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139908,
+      "m_Localized": "Eclipse Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139909,
+      "m_Localized": "Celestial Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139910,
+      "m_Localized": "Astral Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139911,
+      "m_Localized": "Ethereal Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139912,
+      "m_Localized": "Void Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139913,
+      "m_Localized": "Abyss Bracer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139914,
+      "m_Localized": "Minor Ruby",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139916,
+      "m_Localized": "Minor Sapphire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139918,
+      "m_Localized": "Minor Topaz",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139920,
+      "m_Localized": "Minor Emerald",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139922,
+      "m_Localized": "Minor Amethyst",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139924,
+      "m_Localized": "Obsidian Shard",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139926,
+      "m_Localized": "Coral Piece",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139928,
+      "m_Localized": "Jade Stone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139930,
+      "m_Localized": "Amber Gem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139932,
+      "m_Localized": "Ruby",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139934,
+      "m_Localized": "Sapphire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139936,
+      "m_Localized": "Topaz",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139938,
+      "m_Localized": "Emerald",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139940,
+      "m_Localized": "Amethyst",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139942,
+      "m_Localized": "Crystal Quartz",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139944,
+      "m_Localized": "Pearl",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139946,
+      "m_Localized": "Turquoise",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139948,
+      "m_Localized": "Garnet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139950,
+      "m_Localized": "Diamond",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139952,
+      "m_Localized": "Opal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139954,
+      "m_Localized": "Lapis Lazuli",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139956,
+      "m_Localized": "Black Pearl",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139958,
+      "m_Localized": "Arcane Crystal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139960,
+      "m_Localized": "Mystic Topaz",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139962,
+      "m_Localized": "Enchanted Ruby",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139964,
+      "m_Localized": "Starlight Sapphire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139966,
+      "m_Localized": "Void Opal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139968,
+      "m_Localized": "Astral Diamond",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139970,
+      "m_Localized": "Phantom Emerald",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139972,
+      "m_Localized": "Twilight Amethyst",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139974,
+      "m_Localized": "Celestial Pearl",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139976,
+      "m_Localized": "Dragonite Crystal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139978,
+      "m_Localized": "Void Crystal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139980,
+      "m_Localized": "Abyssal Pearl",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139982,
+      "m_Localized": "Ethereal Gem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139984,
+      "m_Localized": "Chaos Diamond",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139986,
+      "m_Localized": "Slime Jelly",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139988,
+      "m_Localized": "Poisonous Herb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139990,
+      "m_Localized": "Healing Herb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139992,
+      "m_Localized": "Skull",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139994,
+      "m_Localized": "Harpy Feather",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139996,
+      "m_Localized": "Mandrake Root",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139998,
+      "m_Localized": "Nightshade Extract",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140000,
+      "m_Localized": "Basilisk Scale",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140002,
+      "m_Localized": "Wyvern Claw",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140004,
+      "m_Localized": "Dice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140006,
+      "m_Localized": "Demon Blood",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140008,
+      "m_Localized": "Minotaur Horn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140010,
+      "m_Localized": "Griffin Beak",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140012,
+      "m_Localized": "Phoenix Ash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140014,
+      "m_Localized": "Dragon Bile",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140016,
+      "m_Localized": "Wraith Essence",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140018,
+      "m_Localized": "Kraken Ink",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140020,
+      "m_Localized": "Titan Marrow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140022,
+      "m_Localized": "Void Ichor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140024,
+      "m_Localized": "Abyssal Mucus",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140026,
+      "m_Localized": "Chaos Spore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140028,
+      "m_Localized": "Primordial Sap",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140030,
+      "m_Localized": "Eldritch Venom",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140032,
+      "m_Localized": "Chaso Dice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140034,
+      "m_Localized": "Void Tendril",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140036,
+      "m_Localized": "Scroll of Rare Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140038,
+      "m_Localized": "Scroll of Legendary Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140040,
+      "m_Localized": "Scroll of Immortal Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140042,
+      "m_Localized": "Scroll of Arcana Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140044,
+      "m_Localized": "Scroll of Beyond Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140046,
+      "m_Localized": "Scroll of Celestial Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140048,
+      "m_Localized": "Scroll of Divine Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140050,
+      "m_Localized": "Scroll of Cosmic Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140052,
+      "m_Localized": "Stone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140054,
+      "m_Localized": "Leather",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140056,
+      "m_Localized": "Copper Nugget",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140058,
+      "m_Localized": "Iron Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140060,
+      "m_Localized": "Gold Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140062,
+      "m_Localized": "Stardust Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140064,
+      "m_Localized": "Void Iron",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140066,
+      "m_Localized": "Bloodstone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140068,
+      "m_Localized": "Thunderstone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140070,
+      "m_Localized": "Darksteel Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140072,
+      "m_Localized": "Orichalcum Ore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140074,
+      "m_Localized": "Moonstone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140076,
+      "m_Localized": "Sunstone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140078,
+      "m_Localized": "Mithril Ore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140080,
+      "m_Localized": "Ethereal Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140082,
+      "m_Localized": "Adamantium Ore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140084,
+      "m_Localized": "Aeon Ingot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302398099456,
+      "m_Localized": "Chaos Shard",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459584,
+      "m_Localized": "Arcane Ore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168140,
+      "m_Localized": "Kingdom 1st Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168141,
+      "m_Localized": "Empire 1st Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459585,
+      "m_Localized": "Kingdom 10th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459586,
+      "m_Localized": "Empire 10th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459587,
+      "m_Localized": "Kingdom 50th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459588,
+      "m_Localized": "Empire 50th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459589,
+      "m_Localized": "Kingdom 100th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459590,
+      "m_Localized": "Empire 100th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459591,
+      "m_Localized": "Sacred Kingdom 1000th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459592,
+      "m_Localized": "Eternal Empire 1000th Anniversary Coin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302435848192,
+      "m_Localized": "Spirit Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302435848193,
+      "m_Localized": "Ancient Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042496,
+      "m_Localized": "Abyssal Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042497,
+      "m_Localized": "Void Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042498,
+      "m_Localized": "Dimensional Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042499,
+      "m_Localized": "Shadow Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042500,
+      "m_Localized": "Eternal Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042501,
+      "m_Localized": "Aureate Orb",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556768,
+      "m_Localized": "Prayer Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556769,
+      "m_Localized": "Empire Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556770,
+      "m_Localized": "Iron Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556771,
+      "m_Localized": "Knight's Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556772,
+      "m_Localized": "Blessed Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556773,
+      "m_Localized": "Commander's Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556774,
+      "m_Localized": "War Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556775,
+      "m_Localized": "Emperor's Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556776,
+      "m_Localized": "Rune Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556777,
+      "m_Localized": "Crimson Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556778,
+      "m_Localized": "Fate Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556779,
+      "m_Localized": "Grand Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042502,
+      "m_Localized": "Storm Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042503,
+      "m_Localized": "Warrior's Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042504,
+      "m_Localized": "Void Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042505,
+      "m_Localized": "Crystal Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042506,
+      "m_Localized": "Dimensional Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042507,
+      "m_Localized": "Shadow Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042508,
+      "m_Localized": "Eternal Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042509,
+      "m_Localized": "Empyrean Tome",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556780,
+      "m_Localized": "Short Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556781,
+      "m_Localized": "Fear Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556782,
+      "m_Localized": "Hunter's Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556783,
+      "m_Localized": "Barbed Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556784,
+      "m_Localized": "Beast Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556785,
+      "m_Localized": "Swift Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556786,
+      "m_Localized": "Iron Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556787,
+      "m_Localized": "Heavy Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556788,
+      "m_Localized": "Rune Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556789,
+      "m_Localized": "Hero Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556790,
+      "m_Localized": "Fate Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556791,
+      "m_Localized": "Storm Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042510,
+      "m_Localized": "Thunder Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042511,
+      "m_Localized": "Haste Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042512,
+      "m_Localized": "Void Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042513,
+      "m_Localized": "Poison Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042514,
+      "m_Localized": "Dimensional Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042515,
+      "m_Localized": "Shadow Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042516,
+      "m_Localized": "Ancient Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042517,
+      "m_Localized": "Sanctified Bolt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556792,
+      "m_Localized": "Short Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556793,
+      "m_Localized": "Leather Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556794,
+      "m_Localized": "Long Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556795,
+      "m_Localized": "Steel Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556796,
+      "m_Localized": "War Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556797,
+      "m_Localized": "Composite Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556798,
+      "m_Localized": "Battle Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556799,
+      "m_Localized": "Wing Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556800,
+      "m_Localized": "Elite Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556801,
+      "m_Localized": "Large Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556802,
+      "m_Localized": "Mystic Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556803,
+      "m_Localized": "Swift Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042518,
+      "m_Localized": "Ancient Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042519,
+      "m_Localized": "Limitless Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042520,
+      "m_Localized": "Chaos Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042521,
+      "m_Localized": "Power Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042522,
+      "m_Localized": "Dimensional Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042523,
+      "m_Localized": "Shadow Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042524,
+      "m_Localized": "Eternal Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042525,
+      "m_Localized": "Exalted Hatchet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139915,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139917,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139919,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139921,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139923,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139925,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139927,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139929,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139931,
+      "m_Localized": "Common basic decoration material. Used to decorate an item, granting a minor stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139933,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139935,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139937,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139939,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139941,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139943,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139945,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139947,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139949,
+      "m_Localized": "Basic decoration material. Used to decorate an item, granting a stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139951,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139953,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139955,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139957,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139959,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139961,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139963,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139965,
+      "m_Localized": "Intermediate decoration material. Used to decorate an item, granting a special stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139967,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139969,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139971,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139973,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139975,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139977,
+      "m_Localized": "Advanced decoration material. Used to decorate an item, granting a powerful stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139979,
+      "m_Localized": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139981,
+      "m_Localized": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139983,
+      "m_Localized": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139985,
+      "m_Localized": "Premium decoration material. Used to decorate an item, granting an enormous stat boost preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139987,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139989,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139991,
+      "m_Localized": "Common basic engraving material. Used to engrave an item, randomly granting one of two minor stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139993,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139995,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139997,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139999,
+      "m_Localized": "Basic engraving material. Used to engrave an item, randomly granting one of two stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140001,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140003,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140005,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140007,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140009,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140011,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140013,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140015,
+      "m_Localized": "Intermediate engraving material. Used to engrave an item, randomly granting one of two special stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140017,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140019,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140021,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140023,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140025,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140027,
+      "m_Localized": "Advanced engraving material. Used to engrave an item, randomly granting one of two powerful stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140029,
+      "m_Localized": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140031,
+      "m_Localized": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140033,
+      "m_Localized": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140035,
+      "m_Localized": "Premium engraving material. Used to engrave an item, randomly granting one of two enormous stat boosts preset by equipment type.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139650,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139652,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140037,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140039,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140041,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140043,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140045,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140047,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140049,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140051,
+      "m_Localized": "A scroll containing special powers. Inscribed onto an item to randomly grant one of several stat boosts.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139653,
+      "m_Localized": "A common material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140053,
+      "m_Localized": "A common material used to create something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140055,
+      "m_Localized": "A common material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140057,
+      "m_Localized": "A common material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139654,
+      "m_Localized": "A common crafting material used to make something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140059,
+      "m_Localized": "A common material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139655,
+      "m_Localized": "A material used to create something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140061,
+      "m_Localized": "A material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140063,
+      "m_Localized": "A material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140065,
+      "m_Localized": "A crafting material used to make something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140067,
+      "m_Localized": "An intermediate material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140069,
+      "m_Localized": "An intermediate material used to create something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819712,
+      "m_Localized": "An intermediate material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819713,
+      "m_Localized": "An intermediate material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140071,
+      "m_Localized": "An advanced crafting material used to make something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140073,
+      "m_Localized": "A high-quality material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140075,
+      "m_Localized": "An advanced material used to create something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140077,
+      "m_Localized": "A high-grade material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140079,
+      "m_Localized": "A premium material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140081,
+      "m_Localized": "A premium crafting material used to make something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140083,
+      "m_Localized": "A premium material that can be used to craft something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140085,
+      "m_Localized": "A premium material used to create something.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139656,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139657,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819714,
+      "m_Localized": "A commemorative coin. Toss it into the cube with all your wishes.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819715,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819716,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with all your heart's desire.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819717,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819718,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819719,
+      "m_Localized": "A commemorative coin. Toss it into the cube with all your wishes.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819720,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with a heartfelt wish.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819721,
+      "m_Localized": "A commemorative coin. Toss it into the Cube with all your heart's desire.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    }
+  ],
+  "references": {
+    "version": 2,
+    "RefIds": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "QFluentWidgets": {
+        "FontFamilies": [
+            "Segoe UI",
+            "Microsoft YaHei",
+            "PingFang SC"
+        ],
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Dark"
+    },
+    "UI": {
+        "FontSize": 11,
+        "Language": "English"
+    },
+    "Filters": {
+        "HideArcana": false,
+        "HideBeyond": false,
+        "HideCelestial": false,
+        "HideCommon": false,
+        "HideCosmic": false,
+        "HideDivine": false,
+        "HideImmortal": false,
+        "HideLegendary": false,
+        "HideRare": false,
+        "HideUncommon": false
+    }
+}

@@ -1,0 +1,52 @@
+# ==========================================
+# 1. MÔI TRƯỜNG ẢO PYTHON (VIRTUAL ENV)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# 2. FILE ĐỆM VÀ BIÊN DỊCH CỦA PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 3. DỮ LIỆU ĐƯỢC SINH RA TỪ TOOL CỦA MÌNH
+# ==========================================
+# File cache tốc độ cao (Tool sẽ tự tạo lại ở máy khác, không được push lên)
+data/item_cache.json
+
+# File backup khi bạn patch hex lõi Frida
+*_frida.pyd.bak
+
+# (Tùy chọn) Nếu thư mục resources chứa mớ file data JSON/CSV của game quá nặng (vài trăm MB)
+# và bạn không muốn đẩy lên Git, hãy bỏ dấu # ở dòng dưới:
+# resources/
+
+# ==========================================
+# 4. FILE ĐÓNG GÓI (.EXE) CỦA PYINSTALLER
+# ==========================================
+build/
+dist/
+*.spec
+*.manifest
+
+# ==========================================
+# 5. CẤU HÌNH IDE VÀ HỆ ĐIỀU HÀNH
+# ==========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# Các IDE khác (PyCharm, IntelliJ...)
+.idea/
+*.swp
+*.swo
+
+# Hệ điều hành sinh ra
+.DS_Store
+Thumbs.db

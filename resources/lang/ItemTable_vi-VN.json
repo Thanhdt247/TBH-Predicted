@@ -1,0 +1,4410 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -2378050947708348859
+  },
+  "m_Name": "ItemTable_vi-VN",
+  "m_LocaleId": {
+    "m_Code": "vi-VN"
+  },
+  "m_SharedData": {
+    "m_FileID": 2,
+    "m_PathID": -1933338285342846232
+  },
+  "m_Metadata": {
+    "m_Items": []
+  },
+  "m_TableData": [
+    {
+      "m_Id": 60714139914,
+      "m_Localized": "Hồng ngọc hạ cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139916,
+      "m_Localized": "Sapphire hạ cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139918,
+      "m_Localized": "Topaz hạ cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139920,
+      "m_Localized": "Ngọc lục bảo hạ cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139922,
+      "m_Localized": "Thạch anh tím hạ cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139924,
+      "m_Localized": "Mảnh hắc diện thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139926,
+      "m_Localized": "Mảnh san hô",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139928,
+      "m_Localized": "Đá phỉ thúy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139930,
+      "m_Localized": "Đá hổ phách",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139932,
+      "m_Localized": "Hồng ngọc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139934,
+      "m_Localized": "Sapphire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139936,
+      "m_Localized": "Topaz",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139938,
+      "m_Localized": "Ngọc lục bảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139940,
+      "m_Localized": "Thạch anh tím",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139942,
+      "m_Localized": "Thạch anh pha lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139944,
+      "m_Localized": "Ngọc trai",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139946,
+      "m_Localized": "Ngọc lam",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139948,
+      "m_Localized": "Ngọc hồng lựu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139950,
+      "m_Localized": "Kim cương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139952,
+      "m_Localized": "Ngọc mắt mèo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139954,
+      "m_Localized": "Thanh kim thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139956,
+      "m_Localized": "Ngọc trai đen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139958,
+      "m_Localized": "Tinh thể bí thuật",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139960,
+      "m_Localized": "Topaz huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139962,
+      "m_Localized": "Hồng ngọc phù phép",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139964,
+      "m_Localized": "Sapphire ánh sao",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139966,
+      "m_Localized": "Ngọc mắt mèo hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139968,
+      "m_Localized": "Kim cương tinh tú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139970,
+      "m_Localized": "Ngọc lục bảo ảo ảnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139972,
+      "m_Localized": "Thạch anh tím hoàng hôn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139974,
+      "m_Localized": "Ngọc trai thiên giới",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139976,
+      "m_Localized": "Tinh thể Dragonite",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139978,
+      "m_Localized": "Tinh thể hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139980,
+      "m_Localized": "Ngọc trai vực thẳm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139982,
+      "m_Localized": "Bảo thạch linh thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139984,
+      "m_Localized": "Kim cương hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60546367488,
+      "m_Localized": "Da Goblin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973824,
+      "m_Localized": "Xương bộ xương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139986,
+      "m_Localized": "Thạch Slime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973825,
+      "m_Localized": "Nanh sói",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60688973826,
+      "m_Localized": "Tơ nhện",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139988,
+      "m_Localized": "Cỏ độc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139990,
+      "m_Localized": "Dược thảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168128,
+      "m_Localized": "Màng cánh dơi",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168129,
+      "m_Localized": "Máu Ogre",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168130,
+      "m_Localized": "Bào tử nấm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168131,
+      "m_Localized": "Nhựa cây cổ thụ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139992,
+      "m_Localized": "Đầu lâu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139994,
+      "m_Localized": "Lông vũ Harpy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139996,
+      "m_Localized": "Rễ cây Mandrake",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139998,
+      "m_Localized": "Chiết xuất Nightshade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140000,
+      "m_Localized": "Vảy Basilisk",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140002,
+      "m_Localized": "Vuốt Wyvern",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140004,
+      "m_Localized": "Xúc xắc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140006,
+      "m_Localized": "Máu quỷ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140008,
+      "m_Localized": "Sừng Minotaur",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140010,
+      "m_Localized": "Mỏ Griffin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140012,
+      "m_Localized": "Tro Phượng hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140014,
+      "m_Localized": "Mật rồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140016,
+      "m_Localized": "Tinh chất Wraith",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140018,
+      "m_Localized": "Mực Kraken",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140020,
+      "m_Localized": "Tủy Titan",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140022,
+      "m_Localized": "Dịch hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140024,
+      "m_Localized": "Nhớt vực thẳm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140026,
+      "m_Localized": "Bào tử hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140028,
+      "m_Localized": "Nhựa nguyên thủy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140030,
+      "m_Localized": "Nọc độc thái cổ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140032,
+      "m_Localized": "Xúc xắc hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140034,
+      "m_Localized": "Xúc tu hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168134,
+      "m_Localized": "Cuộn giấy khắc ấn thường",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168136,
+      "m_Localized": "Cuộn giấy khắc ấn cao cấp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140036,
+      "m_Localized": "Cuộn giấy khắc ấn hiếm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140038,
+      "m_Localized": "Cuộn giấy khắc ấn huyền thoại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140040,
+      "m_Localized": "Cuộn giấy khắc ấn bất diệt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140042,
+      "m_Localized": "Cuộn giấy khắc ấn bí thuật",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140044,
+      "m_Localized": "Cuộn giấy khắc ấn siêu việt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140046,
+      "m_Localized": "Cuộn giấy khắc ấn thiên giới",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140048,
+      "m_Localized": "Cuộn giấy khắc ấn thần thánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140050,
+      "m_Localized": "Cuộn giấy khắc ấn vũ trụ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168137,
+      "m_Localized": "Gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140052,
+      "m_Localized": "Đá",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140054,
+      "m_Localized": "Da",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140056,
+      "m_Localized": "Cục đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168138,
+      "m_Localized": "Thỏi đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140058,
+      "m_Localized": "Thỏi sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168139,
+      "m_Localized": "Thỏi bạc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140060,
+      "m_Localized": "Thỏi vàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140062,
+      "m_Localized": "Thỏi bụi sao",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140064,
+      "m_Localized": "Thỏi sắt hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140066,
+      "m_Localized": "Huyết thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140068,
+      "m_Localized": "Lôi thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302398099456,
+      "m_Localized": "Mảnh hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459584,
+      "m_Localized": "Quặng bí thuật",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140070,
+      "m_Localized": "Thỏi hắc thiết",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140072,
+      "m_Localized": "Quặng Orichalcum",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140074,
+      "m_Localized": "Nguyệt thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140076,
+      "m_Localized": "Dương thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140078,
+      "m_Localized": "Quặng Mithril",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140080,
+      "m_Localized": "Thỏi ê-te",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140082,
+      "m_Localized": "Quặng Adamantium",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140084,
+      "m_Localized": "Thỏi vĩnh hằng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168140,
+      "m_Localized": "Xu kỷ niệm 1 năm Vương quốc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168141,
+      "m_Localized": "Xu kỷ niệm 1 năm Đế chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459585,
+      "m_Localized": "Xu kỷ niệm 10 năm Vương quốc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459586,
+      "m_Localized": "Xu kỷ niệm 10 năm Đế chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459587,
+      "m_Localized": "Xu kỷ niệm 50 năm Vương quốc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459588,
+      "m_Localized": "Xu kỷ niệm 50 năm Đế chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459589,
+      "m_Localized": "Xu kỷ niệm 100 năm Vương quốc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459590,
+      "m_Localized": "Xu kỷ niệm 100 năm Đế chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459591,
+      "m_Localized": "Xu kỷ niệm 1000 năm Vương quốc Thần thánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302427459592,
+      "m_Localized": "Xu kỷ niệm 1000 năm Đế chế Vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168142,
+      "m_Localized": "Đá linh hồn - Thường",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168143,
+      "m_Localized": "Đá linh hồn - Ác mộng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168144,
+      "m_Localized": "Đá linh hồn - Địa ngục",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168145,
+      "m_Localized": "Đá linh hồn - Thống khổ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168146,
+      "m_Localized": "Trường kiếm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168147,
+      "m_Localized": "Kiếm cong",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168148,
+      "m_Localized": "Kiếm rapier",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168149,
+      "m_Localized": "Kiếm bastard",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168150,
+      "m_Localized": "Đại kiếm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168151,
+      "m_Localized": "Trọng kiếm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60693168152,
+      "m_Localized": "Kiếm hiệp sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362432,
+      "m_Localized": "Kiếm chỉ huy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362433,
+      "m_Localized": "Kiếm phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362434,
+      "m_Localized": "Kiếm huyền thoại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362435,
+      "m_Localized": "Kiếm mệnh vận",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362436,
+      "m_Localized": "Kiếm anh hùng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139662,
+      "m_Localized": "Kiếm bão táp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139663,
+      "m_Localized": "Kiếm phục thù",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139664,
+      "m_Localized": "Kiếm hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139665,
+      "m_Localized": "Kiếm pha lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139666,
+      "m_Localized": "Kiếm chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139667,
+      "m_Localized": "Kiếm bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139668,
+      "m_Localized": "Kiếm vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139669,
+      "m_Localized": "Kiếm huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362437,
+      "m_Localized": "Cung ngắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362438,
+      "m_Localized": "Cung săn bắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362439,
+      "m_Localized": "Trường cung",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362440,
+      "m_Localized": "Cung tổng hợp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362441,
+      "m_Localized": "Cung chiến đấu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362442,
+      "m_Localized": "Cung đỏ thắm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362443,
+      "m_Localized": "Cung hoàng hôn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362444,
+      "m_Localized": "Cung phỉ thúy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362445,
+      "m_Localized": "Cung tinh nhuệ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362446,
+      "m_Localized": "Cung phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362447,
+      "m_Localized": "Cung huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362448,
+      "m_Localized": "Cung tốc hành",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139670,
+      "m_Localized": "Cung cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139671,
+      "m_Localized": "Cung vô hạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139672,
+      "m_Localized": "Cung hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139673,
+      "m_Localized": "Cung bão táp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139674,
+      "m_Localized": "Cung bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139675,
+      "m_Localized": "Cung cuồng phong",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139676,
+      "m_Localized": "Cung vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139677,
+      "m_Localized": "Cung huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362449,
+      "m_Localized": "Trượng gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362450,
+      "m_Localized": "Trượng sứ giả",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362451,
+      "m_Localized": "Trượng dài",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362452,
+      "m_Localized": "Trượng phù thủy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362453,
+      "m_Localized": "Trượng thanh ngọc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362454,
+      "m_Localized": "Trượng trưởng lão",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362455,
+      "m_Localized": "Trượng hiền triết",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362456,
+      "m_Localized": "Trượng huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362457,
+      "m_Localized": "Trượng sao chổi",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362458,
+      "m_Localized": "Trượng pha lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362459,
+      "m_Localized": "Trượng hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362460,
+      "m_Localized": "Trượng chinh phục",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139678,
+      "m_Localized": "Trượng cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139679,
+      "m_Localized": "Trượng thần thánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139680,
+      "m_Localized": "Trượng vực thẳm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139681,
+      "m_Localized": "Trượng hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139682,
+      "m_Localized": "Trượng cuồng phong",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139683,
+      "m_Localized": "Trượng tân tinh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139684,
+      "m_Localized": "Trượng vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139685,
+      "m_Localized": "Trượng huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362461,
+      "m_Localized": "Quyền trượng tập sự",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362462,
+      "m_Localized": "Quyền trượng sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362463,
+      "m_Localized": "Quyền trượng chúc phúc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362464,
+      "m_Localized": "Quyền trượng thép",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362465,
+      "m_Localized": "Quyền trượng thần thánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362466,
+      "m_Localized": "Quyền trượng giám mục",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362467,
+      "m_Localized": "Quyền trượng sùng kính",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362468,
+      "m_Localized": "Quyền trượng nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362469,
+      "m_Localized": "Quyền trượng phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362470,
+      "m_Localized": "Quyền trượng huyền thoại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362471,
+      "m_Localized": "Quyền trượng mệnh vận",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362472,
+      "m_Localized": "Quyền trượng anh hùng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139686,
+      "m_Localized": "Quyền trượng bão táp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139687,
+      "m_Localized": "Quyền trượng vô hạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139688,
+      "m_Localized": "Quyền trượng hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139689,
+      "m_Localized": "Quyền trượng sức mạnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139690,
+      "m_Localized": "Quyền trượng chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139691,
+      "m_Localized": "Quyền trượng bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139692,
+      "m_Localized": "Quyền trượng vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139693,
+      "m_Localized": "Quyền trượng huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362473,
+      "m_Localized": "Nỏ ngắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362474,
+      "m_Localized": "Nỏ da",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362475,
+      "m_Localized": "Nỏ dài",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362476,
+      "m_Localized": "Nỏ hoàn chỉnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362477,
+      "m_Localized": "Nỏ xuất sắc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362478,
+      "m_Localized": "Nỏ gia cố",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362479,
+      "m_Localized": "Nỏ sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362480,
+      "m_Localized": "Nỏ cánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362481,
+      "m_Localized": "Nỏ tinh nhuệ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362482,
+      "m_Localized": "Nỏ lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362483,
+      "m_Localized": "Nỏ huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362484,
+      "m_Localized": "Nỏ nhanh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139694,
+      "m_Localized": "Nỏ cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139695,
+      "m_Localized": "Nỏ vô hạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139696,
+      "m_Localized": "Nỏ hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139697,
+      "m_Localized": "Nỏ sức mạnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139698,
+      "m_Localized": "Nỏ chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139699,
+      "m_Localized": "Nỏ bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139700,
+      "m_Localized": "Nỏ vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139701,
+      "m_Localized": "Nỏ huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362485,
+      "m_Localized": "Rìu gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362486,
+      "m_Localized": "Rìu sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362487,
+      "m_Localized": "Rìu chiến",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362488,
+      "m_Localized": "Rìu thép",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362489,
+      "m_Localized": "Rìu chiến tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362490,
+      "m_Localized": "Rìu hiệp sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362491,
+      "m_Localized": "Đại rìu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362492,
+      "m_Localized": "Rìu nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362493,
+      "m_Localized": "Rìu phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362494,
+      "m_Localized": "Rìu huyền thoại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362495,
+      "m_Localized": "Rìu mệnh vận",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362496,
+      "m_Localized": "Rìu anh hùng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139702,
+      "m_Localized": "Rìu bão táp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139703,
+      "m_Localized": "Rìu vô hạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139704,
+      "m_Localized": "Rìu hỗn loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139705,
+      "m_Localized": "Rìu sức mạnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139706,
+      "m_Localized": "Rìu chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139707,
+      "m_Localized": "Rìu bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139708,
+      "m_Localized": "Rìu vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139709,
+      "m_Localized": "Rìu huy hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362497,
+      "m_Localized": "Khiên nhỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362498,
+      "m_Localized": "Khiên gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362499,
+      "m_Localized": "Khiên sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60697362500,
+      "m_Localized": "Khiên heater",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556736,
+      "m_Localized": "Khiên nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556737,
+      "m_Localized": "Khiên rừng xanh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556738,
+      "m_Localized": "Khiên chiến tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556739,
+      "m_Localized": "Khiên rào chắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556740,
+      "m_Localized": "Khiên tinh nhuệ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556741,
+      "m_Localized": "Khiên đỏ thẫm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556742,
+      "m_Localized": "Khiên huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556743,
+      "m_Localized": "Khiên vĩ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139790,
+      "m_Localized": "Khiên cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139791,
+      "m_Localized": "Khiên rực rỡ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139792,
+      "m_Localized": "Khiên hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139793,
+      "m_Localized": "Khiên thần thánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139794,
+      "m_Localized": "Khiên chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139795,
+      "m_Localized": "Khiên bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139796,
+      "m_Localized": "Khiên vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139797,
+      "m_Localized": "Khiên rồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556744,
+      "m_Localized": "Tên gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556745,
+      "m_Localized": "Tên sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556746,
+      "m_Localized": "Tên thợ săn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556747,
+      "m_Localized": "Tên có ngạnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556748,
+      "m_Localized": "Tên thanh ngọc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556749,
+      "m_Localized": "Tên dã man",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556750,
+      "m_Localized": "Tên cuồng phong",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556751,
+      "m_Localized": "Tên rắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556752,
+      "m_Localized": "Tên phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556753,
+      "m_Localized": "Tên bộ tộc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556754,
+      "m_Localized": "Tên mệnh vận",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556755,
+      "m_Localized": "Tên bão táp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139798,
+      "m_Localized": "Tên hắc diện thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139799,
+      "m_Localized": "Tên tốc hành",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139800,
+      "m_Localized": "Tên hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139801,
+      "m_Localized": "Tên tẩm độc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139802,
+      "m_Localized": "Tên chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139803,
+      "m_Localized": "Tên bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139804,
+      "m_Localized": "Tên cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139805,
+      "m_Localized": "Tên tôn quý",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556756,
+      "m_Localized": "Cầu phép thuật",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556757,
+      "m_Localized": "Cầu trưởng lão",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556758,
+      "m_Localized": "Cầu rực rỡ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556759,
+      "m_Localized": "Cầu băng giá",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556760,
+      "m_Localized": "Cầu tiên tri",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556761,
+      "m_Localized": "Cầu bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556762,
+      "m_Localized": "Cầu phù văn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556763,
+      "m_Localized": "Cầu phát sáng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556764,
+      "m_Localized": "Cầu bí thuật",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556765,
+      "m_Localized": "Cầu mệnh vận",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556766,
+      "m_Localized": "Cầu huyền bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556767,
+      "m_Localized": "Cầu bầu trời",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302435848192,
+      "m_Localized": "Cầu linh hồn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302435848193,
+      "m_Localized": "Cầu cổ đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042496,
+      "m_Localized": "Cầu vực thẳm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042497,
+      "m_Localized": "Cầu hư không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042498,
+      "m_Localized": "Cầu chiều không gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042499,
+      "m_Localized": "Cầu bóng tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042500,
+      "m_Localized": "Cầu vĩnh cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042501,
+      "m_Localized": "Cầu hoàng kim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556768,
+      "m_Localized": "Sách cầu nguyện",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556769,
+      "m_Localized": "Sách đế chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556770,
+      "m_Localized": "Sách sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556771,
+      "m_Localized": "Sách hiệp sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556772,
+      "m_Localized": "Sách chúc phúc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556773,
+      "m_Localized": "Cổ Thư Chỉ Huy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556774,
+      "m_Localized": "Cổ Thư Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556775,
+      "m_Localized": "Cổ Thư Hoàng Đế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556776,
+      "m_Localized": "Cổ Thư Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556777,
+      "m_Localized": "Cổ Thư Đỏ Thẫm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556778,
+      "m_Localized": "Cổ Thư Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556779,
+      "m_Localized": "Cổ Thư Hùng Vĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042502,
+      "m_Localized": "Cổ Thư Bão Tố",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042503,
+      "m_Localized": "Cổ Thư Chiến Binh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042504,
+      "m_Localized": "Cổ Thư Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042505,
+      "m_Localized": "Cổ Thư Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042506,
+      "m_Localized": "Cổ Thư Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042507,
+      "m_Localized": "Cổ Thư Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042508,
+      "m_Localized": "Cổ Thư Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042509,
+      "m_Localized": "Cổ Thư Thiên Giới",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556780,
+      "m_Localized": "Nỏ Ngắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556781,
+      "m_Localized": "Nỏ Kinh Hoàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556782,
+      "m_Localized": "Nỏ Thợ Săn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556783,
+      "m_Localized": "Nỏ Gai",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556784,
+      "m_Localized": "Nỏ Dã Thú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556785,
+      "m_Localized": "Nỏ Nhanh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556786,
+      "m_Localized": "Nỏ Sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556787,
+      "m_Localized": "Nỏ Nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556788,
+      "m_Localized": "Nỏ Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556789,
+      "m_Localized": "Nỏ Anh Hùng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556790,
+      "m_Localized": "Nỏ Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556791,
+      "m_Localized": "Nỏ Bão Tố",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042510,
+      "m_Localized": "Nỏ Sấm Sét",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042511,
+      "m_Localized": "Nỏ Thần Tốc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042512,
+      "m_Localized": "Nỏ Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042513,
+      "m_Localized": "Nỏ Kịch Độc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042514,
+      "m_Localized": "Nỏ Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042515,
+      "m_Localized": "Nỏ Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042516,
+      "m_Localized": "Nỏ Cổ Đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042517,
+      "m_Localized": "Nỏ Thánh Hóa",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556792,
+      "m_Localized": "Rìu Ngắn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556793,
+      "m_Localized": "Rìu Da",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556794,
+      "m_Localized": "Rìu Dài",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556795,
+      "m_Localized": "Rìu Thép",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556796,
+      "m_Localized": "Rìu Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556797,
+      "m_Localized": "Rìu Tổng Hợp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556798,
+      "m_Localized": "Rìu Chiến Đấu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556799,
+      "m_Localized": "Rìu Cánh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556800,
+      "m_Localized": "Rìu Tinh Nhuệ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556801,
+      "m_Localized": "Rìu Lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556802,
+      "m_Localized": "Rìu Huyền Bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556803,
+      "m_Localized": "Rìu Nhanh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042518,
+      "m_Localized": "Rìu Cổ Đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042519,
+      "m_Localized": "Rìu Vô Hạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042520,
+      "m_Localized": "Rìu Hỗn Loạn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042521,
+      "m_Localized": "Rìu Sức Mạnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042522,
+      "m_Localized": "Rìu Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042523,
+      "m_Localized": "Rìu Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042524,
+      "m_Localized": "Rìu Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302440042525,
+      "m_Localized": "Rìu Tôn Quý",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556804,
+      "m_Localized": "Mũ Gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556805,
+      "m_Localized": "Mũ Đế Chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556806,
+      "m_Localized": "Mũ Sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60701556807,
+      "m_Localized": "Mũ Hiệp Sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751040,
+      "m_Localized": "Mũ Xích",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751041,
+      "m_Localized": "Mũ Trung",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751042,
+      "m_Localized": "Mũ Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751043,
+      "m_Localized": "Mũ Hoàng Đế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751044,
+      "m_Localized": "Mũ Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751045,
+      "m_Localized": "Mũ Đỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751046,
+      "m_Localized": "Mũ Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751047,
+      "m_Localized": "Mũ Lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139806,
+      "m_Localized": "Mũ Bão Tố",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139807,
+      "m_Localized": "Mũ Chiến Binh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139808,
+      "m_Localized": "Mũ Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139809,
+      "m_Localized": "Mũ Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139810,
+      "m_Localized": "Mũ Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139811,
+      "m_Localized": "Mũ Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139812,
+      "m_Localized": "Mũ Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139813,
+      "m_Localized": "Mũ Hào Quang",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751048,
+      "m_Localized": "Giáp Gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751049,
+      "m_Localized": "Giáp Đế Chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751050,
+      "m_Localized": "Giáp Sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751051,
+      "m_Localized": "Giáp Xích",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751052,
+      "m_Localized": "Giáp Hiệp Sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751053,
+      "m_Localized": "Giáp Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751054,
+      "m_Localized": "Giáp Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60705751055,
+      "m_Localized": "Giáp Nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945344,
+      "m_Localized": "Giáp Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945345,
+      "m_Localized": "Giáp Vảy Rồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945346,
+      "m_Localized": "Giáp Huyền Bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945347,
+      "m_Localized": "Giáp Lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139814,
+      "m_Localized": "Giáp Cổ Đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139815,
+      "m_Localized": "Giáp Sáng Chói",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139816,
+      "m_Localized": "Giáp Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139817,
+      "m_Localized": "Giáp Rồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139818,
+      "m_Localized": "Giáp Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139819,
+      "m_Localized": "Giáp Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139820,
+      "m_Localized": "Giáp Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139821,
+      "m_Localized": "Giáp Hào Quang",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945348,
+      "m_Localized": "Găng Tay Da",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945349,
+      "m_Localized": "Găng Tay Đế Chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945350,
+      "m_Localized": "Găng Tay Sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945351,
+      "m_Localized": "Găng Tay Hiệp Sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945352,
+      "m_Localized": "Găng Tay Xích",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945353,
+      "m_Localized": "Găng Tay Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945354,
+      "m_Localized": "Găng Tay Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945355,
+      "m_Localized": "Găng Tay Nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945356,
+      "m_Localized": "Găng Tay Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945357,
+      "m_Localized": "Găng Tay Giáp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945358,
+      "m_Localized": "Găng Tay Huyền Bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945359,
+      "m_Localized": "Găng Tay Lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139822,
+      "m_Localized": "Găng Tay Cổ Đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139823,
+      "m_Localized": "Găng Tay Sáng Chói",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139824,
+      "m_Localized": "Găng Tay Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139825,
+      "m_Localized": "Găng Tay Rồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139826,
+      "m_Localized": "Găng Tay Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139827,
+      "m_Localized": "Găng Tay Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139828,
+      "m_Localized": "Găng Tay Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139829,
+      "m_Localized": "Găng Tay Hào Quang",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945360,
+      "m_Localized": "Giày Gỗ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945361,
+      "m_Localized": "Giày Đế Chế",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945362,
+      "m_Localized": "Giày Sắt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945363,
+      "m_Localized": "Giày Hiệp Sĩ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945364,
+      "m_Localized": "Giày Xích",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945365,
+      "m_Localized": "Giày Định Mệnh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945366,
+      "m_Localized": "Giày Chiến Tranh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945367,
+      "m_Localized": "Giày Nặng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945368,
+      "m_Localized": "Giày Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945369,
+      "m_Localized": "Giày Giáp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945370,
+      "m_Localized": "Giày Huyền Bí",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945371,
+      "m_Localized": "Giày Lớn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139830,
+      "m_Localized": "Giày Cổ Đại",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139831,
+      "m_Localized": "Giày Sáng Chói",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139832,
+      "m_Localized": "Giày Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139833,
+      "m_Localized": "Giày Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139834,
+      "m_Localized": "Giày Không Gian",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139835,
+      "m_Localized": "Giày Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139836,
+      "m_Localized": "Giày Vĩnh Cửu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139837,
+      "m_Localized": "Giày Hào Quang",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139838,
+      "m_Localized": "Vòng Cổ Đồng Đỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139839,
+      "m_Localized": "Vòng Cổ Đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139840,
+      "m_Localized": "Vòng Cổ Bạc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139841,
+      "m_Localized": "Vòng Cổ Vàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139842,
+      "m_Localized": "Vòng Cổ Bạch Kim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139843,
+      "m_Localized": "Vòng Cổ Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139844,
+      "m_Localized": "Mặt Dây Chuyền Đá Mặt Trăng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139845,
+      "m_Localized": "Mặt Dây Chuyền Hổ Phách",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139846,
+      "m_Localized": "Mặt Dây Chuyền Hồng Ngọc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139847,
+      "m_Localized": "Mặt Dây Chuyền Thạch Anh Tím",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139848,
+      "m_Localized": "Vòng Cổ Ngọc Lục Bảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139849,
+      "m_Localized": "Vòng Cổ Kim Cương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139850,
+      "m_Localized": "Vòng Cổ Bụi Sao",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139851,
+      "m_Localized": "Vòng Cổ Nhật Thực",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139852,
+      "m_Localized": "Vòng Cổ Thiên Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139853,
+      "m_Localized": "Vòng Cổ Tinh Tú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139854,
+      "m_Localized": "Vòng Cổ Linh Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139855,
+      "m_Localized": "Vòng Cổ Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139856,
+      "m_Localized": "Vòng Cổ Vực Sâu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139857,
+      "m_Localized": "Bông Tai Đồng Đỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139858,
+      "m_Localized": "Bông Tai Đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139859,
+      "m_Localized": "Bông Tai Bạc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139860,
+      "m_Localized": "Bông Tai Vàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139861,
+      "m_Localized": "Bông Tai Bạch Kim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139862,
+      "m_Localized": "Bông Tai Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139863,
+      "m_Localized": "Bông Tai Ngọc Lục Bảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139864,
+      "m_Localized": "Bông Tai Ngọc Bích",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139865,
+      "m_Localized": "Bông Tai Mắt Hổ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139866,
+      "m_Localized": "Bông Tai Hồng Lựu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139867,
+      "m_Localized": "Bông Tai Sapphire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139868,
+      "m_Localized": "Bông Tai Kim Cương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139869,
+      "m_Localized": "Bông Tai Đá Mặt Trăng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139870,
+      "m_Localized": "Bông Tai Thiên Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139871,
+      "m_Localized": "Bông Tai Nhật Thực",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139872,
+      "m_Localized": "Bông Tai Tinh Tú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139873,
+      "m_Localized": "Bông Tai Linh Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139874,
+      "m_Localized": "Bông Tai Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139875,
+      "m_Localized": "Bông Tai Vực Sâu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139876,
+      "m_Localized": "Nhẫn Đồng Đỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139877,
+      "m_Localized": "Nhẫn Đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139878,
+      "m_Localized": "Nhẫn Bạc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139879,
+      "m_Localized": "Nhẫn Vàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139880,
+      "m_Localized": "Nhẫn Bạch Kim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139881,
+      "m_Localized": "Nhẫn Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139882,
+      "m_Localized": "Nhẫn Hổ Phách",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139883,
+      "m_Localized": "Nhẫn Hoàng Ngọc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139884,
+      "m_Localized": "Nhẫn Thạch Anh Tím",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139885,
+      "m_Localized": "Nhẫn Hồng Lựu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139886,
+      "m_Localized": "Nhẫn Ngọc Lục Bảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139887,
+      "m_Localized": "Nhẫn Kim Cương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139888,
+      "m_Localized": "Nhẫn Đá Mặt Trăng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139889,
+      "m_Localized": "Nhẫn Nhật Thực",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139890,
+      "m_Localized": "Nhẫn Thiên Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139891,
+      "m_Localized": "Nhẫn Tinh Tú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139892,
+      "m_Localized": "Nhẫn Linh Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139893,
+      "m_Localized": "Nhẫn Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139894,
+      "m_Localized": "Nhẫn Vực Sâu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139895,
+      "m_Localized": "Vòng Tay Đồng Đỏ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139896,
+      "m_Localized": "Vòng Tay Đồng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139897,
+      "m_Localized": "Vòng Tay Bạc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139898,
+      "m_Localized": "Vòng Tay Vàng",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139899,
+      "m_Localized": "Vòng Tay Bạch Kim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139900,
+      "m_Localized": "Vòng Tay Pha Lê",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139901,
+      "m_Localized": "Vòng Tay Hắc Diện Thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139902,
+      "m_Localized": "Vòng Tay Bóng Tối",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139903,
+      "m_Localized": "Vòng Tay Đỏ Thẫm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139904,
+      "m_Localized": "Vòng Tay Huyết Thạch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139905,
+      "m_Localized": "Vòng Tay Ngọc Lục Bảo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139906,
+      "m_Localized": "Vòng Tay Kim Cương",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139907,
+      "m_Localized": "Vòng Tay Bụi Sao",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139908,
+      "m_Localized": "Vòng Tay Nhật Thực",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139909,
+      "m_Localized": "Vòng Tay Thiên Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139910,
+      "m_Localized": "Vòng Tay Tinh Tú",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139911,
+      "m_Localized": "Vòng Tay Linh Thể",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139912,
+      "m_Localized": "Vòng Tay Hư Không",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139913,
+      "m_Localized": "Vòng Tay Vực Sâu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139915,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139917,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139919,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139921,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139923,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139925,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139927,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139929,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139931,
+      "m_Localized": "Nguyên liệu trang trí cơ bản phổ thông. Dùng để trang trí trang bị, cấp một chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139933,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139935,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139937,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139939,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139941,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139943,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139945,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139947,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139949,
+      "m_Localized": "Nguyên liệu trang trí cơ bản. Dùng để trang trí trang bị, cấp chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139951,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139953,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139955,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139957,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139959,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139961,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139963,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139965,
+      "m_Localized": "Nguyên liệu trang trí trung cấp. Dùng để trang trí trang bị, cấp chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139967,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139969,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139971,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139973,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139975,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139977,
+      "m_Localized": "Nguyên liệu trang trí cao cấp. Dùng để trang trí trang bị, cấp chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139979,
+      "m_Localized": "Nguyên liệu trang trí thượng hạng. Dùng để trang trí trang bị, cấp chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139981,
+      "m_Localized": "Nguyên liệu trang trí thượng hạng. Dùng để trang trí trang bị, cấp chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139983,
+      "m_Localized": "Nguyên liệu trang trí thượng hạng. Dùng để trang trí trang bị, cấp chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139985,
+      "m_Localized": "Nguyên liệu trang trí thượng hạng. Dùng để trang trí trang bị, cấp chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945372,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945373,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139987,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945374,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945375,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139989,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139991,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản phổ thông. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số nhẹ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945376,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945377,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945378,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60709945379,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139993,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139995,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139997,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139999,
+      "m_Localized": "Nguyên liệu chạm khắc cơ bản. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140001,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140003,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140005,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140007,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140009,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140011,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140013,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140015,
+      "m_Localized": "Nguyên liệu chạm khắc trung cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số đặc biệt theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140017,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140019,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140021,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140023,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140025,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140027,
+      "m_Localized": "Nguyên liệu chạm khắc cao cấp. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số mạnh theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140029,
+      "m_Localized": "Nguyên liệu chạm khắc thượng hạng. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140031,
+      "m_Localized": "Nguyên liệu chạm khắc thượng hạng. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140033,
+      "m_Localized": "Nguyên liệu chạm khắc thượng hạng. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140035,
+      "m_Localized": "Nguyên liệu chạm khắc thượng hạng. Dùng để chạm khắc trang bị, ngẫu nhiên cấp một trong hai chỉ số khổng lồ theo loại trang bị.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139650,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139652,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140037,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140039,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140041,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140043,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140045,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140047,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140049,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140051,
+      "m_Localized": "Cuộn giấy chứa sức mạnh đặc biệt. Khắc ấn lên trang bị, ngẫu nhiên cấp một trong nhiều chỉ số.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139653,
+      "m_Localized": "Nguyên liệu thường có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140053,
+      "m_Localized": "Nguyên liệu thường dùng để tạo ra thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140055,
+      "m_Localized": "Nguyên liệu thường có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140057,
+      "m_Localized": "Nguyên liệu thường có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139654,
+      "m_Localized": "Nguyên liệu chế tạo thường dùng để làm thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140059,
+      "m_Localized": "Nguyên liệu thường có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139655,
+      "m_Localized": "Nguyên liệu dùng để tạo ra thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140061,
+      "m_Localized": "Nguyên liệu có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140063,
+      "m_Localized": "Nguyên liệu có thể dùng để chế tạo thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140065,
+      "m_Localized": "Nguyên liệu chế tạo dùng để làm thứ gì đó.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140067,
+      "m_Localized": "Nguyên liệu trung cấp có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140069,
+      "m_Localized": "Nguyên liệu trung cấp dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819712,
+      "m_Localized": "Nguyên liệu trung cấp có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819713,
+      "m_Localized": "Nguyên liệu trung cấp có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140071,
+      "m_Localized": "Nguyên liệu chế tạo cao cấp dùng để tạo ra vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140073,
+      "m_Localized": "Nguyên liệu chất lượng cao có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140075,
+      "m_Localized": "Nguyên liệu cao cấp dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140077,
+      "m_Localized": "Nguyên liệu cao cấp có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140079,
+      "m_Localized": "Nguyên liệu đặc biệt có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140081,
+      "m_Localized": "Nguyên liệu chế tạo đặc biệt dùng để tạo ra vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140083,
+      "m_Localized": "Nguyên liệu đặc biệt có thể dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714140085,
+      "m_Localized": "Nguyên liệu đặc biệt dùng để chế tạo vật phẩm.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139656,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139657,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819714,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube cùng tất cả ước nguyện của bạn.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819715,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819716,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với tất cả nguyện ước trong tim.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819717,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819718,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819719,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube cùng tất cả ước nguyện của bạn.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819720,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với lời ước chân thành.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 7302456819721,
+      "m_Localized": "Đồng xu kỷ niệm. Hãy ném nó vào Cube với tất cả nguyện ước trong tim.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139658,
+      "m_Localized": "Nguyên liệu cần thiết để triệu hồi boss độ khó Bình thường.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139659,
+      "m_Localized": "Nguyên liệu cần thiết để triệu hồi boss độ khó Ác mộng.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139660,
+      "m_Localized": "Nguyên liệu cần thiết để triệu hồi boss độ khó Địa ngục.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60714139661,
+      "m_Localized": "Nguyên liệu cần thiết để triệu hồi boss độ khó Khổ đau.",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    }
+  ],
+  "references": {
+    "version": 2,
+    "RefIds": []
+  }
+}

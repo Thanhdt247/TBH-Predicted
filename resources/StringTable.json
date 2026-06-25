@@ -1,0 +1,8597 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 7442561414784416887
+  },
+  "m_Name": "StringTable Shared Data",
+  "m_TableCollectionName": "StringTable",
+  "m_TableCollectionNameGuidString": "5b85330a8945bdc448690234f8272345",
+  "m_Entries": [
+    {
+      "m_Id": 3811124920320,
+      "m_Key": "GameName",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811296886784,
+      "m_Key": "GameName_Demo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811296886785,
+      "m_Key": "Setting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811296886786,
+      "m_Key": "Language",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081088,
+      "m_Key": "Confirm",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081089,
+      "m_Key": "ExitGame",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081090,
+      "m_Key": "Popup_Cancel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585400803328,
+      "m_Key": "AlwaysOnTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081092,
+      "m_Key": "AlwaysOnTop(Off)",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081093,
+      "m_Key": "AlwaysOnTop(ON)",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120046677468454912,
+      "m_Key": "Mute_On",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120046677497815040,
+      "m_Key": "Mute_Off",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120046677497815041,
+      "m_Key": "OpenStore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53205179800014848,
+      "m_Key": "LaunchAtStartup",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53205179938426880,
+      "m_Key": "Version",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081094,
+      "m_Key": "General",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081095,
+      "m_Key": "Graphic",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081096,
+      "m_Key": "Audio",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53205179942621184,
+      "m_Key": "Other",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081097,
+      "m_Key": "Control",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443606061056,
+      "m_Key": "Setting_Credits",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443606061057,
+      "m_Key": "Setting_MaxFPS",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443606061058,
+      "m_Key": "Setting_Zoom",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443606061059,
+      "m_Key": "Setting_RestoreTransparentWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443606061060,
+      "m_Key": "Setting_ResetWindowPosition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59416870724358144,
+      "m_Key": "Setting_ResetWindowScale",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53206922931785728,
+      "m_Key": "Restore",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53206922931785729,
+      "m_Key": "Reset",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012122333184,
+      "m_Key": "Report",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012126527488,
+      "m_Key": "Open",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012126527489,
+      "m_Key": "View",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081100,
+      "m_Key": "StartGame",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56885621279477760,
+      "m_Key": "SteamTradeShip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910148091904,
+      "m_Key": "Bag",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281152,
+      "m_Key": "Arrange",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753536,
+      "m_Key": "Menu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753537,
+      "m_Key": "Chest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753538,
+      "m_Key": "Status",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753539,
+      "m_Key": "Cube",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753540,
+      "m_Key": "Rune",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753541,
+      "m_Key": "Portal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52997715154489344,
+      "m_Key": "Mailbox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52998296438886400,
+      "m_Key": "SteamInventory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52998296438886401,
+      "m_Key": "SteamMarket",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898535579648,
+      "m_Key": "Inventory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898673991680,
+      "m_Key": "Market",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52997715154489345,
+      "m_Key": "BattleRecords",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 79070331375128576,
+      "m_Key": "Price",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753542,
+      "m_Key": "Close",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753543,
+      "m_Key": "Details",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753544,
+      "m_Key": "Class",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753545,
+      "m_Key": "Level",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506674753546,
+      "m_Key": "Exp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120046677502009344,
+      "m_Key": "HoldDirectMoveRudder_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281153,
+      "m_Key": "SYNTHESIS",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52559540686737408,
+      "m_Key": "DECORATION",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52559540867092480,
+      "m_Key": "ENGRAVING",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52559540867092481,
+      "m_Key": "INSCRIPTION",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281154,
+      "m_Key": "ALCHEMY",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281155,
+      "m_Key": "CRAFTING",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032823091200,
+      "m_Key": "OFFERING",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032852451328,
+      "m_Key": "EXTRACTION",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53218383418675200,
+      "m_Key": "Difficulty_NORMAL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53218383418675201,
+      "m_Key": "Difficulty_NIGHTMARE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53218383418675202,
+      "m_Key": "Difficulty_HELL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53218383418675203,
+      "m_Key": "Difficulty_TORMENT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622809014272,
+      "m_Key": "StashItemFilterType_ALL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622809014273,
+      "m_Key": "StashItemFilterType_WEAPON",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985234780160,
+      "m_Key": "StashItemFilterType_ARMOR",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622809014275,
+      "m_Key": "StashItemFilterType_ACCESSORY",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622809014276,
+      "m_Key": "StashItemFilterType_MATERIAL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622809014277,
+      "m_Key": "StashItemFilterType_CLASS_KNIGHT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622813208576,
+      "m_Key": "StashItemFilterType_CLASS_ARCHER",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622813208577,
+      "m_Key": "StashItemFilterType_CLASS_SORCERER",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53223622813208578,
+      "m_Key": "Grade_ALL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876971786240,
+      "m_Key": "Grade_COMMON",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876971786241,
+      "m_Key": "Grade_UNCOMMON",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980544,
+      "m_Key": "Grade_RARE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980545,
+      "m_Key": "Grade_LEGENDARY",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980546,
+      "m_Key": "Grade_IMMORTAL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980547,
+      "m_Key": "Grade_ARCANA",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980548,
+      "m_Key": "Grade_BEYOND",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980549,
+      "m_Key": "Grade_CELESTIAL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980550,
+      "m_Key": "Grade_DIVINE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980551,
+      "m_Key": "Grade_COSMIC",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 38788477192556544,
+      "m_Key": "ItemType_GEAR",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 38788477326774272,
+      "m_Key": "ItemType_STAGEBOX",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 38788477326774273,
+      "m_Key": "ItemType_MATERIAL",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980552,
+      "m_Key": "ItemParts_MAIN_WEAPON",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980553,
+      "m_Key": "ItemParts_SUB_WEAPON",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578304,
+      "m_Key": "TreasureChest_Normal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578305,
+      "m_Key": "TreasureChest_StageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578306,
+      "m_Key": "TreasureChest_ActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980554,
+      "m_Key": "GearType_HELMET",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032856645632,
+      "m_Key": "GearType_ARMOR",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980556,
+      "m_Key": "GearType_GLOVES",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980557,
+      "m_Key": "GearType_BOOTS",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980558,
+      "m_Key": "GearType_AMULET",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980559,
+      "m_Key": "GearType_EARING",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876975980560,
+      "m_Key": "GearType_RING",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174848,
+      "m_Key": "GearType_BRACER",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174849,
+      "m_Key": "GearType_SWORD",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174850,
+      "m_Key": "GearType_BOW",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174851,
+      "m_Key": "GearType_STAFF",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558491037696,
+      "m_Key": "GearType_SCEPTER",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578309,
+      "m_Key": "GearType_CROSSBOW",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578310,
+      "m_Key": "GearType_AXE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174852,
+      "m_Key": "GearType_SHIELD",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174853,
+      "m_Key": "GearType_ARROW",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032856645633,
+      "m_Key": "GearType_ORB",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032856645634,
+      "m_Key": "GearType_TOME",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578312,
+      "m_Key": "GearType_BOLT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032856645635,
+      "m_Key": "GearType_HATCHET",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578314,
+      "m_Key": "BaseStatName_AttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578315,
+      "m_Key": "StatName_AttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578316,
+      "m_Key": "StatName_AttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578317,
+      "m_Key": "StatName_CriticalChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698125396578318,
+      "m_Key": "StatName_CriticalDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462528,
+      "m_Key": "StatName_SkillAttackReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462529,
+      "m_Key": "StatName_CooldownReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462530,
+      "m_Key": "StatName_SkillRangeExpansion",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462531,
+      "m_Key": "StatName_MaxHp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462532,
+      "m_Key": "StatName_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462533,
+      "m_Key": "StatName_FireResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462534,
+      "m_Key": "StatName_ColdResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462535,
+      "m_Key": "StatName_LightningResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126365462536,
+      "m_Key": "StatName_PoisonResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656832,
+      "m_Key": "StatName_DodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656833,
+      "m_Key": "StatName_BlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656834,
+      "m_Key": "StatName_Toughness",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656835,
+      "m_Key": "StatName_HealthRegen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656836,
+      "m_Key": "StatName_DamageAbsorption",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656837,
+      "m_Key": "StatName_MovementSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656838,
+      "m_Key": "StatName_CourageMaxStack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656839,
+      "m_Key": "StatName_CourageStackChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656840,
+      "m_Key": "StatName_FeralMaxStack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656841,
+      "m_Key": "StatName_FeralStackChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656842,
+      "m_Key": "StatName_FocusMaxStack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656843,
+      "m_Key": "StatName_FocusStackChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656844,
+      "m_Key": "StatName_IncreaseGoldAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656845,
+      "m_Key": "StatName_AdditionalGold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656846,
+      "m_Key": "StatName_ChestUpgradeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656847,
+      "m_Key": "StatName_StageWaveReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656848,
+      "m_Key": "ShortStatName_AttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656849,
+      "m_Key": "ShortStatName_MaxHp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656850,
+      "m_Key": "ShortStatName_AttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120037184860921856,
+      "m_Key": "ShortStatName_CastSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656851,
+      "m_Key": "ShortStatName_CriticalChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656852,
+      "m_Key": "ShortStatName_CriticalDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656853,
+      "m_Key": "ShortStatName_CooldownReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656854,
+      "m_Key": "ShortStatName_MovementSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656855,
+      "m_Key": "ShortStatName_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 63840524035100672,
+      "m_Key": "AttributeName_ActiveSkillSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 63840524072849408,
+      "m_Key": "AttributeDescription_ActiveSkillSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903232,
+      "m_Key": "AccountStatName_AllHeroAttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903233,
+      "m_Key": "AccountStatName_AllHeroAttackDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903234,
+      "m_Key": "AccountStatName_AllHeroAttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903235,
+      "m_Key": "AccountStatName_AllHeroArmor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903236,
+      "m_Key": "AccountStatName_AllHeroArmorPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903237,
+      "m_Key": "AccountStatName_AllHeroMoveSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903238,
+      "m_Key": "AccountStatName_IncreaseExpAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903239,
+      "m_Key": "AccountStatName_AdditionalExp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903240,
+      "m_Key": "AccountStatName_DropChanceNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903241,
+      "m_Key": "AccountStatName_DropChanceStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729142292480,
+      "m_Key": "AccountStatName_DropChanceNormalChestPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729175846912,
+      "m_Key": "AccountStatName_DropChanceStageBossChestPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903242,
+      "m_Key": "AccountStatName_WaveCountReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903243,
+      "m_Key": "AccountStatName_WaveMonsterAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903244,
+      "m_Key": "AccountStatName_IncreaseGoldAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903245,
+      "m_Key": "AccountStatName_AdditionalGold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903246,
+      "m_Key": "AccountStatName_CubeExpPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903247,
+      "m_Key": "AccountStatName_CubeAlchemyGoldPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903248,
+      "m_Key": "AccountStatName_MaxAmountNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903249,
+      "m_Key": "AccountStatName_MaxAmountStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903250,
+      "m_Key": "AccountStatName_MaxAmountActBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903251,
+      "m_Key": "AccountStatName_AdditionalGoldStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903252,
+      "m_Key": "AccountStatName_AdditionalGoldActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903253,
+      "m_Key": "AccountStatName_AdditionalGoldNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903254,
+      "m_Key": "AccountStatName_AdditionalExpStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903255,
+      "m_Key": "AccountStatName_AdditionalExpActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903256,
+      "m_Key": "AccountStatName_AdditionalExpNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903257,
+      "m_Key": "AccountStatName_MaxInventorySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528896,
+      "m_Key": "AccountStatName_UnlockStashPageCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528897,
+      "m_Key": "AccountStatName_UnlockArrangeSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528898,
+      "m_Key": "AccountStatName_UnlockSkillSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903260,
+      "m_Key": "AccountStat_AllHeroAttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056871903261,
+      "m_Key": "AccountStat_AllHeroAttackDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097536,
+      "m_Key": "AccountStat_AllHeroAttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097537,
+      "m_Key": "AccountStat_AllHeroArmor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097538,
+      "m_Key": "AccountStat_AllHeroArmorPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097539,
+      "m_Key": "AccountStat_AllHeroMoveSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097540,
+      "m_Key": "AccountStat_IncreaseExpAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097541,
+      "m_Key": "AccountStat_AdditionalExp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097542,
+      "m_Key": "AccountStat_DropChanceNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097543,
+      "m_Key": "AccountStat_DropChanceStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729175846913,
+      "m_Key": "AccountStat_DropChanceNormalChestPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729175846914,
+      "m_Key": "AccountStat_DropChanceStageBossChestPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097544,
+      "m_Key": "AccountStat_WaveCountReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097545,
+      "m_Key": "AccountStat_WaveMonsterAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097546,
+      "m_Key": "AccountStat_IncreaseGoldAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097547,
+      "m_Key": "AccountStat_AdditionalGold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097548,
+      "m_Key": "AccountStat_CubeExpPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097549,
+      "m_Key": "AccountStat_CubeAlchemyGoldPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097550,
+      "m_Key": "AccountStat_MaxAmountNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097551,
+      "m_Key": "AccountStat_MaxAmountStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097552,
+      "m_Key": "AccountStat_MaxAmountActBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097553,
+      "m_Key": "AccountStat_AdditionalGoldStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097554,
+      "m_Key": "AccountStat_AdditionalGoldActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097555,
+      "m_Key": "AccountStat_AdditionalGoldNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097556,
+      "m_Key": "AccountStat_AdditionalExpStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097557,
+      "m_Key": "AccountStat_AdditionalExpActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097558,
+      "m_Key": "AccountStat_AdditionalExpNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097559,
+      "m_Key": "AccountStat_MaxInventorySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528899,
+      "m_Key": "AccountStat_UnlockStashPageCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528900,
+      "m_Key": "AccountStat_UnlockArrangeSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126535985272528901,
+      "m_Key": "AccountStat_UnlockSkillSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250983370752,
+      "m_Key": "AccountStat_UnlockAutoOpenNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250983370753,
+      "m_Key": "AccountStat_ReduceAutoOpenNormalChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250983370754,
+      "m_Key": "AccountStat_UnlockAutoOpenStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565056,
+      "m_Key": "AccountStat_ReduceAutoOpenStageBossChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565057,
+      "m_Key": "AccountStat_UnlockAutoOpenActBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565058,
+      "m_Key": "AccountStat_ReduceAutoOpenActBossChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565059,
+      "m_Key": "AccountStat_OpenOneTypeChestAllAtOnce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565060,
+      "m_Key": "AccountStat_OpenAllTypeChestAllAtOnce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565061,
+      "m_Key": "AccountStat_UnlockOfflineReward",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565062,
+      "m_Key": "AccountStat_OfflineRewardGoldPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317250987565063,
+      "m_Key": "AccountStat_OfflineRewardExpPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 97094174282813440,
+      "m_Key": "CannotDeArrange_StageNotStarted",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 79070331408683008,
+      "m_Key": "CannotArrange_StageNotStarted",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59980789415202816,
+      "m_Key": "SteamServer_Disconnected_CannotClickAnything",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121768745907957760,
+      "m_Key": "Toast_LockedHeroSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121768745945706496,
+      "m_Key": "Toast_LockedSkillSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081104,
+      "m_Key": "Demo_LockedContents",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59818077922054144,
+      "m_Key": "TryAddItem_Failed_InventoryFull",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59980789570392064,
+      "m_Key": "Skill_Reduce_Failed_KeepNextGroup",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 58836845348311040,
+      "m_Key": "Demo_Wishlist",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60221376622022656,
+      "m_Key": "Cube_Recipe_Auto_Change",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59818077922054145,
+      "m_Key": "Cube_SynthesisTry_InventoryFull",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 58032714022965248,
+      "m_Key": "Cube_Decoration_Failed_EnchantAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898678185984,
+      "m_Key": "Cube_RecipeIsRunning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997457436672,
+      "m_Key": "Toast_MailRunning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57311863749267456,
+      "m_Key": "Cube_RecipeTooltip_Synthesis",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57311863883485184,
+      "m_Key": "Cube_RecipeTooltip_Decoration",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120032774713843712,
+      "m_Key": "Cube_RecipeTooltip_Engraving",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120032774713843713,
+      "m_Key": "Cube_RecipeTooltip_Inscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59805325736333312,
+      "m_Key": "Cube_Synthesis_Celestial_Level_Less",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59805325878939648,
+      "m_Key": "Cube_Synthesis_Immortal_Level_Less",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57311863883485185,
+      "m_Key": "Cube_RecipeTooltip_Alchemy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126811218336358400,
+      "m_Key": "Cube_RecipeTooltip_Crafting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126811218336358401,
+      "m_Key": "Cube_RecipeTooltip_Offering",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126811218336358402,
+      "m_Key": "Cube_RecipeTooltip_Extraction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032860839936,
+      "m_Key": "Cube_DecorationInfo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032860839937,
+      "m_Key": "Cube_EngravingInfo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032860839938,
+      "m_Key": "Cube_InscriptionInfo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 79070331408683009,
+      "m_Key": "Toast_ForceResetWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898682380288,
+      "m_Key": "Toast_ContentLock_BecauseLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081107,
+      "m_Key": "Demo_ExitPopupWishlist",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811301081108,
+      "m_Key": "Popup_ExitPopupDesc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59472149386153984,
+      "m_Key": "Popup_CompleteDemoPopupDesc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 61704714489892864,
+      "m_Key": "Popup_WindowScalePopupDesc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 63502296950181888,
+      "m_Key": "Popup_WindowScalePopupDesc_ResetWarning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121403056876097562,
+      "m_Key": "Toast_CannotInputEnchantedItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994012307456,
+      "m_Key": "Toast_RemoveInCubeSoulStone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059575816192,
+      "m_Key": "Toast_AlreadyEquipItemInCube_DuplicateMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 97094174328950784,
+      "m_Key": "Toast_AlreadyEquipItemInCube",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 97094174328950785,
+      "m_Key": "Toast_CannotInputInCubeEquipItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994037473280,
+      "m_Key": "Toast_EquipFailedClassTypeNotMatch",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994037473281,
+      "m_Key": "Toast_EquipFailedLowLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15321506678947843,
+      "m_Key": "Toast_Demo_NotAvailable",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54044118563737600,
+      "m_Key": "Toast_Cannot_DeArrange",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54044118718926848,
+      "m_Key": "Toast_Synthesis_Fail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511118487552,
+      "m_Key": "Toast_CubeRecipe_NotUnlocked",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511152041984,
+      "m_Key": "Toast_SoulStone_NoClearedActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54044118718926849,
+      "m_Key": "Toast_Decoration_Fail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994037473282,
+      "m_Key": "Toast_CannotEquipableItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54044118718926850,
+      "m_Key": "Toast_NotValidItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54044118718926851,
+      "m_Key": "Toast_CannotRefundEquippedSkill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54048054414725120,
+      "m_Key": "Toast_No_Inventory_Space",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57366645172129792,
+      "m_Key": "Toast_Item_CannotMove",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 60670397881978880,
+      "m_Key": "Toast_TradeShip_SoldItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 91748774457839616,
+      "m_Key": "Toast_Item_ExhangeCooltime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 61264142063046656,
+      "m_Key": "Toast_Cube_NotValidItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898682380289,
+      "m_Key": "Stage_SoulStone_Lack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56847898682380290,
+      "m_Key": "Stage_ActBossChest_MaxCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 56877953903022080,
+      "m_Key": "TradeShip_TopNotice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032865034240,
+      "m_Key": "TradeShip_UploadItemConditionNotice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656856,
+      "m_Key": "Stat_AttackDamage_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656857,
+      "m_Key": "Stat_AttackSpeed_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656858,
+      "m_Key": "Stat_CriticalChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656859,
+      "m_Key": "Stat_CriticalDamage_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656860,
+      "m_Key": "Stat_MaxHp_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656863,
+      "m_Key": "Stat_Armor_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656862,
+      "m_Key": "Stat_MovementSpeed_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174007132160,
+      "m_Key": "Stat_AreaOfEffect_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297984,
+      "m_Key": "Stat_BaseAttackCountReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656861,
+      "m_Key": "Stat_CooldownReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297985,
+      "m_Key": "Stat_SkillRangeExpansion_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131180547341361152,
+      "m_Key": "Stat_SkillDurationIncrease_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297986,
+      "m_Key": "Stat_FireResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297987,
+      "m_Key": "Stat_ColdResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297988,
+      "m_Key": "Stat_LightningResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297989,
+      "m_Key": "Stat_ChaosResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297990,
+      "m_Key": "Stat_DodgeChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297991,
+      "m_Key": "Stat_BlockChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297992,
+      "m_Key": "Stat_MaxDodgeChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297993,
+      "m_Key": "Stat_MaxBlockChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264421195776,
+      "m_Key": "Stat_ElementalDodgeChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390080,
+      "m_Key": "Stat_ElementalBlockChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390081,
+      "m_Key": "Stat_MaxElementalDodgeChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390082,
+      "m_Key": "Stat_MaxElementalBlockChance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297994,
+      "m_Key": "Stat_Multistrike_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297995,
+      "m_Key": "Stat_HpLeech_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297996,
+      "m_Key": "Stat_ProjectileCount_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297997,
+      "m_Key": "Stat_HpRegenPerSec_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297998,
+      "m_Key": "Stat_PhysicalDamagePercent_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032297999,
+      "m_Key": "Stat_FireDamagePercent_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298000,
+      "m_Key": "Stat_ColdDamagePercent_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298001,
+      "m_Key": "Stat_LightningDamagePercent_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298002,
+      "m_Key": "Stat_ChaosDamagePercent_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298003,
+      "m_Key": "Stat_MaxFireResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298004,
+      "m_Key": "Stat_MaxColdResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298005,
+      "m_Key": "Stat_MaxLightningResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298006,
+      "m_Key": "Stat_MaxChaosResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298007,
+      "m_Key": "Stat_AddHpPerHit_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018774003712,
+      "m_Key": "Stat_AddHpPerKill_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298008,
+      "m_Key": "Stat_DamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298009,
+      "m_Key": "Stat_PhysicalDamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298010,
+      "m_Key": "Stat_FireDamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298011,
+      "m_Key": "Stat_ColdDamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298012,
+      "m_Key": "Stat_LightningDamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298013,
+      "m_Key": "Stat_ChaosDamageReduction_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298014,
+      "m_Key": "Stat_DamageAbsorption_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298015,
+      "m_Key": "Stat_DamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298016,
+      "m_Key": "Stat_PhysicalDamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298017,
+      "m_Key": "Stat_FireDamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298018,
+      "m_Key": "Stat_ColdDamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298019,
+      "m_Key": "Stat_LightningDamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298020,
+      "m_Key": "Stat_ChaosDamageAddition_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298021,
+      "m_Key": "Stat_IncreaseExpAmount_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298022,
+      "m_Key": "Stat_AdditionalExp_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298023,
+      "m_Key": "Stat_CastSpeed_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845115875328,
+      "m_Key": "Stat_AllElementalResistance_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845141041152,
+      "m_Key": "Stat_IncreaseProjectileSpeed_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845141041153,
+      "m_Key": "Stat_IncreaseProjectileDamage_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172653256704,
+      "m_Key": "Stat_SkillHealIncrease_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139899326120792064,
+      "m_Key": "Stat_AddAllSkillLevel_FLAT",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656864,
+      "m_Key": "Stat_AttackDamage_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656865,
+      "m_Key": "Stat_AttackSpeed_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656866,
+      "m_Key": "Stat_CriticalChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656867,
+      "m_Key": "Stat_CriticalDamage_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656868,
+      "m_Key": "Stat_MaxHp_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656871,
+      "m_Key": "Stat_Armor_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656870,
+      "m_Key": "Stat_MovementSpeed_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298024,
+      "m_Key": "Stat_AreaOfEffect_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298025,
+      "m_Key": "Stat_BaseAttackCountReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126369656869,
+      "m_Key": "Stat_CooldownReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298026,
+      "m_Key": "Stat_SkillRangeExpansion_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174032298027,
+      "m_Key": "Stat_FireResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492288,
+      "m_Key": "Stat_ColdResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492289,
+      "m_Key": "Stat_LightningResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492290,
+      "m_Key": "Stat_ChaosResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492291,
+      "m_Key": "Stat_DodgeChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492292,
+      "m_Key": "Stat_BlockChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492293,
+      "m_Key": "Stat_MaxDodgeChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492294,
+      "m_Key": "Stat_MaxBlockChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390083,
+      "m_Key": "Stat_ElementalDodgeChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390084,
+      "m_Key": "Stat_ElementalBlockChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390085,
+      "m_Key": "Stat_MaxElementalDodgeChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264425390086,
+      "m_Key": "Stat_MaxElementalBlockChance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492295,
+      "m_Key": "Stat_Multistrike_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492296,
+      "m_Key": "Stat_HpLeech_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492297,
+      "m_Key": "Stat_ProjectileCount_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492298,
+      "m_Key": "Stat_HpRegenPerSec_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492299,
+      "m_Key": "Stat_PhysicalDamagePercent_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492300,
+      "m_Key": "Stat_FireDamagePercent_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492301,
+      "m_Key": "Stat_ColdDamagePercent_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492302,
+      "m_Key": "Stat_LightningDamagePercent_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492303,
+      "m_Key": "Stat_ChaosDamagePercent_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492304,
+      "m_Key": "Stat_MaxFireResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492305,
+      "m_Key": "Stat_MaxColdResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492306,
+      "m_Key": "Stat_MaxLightningResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492307,
+      "m_Key": "Stat_MaxChaosResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492308,
+      "m_Key": "Stat_AddHpPerHit_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018811752448,
+      "m_Key": "Stat_AddHpPerKill_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492309,
+      "m_Key": "Stat_DamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492310,
+      "m_Key": "Stat_PhysicalDamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492311,
+      "m_Key": "Stat_FireDamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492312,
+      "m_Key": "Stat_ColdDamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492313,
+      "m_Key": "Stat_LightningDamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492314,
+      "m_Key": "Stat_ChaosDamageReduction_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492315,
+      "m_Key": "Stat_DamageAbsorption_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492316,
+      "m_Key": "Stat_DamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492317,
+      "m_Key": "Stat_PhysicalDamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492318,
+      "m_Key": "Stat_FireDamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492319,
+      "m_Key": "Stat_ColdDamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492320,
+      "m_Key": "Stat_LightningDamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492321,
+      "m_Key": "Stat_ChaosDamageAddition_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492322,
+      "m_Key": "Stat_IncreaseExpAmount_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492323,
+      "m_Key": "Stat_AdditionalExp_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492324,
+      "m_Key": "Stat_CastSpeed_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845145235456,
+      "m_Key": "Stat_AllElementalResistance_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845145235457,
+      "m_Key": "Stat_SkillDurationIncrease_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845145235458,
+      "m_Key": "Stat_IncreaseProjectileSpeed_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845145235459,
+      "m_Key": "Stat_IncreaseProjectileDamage_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172678422528,
+      "m_Key": "Stat_SkillHealIncrease_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139899326158540800,
+      "m_Key": "Stat_AddAllSkillLevel_FLAT_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851136,
+      "m_Key": "Stat_AttackDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851137,
+      "m_Key": "Stat_AttackSpeed_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851138,
+      "m_Key": "Stat_CriticalChance_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851139,
+      "m_Key": "Stat_CriticalDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851140,
+      "m_Key": "Stat_MaxHp_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851143,
+      "m_Key": "Stat_Armor_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851142,
+      "m_Key": "Stat_MovementSpeed_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492325,
+      "m_Key": "Stat_AreaOfEffect_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492326,
+      "m_Key": "Stat_SkillRangeExpansion_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131180547379109888,
+      "m_Key": "Stat_SkillDurationIncrease_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492329,
+      "m_Key": "Stat_HpRegenPerSec_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492330,
+      "m_Key": "Stat_CastSpeed_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845149429760,
+      "m_Key": "Stat_IncreaseAreaOfEffectDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172678422529,
+      "m_Key": "Stat_SkillHealIncrease_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333935300608,
+      "m_Key": "Stat_IncreaseProjectileDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855040,
+      "m_Key": "Stat_IncreaseMeleeDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855041,
+      "m_Key": "Stat_IncreaseSummonDamage_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855042,
+      "m_Key": "Stat_IncreaseProjectileSpeed_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855043,
+      "m_Key": "Stat_IncreaseExpAmount_ADDITIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851144,
+      "m_Key": "Stat_AttackDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851145,
+      "m_Key": "Stat_AttackSpeed_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851146,
+      "m_Key": "Stat_CriticalChance_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851147,
+      "m_Key": "Stat_CriticalDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851148,
+      "m_Key": "Stat_MaxHp_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851151,
+      "m_Key": "Stat_Armor_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851150,
+      "m_Key": "Stat_MovementSpeed_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492331,
+      "m_Key": "Stat_AreaOfEffect_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492332,
+      "m_Key": "Stat_SkillRangeExpansion_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131180547383304192,
+      "m_Key": "Stat_SkillDurationIncrease_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450679635968,
+      "m_Key": "Stat_DodgeChance_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450713190400,
+      "m_Key": "Stat_BlockChance_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492335,
+      "m_Key": "Stat_HpRegenPerSec_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492336,
+      "m_Key": "Stat_CastSpeed_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845153624064,
+      "m_Key": "Stat_IncreaseAreaOfEffectDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172678422530,
+      "m_Key": "Stat_SkillHealIncrease_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855044,
+      "m_Key": "Stat_IncreaseProjectileDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855045,
+      "m_Key": "Stat_IncreaseMeleeDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333968855046,
+      "m_Key": "Stat_IncreaseSummonDamage_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333973049344,
+      "m_Key": "Stat_IncreaseProjectileSpeed_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132268333973049345,
+      "m_Key": "Stat_IncreaseExpAmount_ADDITIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851152,
+      "m_Key": "Stat_AttackDamage_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851153,
+      "m_Key": "Stat_AttackSpeed_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851154,
+      "m_Key": "Stat_CriticalChance_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851155,
+      "m_Key": "Stat_CriticalDamage_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851156,
+      "m_Key": "Stat_MaxHp_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851159,
+      "m_Key": "Stat_Armor_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851158,
+      "m_Key": "Stat_MovementSpeed_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492337,
+      "m_Key": "Stat_AreaOfEffect_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174036492338,
+      "m_Key": "Stat_SkillRangeExpansion_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686594,
+      "m_Key": "Stat_HpRegenPerSec_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686595,
+      "m_Key": "Stat_CastSpeed_MULTIPLICATIVE",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851160,
+      "m_Key": "Stat_AttackDamage_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851161,
+      "m_Key": "Stat_AttackSpeed_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851162,
+      "m_Key": "Stat_CriticalChance_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851163,
+      "m_Key": "Stat_CriticalDamage_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851164,
+      "m_Key": "Stat_MaxHp_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851167,
+      "m_Key": "Stat_Armor_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126373851166,
+      "m_Key": "Stat_MovementSpeed_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686596,
+      "m_Key": "Stat_AreaOfEffect_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686597,
+      "m_Key": "Stat_SkillRangeExpansion_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450713190401,
+      "m_Key": "Stat_DodgeChance_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450713190402,
+      "m_Key": "Stat_BlockChance_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686600,
+      "m_Key": "Stat_HpRegenPerSec_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126576174040686601,
+      "m_Key": "Stat_CastSpeed_MULTIPLICATIVE_MinMax",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59818077926248448,
+      "m_Key": "Stage_MoveStage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54369252315025408,
+      "m_Key": "FirstSetting_PressToStart",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15001962911481856,
+      "m_Key": "FirstSetting_Next",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578176,
+      "m_Key": "FirstSetting_GuideMessage_CanSetting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578177,
+      "m_Key": "FirstSetting_GuideMessage_PositionChange",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578178,
+      "m_Key": "FirstSetting_GuideMessage_SelectCharacter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578179,
+      "m_Key": "FirstSetting_MonitorOption_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578180,
+      "m_Key": "FirstSetting_WindowPositionOption_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129391519839752192,
+      "m_Key": "FirstSetting_Notice_Playtest_Description2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578181,
+      "m_Key": "FirstSetting_SettingOption_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129391519839752193,
+      "m_Key": "FirstSetting_Notice_Playtest_Description1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578182,
+      "m_Key": "FirstSetting_NoticeOption_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578183,
+      "m_Key": "FirstSetting_NoticeOption_Description",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54373807459192832,
+      "m_Key": "FirstSetting_SelectCharacterOption_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54846756939157504,
+      "m_Key": "FirstSetting_SelectCharacterOption_LockDemo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15001963054088192,
+      "m_Key": "FirstSetting_CompleteSetting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15580537066733568,
+      "m_Key": "InventorySlot_Buy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15580537234505728,
+      "m_Key": "InventorySlot_Class",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 58836845356699648,
+      "m_Key": "Inventory_ItemSort",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281157,
+      "m_Key": "RequiredCubeLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910303281158,
+      "m_Key": "Cube_AutoFill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910307475456,
+      "m_Key": "Cube_Trigger",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15232910307475457,
+      "m_Key": "Cube_IncludeStorageItems",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 58824117577633792,
+      "m_Key": "Stage_NextStage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15354645941960704,
+      "m_Key": "Status_RemainedSkillPoint",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443618643968,
+      "m_Key": "Setting_MasterVolume",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54371537862578184,
+      "m_Key": "Mailbox_RefreshButtonCoolTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54369252461826048,
+      "m_Key": "Mailbox_BlockAnotherScreen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811305275393,
+      "m_Key": "Setting_BGM",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443618643969,
+      "m_Key": "Setting_GameSFX",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443618643970,
+      "m_Key": "Setting_UISFX",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53208443618643971,
+      "m_Key": "Setting_BattleLogSFX",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 3811305275394,
+      "m_Key": "Setting_Ambience",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012139110400,
+      "m_Key": "Setting_BugReport",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012139110401,
+      "m_Key": "Setting_OpenLogFolder",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53211012139110402,
+      "m_Key": "Setting_ResetAccountSaveData",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 55126493871788032,
+      "m_Key": "Stage_ActBossEnterFail_Amount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 41675913526562816,
+      "m_Key": "UI_DetailedStat_Attack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 41675913526562817,
+      "m_Key": "UI_DetailedStat_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 41675913526562818,
+      "m_Key": "UI_DetailedStat_Misc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 50715967322378240,
+      "m_Key": "UI_StageSlot_StageLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733824,
+      "m_Key": "UI_ItemTooltip_Tradable",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733825,
+      "m_Key": "UI_ItemTooltip_Untradable",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733826,
+      "m_Key": "UI_ItemTooltip_RequiresLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733827,
+      "m_Key": "UI_ItemTooltip_ClassOnly",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733828,
+      "m_Key": "UI_ItemTooltip_Equip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733829,
+      "m_Key": "UI_ItemTooltip_Alt",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 51821884998733830,
+      "m_Key": "UI_ItemTooltip_Lock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 55166041318281216,
+      "m_Key": "UI_ItemTooltip_DecorationMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 59027934168535040,
+      "m_Key": "UI_ItemTooltip_SoulstoneMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 15268876980174855,
+      "m_Key": "ItemTooltip_RequiredLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 38788477326774274,
+      "m_Key": "ItemTooltip_GradeAndItemType",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57324482094747648,
+      "m_Key": "ItemTooltip_InherentSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126804562550530048,
+      "m_Key": "ItemTooltip_UniqueMod",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57324482094747649,
+      "m_Key": "ItemTooltip_DecorationSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57324482094747650,
+      "m_Key": "ItemTooltip_EngravingSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57324482094747651,
+      "m_Key": "ItemTooltip_InscriptionSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57366645176324096,
+      "m_Key": "ItemTooltip_DecorationSlot_EmptySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57366645176324097,
+      "m_Key": "ItemTooltip_EngravingSlot_EmptySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57366645176324098,
+      "m_Key": "ItemTooltip_InscriptionSlot_EmptySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57353772395974656,
+      "m_Key": "ItemTooltip_Material_DecorationStat_Weapon",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57353772530192384,
+      "m_Key": "ItemTooltip_Material_DecorationStat_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57353772530192385,
+      "m_Key": "ItemTooltip_Material_DecorationStat_Accessory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52996620248207360,
+      "m_Key": "UI_Cube_IncludeStashOption",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52998765538234368,
+      "m_Key": "UI_Mailbox_ClaimAll",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52998765538234369,
+      "m_Key": "UI_Mailbox_Refresh",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 52999241021313024,
+      "m_Key": "UI_Status_SelectSlotDesc",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53000429666095104,
+      "m_Key": "UI_Status_LevelUp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53000429666095105,
+      "m_Key": "UI_Status_Refund",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53000429666095106,
+      "m_Key": "UI_Status_Equip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53010390748024832,
+      "m_Key": "UI_Status_Unequip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53011597247959040,
+      "m_Key": "UI_Status_RequiredPoints",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53214980084912128,
+      "m_Key": "UI_Status_DetailedStats",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53004457124876288,
+      "m_Key": "UI_Hero_Previewing",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53004457124876289,
+      "m_Key": "UI_Hero_Deploy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53004457124876290,
+      "m_Key": "UI_Hero_Cooldown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53004457124876291,
+      "m_Key": "UI_Hero_BossBattle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53004457124876292,
+      "m_Key": "UI_Hero_Cannot Deploy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53005643727032320,
+      "m_Key": "UI_Stash_StashAll",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53005643727032321,
+      "m_Key": "UI_Stash_TakeAll",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53014304910266368,
+      "m_Key": "UI_BattleLog_ObtainItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53014304914460672,
+      "m_Key": "UI_Stage_ActAndNo",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53015954710384640,
+      "m_Key": "UI_Portal_Act",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53015954714578944,
+      "m_Key": "UI_Portal_Enter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53214980084912129,
+      "m_Key": "UI_Portal_Locked",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53699093959069696,
+      "m_Key": "UI_Log_Pin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53699094235893760,
+      "m_Key": "UI_Log_Unpin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53699094235893761,
+      "m_Key": "UI_Log_Expand",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53699094235893762,
+      "m_Key": "UI_Log_Shrink",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023689719808,
+      "m_Key": "UI_Log_Clear",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 99979785612234752,
+      "m_Key": "UI_Log_Setting_ShowLogTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390080,
+      "m_Key": "UI_Log_Setting_ShowMessage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390081,
+      "m_Key": "UI_Log_Setting_ShowMessage_StageClear",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390082,
+      "m_Key": "UI_Log_Setting_ShowMessage_GetItemWithBoxOpen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390083,
+      "m_Key": "UI_Log_Setting_ShowMessage_GetBox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390084,
+      "m_Key": "UI_Log_Setting_ShowMessage_HeroDie",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390085,
+      "m_Key": "UI_Log_Setting_ShowMessage_HeroResurrection",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390086,
+      "m_Key": "UI_Log_Setting_ShowMessage_HeroLevelUp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390087,
+      "m_Key": "UI_Log_Setting_ShowMessage_StageFailed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390088,
+      "m_Key": "UI_Log_Setting_ShowMessage_SynthesisResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274665390089,
+      "m_Key": "UI_Log_Setting_ShowMessage_AlchemyResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274669584384,
+      "m_Key": "UI_Log_Setting_ShowMessage_DecorationResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274669584385,
+      "m_Key": "UI_Log_Setting_ShowMessage_EngravingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132687149685215232,
+      "m_Key": "UI_Log_Setting_ShowMessage_OfferingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132687149718769664,
+      "m_Key": "UI_Log_Setting_ShowMessage_CraftingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132687149718769665,
+      "m_Key": "UI_Log_Setting_ShowMessage_ExtractionResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120030274669584386,
+      "m_Key": "UI_Log_Setting_ShowMessage_InscriptionResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580544,
+      "m_Key": "HeroName_101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580545,
+      "m_Key": "HeroName_201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580546,
+      "m_Key": "HeroName_301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580547,
+      "m_Key": "HeroName_401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580548,
+      "m_Key": "HeroName_501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580549,
+      "m_Key": "HeroName_601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915584,
+      "m_Key": "HeroDescription_101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915585,
+      "m_Key": "HeroDescription_201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915586,
+      "m_Key": "HeroDescription_301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915587,
+      "m_Key": "HeroDescription_401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915588,
+      "m_Key": "HeroDescription_501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 54056035822915589,
+      "m_Key": "HeroDescription_601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580550,
+      "m_Key": "SkillName_10101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580551,
+      "m_Key": "SkillName_10201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580552,
+      "m_Key": "SkillName_10301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787328,
+      "m_Key": "SkillName_10401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787329,
+      "m_Key": "SkillName_10501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787330,
+      "m_Key": "SkillName_10601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580553,
+      "m_Key": "SkillName_20101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787331,
+      "m_Key": "SkillName_20201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787332,
+      "m_Key": "SkillName_20301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120482787333,
+      "m_Key": "SkillName_20401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981632,
+      "m_Key": "SkillName_20501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981633,
+      "m_Key": "SkillName_20601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580556,
+      "m_Key": "SkillName_30101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580557,
+      "m_Key": "SkillName_30201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580558,
+      "m_Key": "SkillName_30301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981634,
+      "m_Key": "SkillName_30401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981635,
+      "m_Key": "SkillName_30501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981636,
+      "m_Key": "SkillName_30601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981637,
+      "m_Key": "SkillName_40101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981638,
+      "m_Key": "SkillName_40201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981639,
+      "m_Key": "SkillName_40301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981640,
+      "m_Key": "SkillName_40401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981641,
+      "m_Key": "SkillName_40501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981642,
+      "m_Key": "SkillName_40601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981643,
+      "m_Key": "SkillName_50101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981644,
+      "m_Key": "SkillName_50201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981645,
+      "m_Key": "SkillName_50301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981646,
+      "m_Key": "SkillName_50401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981647,
+      "m_Key": "SkillName_50501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981648,
+      "m_Key": "SkillName_50601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981649,
+      "m_Key": "SkillName_60101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981650,
+      "m_Key": "SkillName_60201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981651,
+      "m_Key": "SkillName_60301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981652,
+      "m_Key": "SkillName_60401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981653,
+      "m_Key": "SkillName_60501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120486981654,
+      "m_Key": "SkillName_60601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580559,
+      "m_Key": "SkillDescription_10101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580560,
+      "m_Key": "SkillDescription_10201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580561,
+      "m_Key": "SkillDescription_10301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980736,
+      "m_Key": "SkillDescription_10401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980737,
+      "m_Key": "SkillDescription_10501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980738,
+      "m_Key": "SkillDescription_10601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580562,
+      "m_Key": "SkillDescription_20101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511173013504,
+      "m_Key": "SkillDescription_20201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511173013505,
+      "m_Key": "SkillDescription_20301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980739,
+      "m_Key": "SkillDescription_20401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980740,
+      "m_Key": "SkillDescription_20501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980741,
+      "m_Key": "SkillDescription_20601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580565,
+      "m_Key": "SkillDescription_30101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580566,
+      "m_Key": "SkillDescription_30201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53031585417580567,
+      "m_Key": "SkillDescription_30301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980742,
+      "m_Key": "SkillDescription_30401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980743,
+      "m_Key": "SkillDescription_30501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980744,
+      "m_Key": "SkillDescription_30601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980745,
+      "m_Key": "SkillDescription_40101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980746,
+      "m_Key": "SkillDescription_40201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980747,
+      "m_Key": "SkillDescription_40301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980748,
+      "m_Key": "SkillDescription_40401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980749,
+      "m_Key": "SkillDescription_40501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980750,
+      "m_Key": "SkillDescription_40601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980751,
+      "m_Key": "SkillDescription_50101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980752,
+      "m_Key": "SkillDescription_50201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980753,
+      "m_Key": "SkillDescription_50301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980754,
+      "m_Key": "SkillDescription_50401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980755,
+      "m_Key": "SkillDescription_50501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980756,
+      "m_Key": "SkillDescription_50601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980757,
+      "m_Key": "SkillDescription_60101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980758,
+      "m_Key": "SkillDescription_60201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980759,
+      "m_Key": "SkillDescription_60301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980760,
+      "m_Key": "SkillDescription_60401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980761,
+      "m_Key": "SkillDescription_60501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120083558532980762,
+      "m_Key": "SkillDescription_60601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919239938048,
+      "m_Key": "Passive_AttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132354,
+      "m_Key": "Passive_AttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132355,
+      "m_Key": "Passive_CriticalChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132356,
+      "m_Key": "Passive_CriticalDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132352,
+      "m_Key": "Passive_MaxHp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132353,
+      "m_Key": "Passive_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407960551424,
+      "m_Key": "Passive_MovementSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407960551425,
+      "m_Key": "Passive_AreaOfEffect",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745728,
+      "m_Key": "Passive_BaseAttackCountReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 57608919244132357,
+      "m_Key": "Passive_CooldownReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745729,
+      "m_Key": "Passive_SkillRangeExpansion",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745730,
+      "m_Key": "Passive_FireResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745731,
+      "m_Key": "Passive_ColdResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745732,
+      "m_Key": "Passive_LightningResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745733,
+      "m_Key": "Passive_ChaosResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745734,
+      "m_Key": "Passive_DodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745735,
+      "m_Key": "Passive_BlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745736,
+      "m_Key": "Passive_MaxDodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745737,
+      "m_Key": "Passive_MaxBlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745738,
+      "m_Key": "Passive_Multistrike",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745739,
+      "m_Key": "Passive_HpLeech",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745740,
+      "m_Key": "Passive_ProjectileCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745741,
+      "m_Key": "Passive_HpRegenPerSec",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745742,
+      "m_Key": "Passive_PhysicalDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745743,
+      "m_Key": "Passive_FireDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745744,
+      "m_Key": "Passive_ColdDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745745,
+      "m_Key": "Passive_LightningDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745746,
+      "m_Key": "Passive_ChaosDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745747,
+      "m_Key": "Passive_MaxFireResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745748,
+      "m_Key": "Passive_MaxColdResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745749,
+      "m_Key": "Passive_MaxLightningResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745750,
+      "m_Key": "Passive_MaxChaosResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745751,
+      "m_Key": "Passive_AddHpPerHit",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845166206976,
+      "m_Key": "Passive_AddHpPerKill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745752,
+      "m_Key": "Passive_DamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745753,
+      "m_Key": "Passive_PhysicalDamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745754,
+      "m_Key": "Passive_FireDamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745755,
+      "m_Key": "Passive_ColdDamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745756,
+      "m_Key": "Passive_LightningDamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745757,
+      "m_Key": "Passive_ChaosDamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745758,
+      "m_Key": "Passive_DamageAbsorption",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745759,
+      "m_Key": "Passive_DamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745760,
+      "m_Key": "Passive_PhysicalDamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745761,
+      "m_Key": "Passive_FireDamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745762,
+      "m_Key": "Passive_ColdDamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745763,
+      "m_Key": "Passive_LightningDamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745764,
+      "m_Key": "Passive_ChaosDamageAddition",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745765,
+      "m_Key": "Passive_IncreaseExpAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745766,
+      "m_Key": "Passive_AdditionalExp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126578407964745767,
+      "m_Key": "Passive_CastSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845170401280,
+      "m_Key": "Passive_AllElementalResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845170401281,
+      "m_Key": "Passive_IncreaseProjectileDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845170401282,
+      "m_Key": "Passive_IncreaseProjectileSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845170401283,
+      "m_Key": "Passive_AreaOfEffectDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172691005440,
+      "m_Key": "Passive_SkillHealIncrease",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845170401284,
+      "m_Key": "Passive_Duration",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358656,
+      "m_Key": "StageName_1101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358657,
+      "m_Key": "StageName_1102",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358658,
+      "m_Key": "StageName_1103",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358659,
+      "m_Key": "StageName_1104",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358660,
+      "m_Key": "StageName_1105",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358661,
+      "m_Key": "StageName_1106",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358662,
+      "m_Key": "StageName_1107",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358663,
+      "m_Key": "StageName_1108",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358664,
+      "m_Key": "StageName_1109",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358665,
+      "m_Key": "StageName_1110",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358666,
+      "m_Key": "StageName_1201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358667,
+      "m_Key": "StageName_1202",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358668,
+      "m_Key": "StageName_1203",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358669,
+      "m_Key": "StageName_1204",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358670,
+      "m_Key": "StageName_1205",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358671,
+      "m_Key": "StageName_1206",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358672,
+      "m_Key": "StageName_1207",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358673,
+      "m_Key": "StageName_1208",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358674,
+      "m_Key": "StageName_1209",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358675,
+      "m_Key": "StageName_1210",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358676,
+      "m_Key": "StageName_1301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358677,
+      "m_Key": "StageName_1302",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358678,
+      "m_Key": "StageName_1303",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358679,
+      "m_Key": "StageName_1304",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358680,
+      "m_Key": "StageName_1305",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358681,
+      "m_Key": "StageName_1306",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358682,
+      "m_Key": "StageName_1307",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358683,
+      "m_Key": "StageName_1308",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811068358684,
+      "m_Key": "StageName_1309",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 53229811072552960,
+      "m_Key": "StageName_1310",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437917564928,
+      "m_Key": "RuneName_AllHeroAttackDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925056,
+      "m_Key": "RuneName_AdditionalGoldStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925057,
+      "m_Key": "RuneName_AdditionalExpStageBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925058,
+      "m_Key": "RuneName_MaxInventorySlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925059,
+      "m_Key": "RuneName_UnlockStashPageCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925060,
+      "m_Key": "RuneName_UnlockArrangeSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925061,
+      "m_Key": "RuneName_UnlockSkillSlotCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925062,
+      "m_Key": "RuneName_DropChanceNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925063,
+      "m_Key": "RuneName_DropChanceStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925064,
+      "m_Key": "RuneName_MaxAmountNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925065,
+      "m_Key": "RuneName_MaxAmountStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925066,
+      "m_Key": "RuneName_AdditionalGold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925067,
+      "m_Key": "RuneName_IncreaseGoldAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925068,
+      "m_Key": "RuneName_AdditionalGoldNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925069,
+      "m_Key": "RuneName_AdditionalGoldActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925070,
+      "m_Key": "RuneName_AdditionalExp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925071,
+      "m_Key": "RuneName_IncreaseExpAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925072,
+      "m_Key": "RuneName_AdditionalExpNormalMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925073,
+      "m_Key": "RuneName_AdditionalExpActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018832723968,
+      "m_Key": "RuneName_AllHeroAttackDamagePercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925074,
+      "m_Key": "RuneName_AllHeroMoveSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925075,
+      "m_Key": "RuneName_AllHeroArmor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018832723969,
+      "m_Key": "RuneName_AllHeroArmorPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018832723970,
+      "m_Key": "RuneName_AllHeroAttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925076,
+      "m_Key": "RuneName_CubeExpPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 126966437946925077,
+      "m_Key": "RuneName_CubeAlchemyGoldPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 133366150766465024,
+      "m_Key": "RuneName_WaveCountReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 133366150804213760,
+      "m_Key": "RuneName_WaveMonsterAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730880,
+      "m_Key": "RuneName_OpenOneTypeChestAllAtOnce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730881,
+      "m_Key": "RuneName_OpenAllTypeChestAllAtOnce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730882,
+      "m_Key": "RuneName_UnlockAutoOpenNormalChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730883,
+      "m_Key": "RuneName_UnlockAutoOpenStageBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730884,
+      "m_Key": "RuneName_UnlockAutoOpenActBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730885,
+      "m_Key": "RuneName_ReduceAutoOpenNormalChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730886,
+      "m_Key": "RuneName_ReduceAutoOpenStageBossChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730887,
+      "m_Key": "RuneName_ReduceAutoOpenActBossChestTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730888,
+      "m_Key": "RuneName_UnlockOfflineReward",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730889,
+      "m_Key": "RuneName_OfflineRewardGoldPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140317251012730890,
+      "m_Key": "RuneName_OfflineRewardExpPercent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342144,
+      "m_Key": "MonsterName_10011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342145,
+      "m_Key": "MonsterName_10021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342146,
+      "m_Key": "MonsterName_10022",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342147,
+      "m_Key": "MonsterName_10023",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342148,
+      "m_Key": "MonsterName_10031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342149,
+      "m_Key": "MonsterName_10041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342150,
+      "m_Key": "MonsterName_10042",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342151,
+      "m_Key": "MonsterName_10043",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342152,
+      "m_Key": "MonsterName_10051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342153,
+      "m_Key": "MonsterName_10052",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342154,
+      "m_Key": "MonsterName_10053",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 98564059630342155,
+      "m_Key": "MonsterName_10901",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389963714560,
+      "m_Key": "MonsterName_20011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268992,
+      "m_Key": "MonsterName_20021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268993,
+      "m_Key": "MonsterName_20022",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268994,
+      "m_Key": "MonsterName_20023",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268995,
+      "m_Key": "MonsterName_20024",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268996,
+      "m_Key": "MonsterName_20031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268997,
+      "m_Key": "MonsterName_20041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268998,
+      "m_Key": "MonsterName_20042",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997268999,
+      "m_Key": "MonsterName_20051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269000,
+      "m_Key": "MonsterName_20061",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269001,
+      "m_Key": "MonsterName_20062",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269002,
+      "m_Key": "MonsterName_20071",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269003,
+      "m_Key": "MonsterName_20081",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269004,
+      "m_Key": "MonsterName_20091",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450729967616,
+      "m_Key": "MonsterName_20121",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269006,
+      "m_Key": "MonsterName_20111",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269007,
+      "m_Key": "MonsterName_20901",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269008,
+      "m_Key": "MonsterName_30011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269009,
+      "m_Key": "MonsterName_30012",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269010,
+      "m_Key": "MonsterName_30013",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269011,
+      "m_Key": "MonsterName_30021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269012,
+      "m_Key": "MonsterName_30031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269013,
+      "m_Key": "MonsterName_30041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269014,
+      "m_Key": "MonsterName_30042",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269015,
+      "m_Key": "MonsterName_30043",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269016,
+      "m_Key": "MonsterName_30044",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269017,
+      "m_Key": "MonsterName_30051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269018,
+      "m_Key": "MonsterName_30061",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269019,
+      "m_Key": "MonsterName_30071",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269020,
+      "m_Key": "MonsterName_30081",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269021,
+      "m_Key": "MonsterName_30082",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269022,
+      "m_Key": "MonsterName_30083",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269023,
+      "m_Key": "MonsterName_30084",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269024,
+      "m_Key": "MonsterName_30091",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269025,
+      "m_Key": "MonsterName_30101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269026,
+      "m_Key": "MonsterName_30102",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269027,
+      "m_Key": "MonsterName_30103",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269028,
+      "m_Key": "MonsterName_30104",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269029,
+      "m_Key": "MonsterName_30111",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153389997269030,
+      "m_Key": "MonsterName_30901",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274240,
+      "m_Key": "LogMessage_StageClear",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274241,
+      "m_Key": "LogMessage_GetItemWithBoxOpen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274242,
+      "m_Key": "LogMessage_GetBox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274243,
+      "m_Key": "LogMessage_HeroDie",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274244,
+      "m_Key": "LogMessage_HeroResurrection",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274245,
+      "m_Key": "LogMessage_HeroLevelUp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274246,
+      "m_Key": "LogMessage_StageFailed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274247,
+      "m_Key": "LogMessage_SynthesisResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274248,
+      "m_Key": "LogMessage_AlchemyResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274249,
+      "m_Key": "LogMessage_DecorationResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274250,
+      "m_Key": "LogMessage_EngravingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274251,
+      "m_Key": "LogMessage_InscriptionResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132687149735546880,
+      "m_Key": "LogMessage_OfferingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274252,
+      "m_Key": "LogMessage_CraftingResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274253,
+      "m_Key": "LogMessage_ExtractionResult",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120054520800157697,
+      "m_Key": "CurrencyName_100001",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126386434048,
+      "m_Key": "Tutorial_CannotOpenAnyUI",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 103698126386434049,
+      "m_Key": "Tutorial_DragWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274254,
+      "m_Key": "Tutorial_FirstKillMonster",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274255,
+      "m_Key": "Tutorial_EquipGear",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274256,
+      "m_Key": "Tutorial_CanLearnSkill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274257,
+      "m_Key": "Tutorial_UnlockCube1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274258,
+      "m_Key": "Tutorial_UnlockCube2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274259,
+      "m_Key": "Tutorial_Synthesis1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274260,
+      "m_Key": "Tutorial_Synthesis2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564544,
+      "m_Key": "Toast_NotMatchAlchemy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564545,
+      "m_Key": "Toast_NotMatchSynthesis",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564546,
+      "m_Key": "Toast_NotMatchCrafting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564547,
+      "m_Key": "Toast_NotMatchForging",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564548,
+      "m_Key": "Toast_NotMatchDecoration",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564549,
+      "m_Key": "Toast_NotMatchEngraving",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564550,
+      "m_Key": "Toast_NotMatchInscription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564551,
+      "m_Key": "Toast_NotMatchOffering",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564552,
+      "m_Key": "Toast_NotMatchExtraction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564641,
+      "m_Key": "SubRecipeName_100011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564642,
+      "m_Key": "SubRecipeName_100021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564643,
+      "m_Key": "SubRecipeName_100031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564644,
+      "m_Key": "SubRecipeName_100041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564645,
+      "m_Key": "SubRecipeName_100051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564646,
+      "m_Key": "SubRecipeName_100061",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564647,
+      "m_Key": "SubRecipeName_100071",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564648,
+      "m_Key": "SubRecipeName_100081",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564649,
+      "m_Key": "SubRecipeName_100091",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564650,
+      "m_Key": "SubRecipeName_200011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564651,
+      "m_Key": "SubRecipeName_300011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564652,
+      "m_Key": "SubRecipeName_400011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564653,
+      "m_Key": "SubRecipeName_500011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564654,
+      "m_Key": "SubRecipeName_600011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564655,
+      "m_Key": "SubRecipeName_600021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564656,
+      "m_Key": "SubRecipeName_600031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564657,
+      "m_Key": "SubRecipeName_600041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564658,
+      "m_Key": "SubRecipeName_600051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564659,
+      "m_Key": "SubRecipeName_600061",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564660,
+      "m_Key": "SubRecipeName_600071",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120499564661,
+      "m_Key": "SubRecipeName_600081",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758848,
+      "m_Key": "SubRecipeName_600091",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758849,
+      "m_Key": "SubRecipeName_700011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758850,
+      "m_Key": "SubRecipeName_700021",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758851,
+      "m_Key": "SubRecipeName_700031",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758852,
+      "m_Key": "SubRecipeName_700041",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758853,
+      "m_Key": "SubRecipeName_700051",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758854,
+      "m_Key": "SubRecipeName_700061",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758855,
+      "m_Key": "SubRecipeName_700071",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758856,
+      "m_Key": "SubRecipeName_700081",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758857,
+      "m_Key": "SubRecipeName_700091",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758858,
+      "m_Key": "SubRecipeName_700101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758859,
+      "m_Key": "SubRecipeName_700111",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758860,
+      "m_Key": "SubRecipeName_900011",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758861,
+      "m_Key": "SynthesisResultPreviewTextSameGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758862,
+      "m_Key": "SynthesisResultPreviewTextUpGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758863,
+      "m_Key": "SynthesisResultPreviewTextDoubleUpGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758864,
+      "m_Key": "SynthesisResultPreviewItemLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758865,
+      "m_Key": "SynthesisWarningHighLevelItemIn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758866,
+      "m_Key": "CraftingTitleDescription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112314120503758867,
+      "m_Key": "CraftingMaterialDescription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112435569902161920,
+      "m_Key": "DefaultStageRepeatOff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112435569944104960,
+      "m_Key": "DefaultStageRepeatOn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112435569944104961,
+      "m_Key": "ActBossStageRepeatOn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 112435569944104962,
+      "m_Key": "ActBossStageRepeatOff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 113776975476363264,
+      "m_Key": "MoveCount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 113776975509917696,
+      "m_Key": "Maintain",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 113776975509917697,
+      "m_Key": "Auto",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330868236288,
+      "m_Key": "GearUniqueMod",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956544,
+      "m_Key": "UniqueMod_FlameHydraBerserk",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956545,
+      "m_Key": "UniqueMod_ExplosiveBoltHalf",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956546,
+      "m_Key": "UniqueMod_ChargeTrapExplosiveCooldown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956547,
+      "m_Key": "UniqueMod_SkewerShotBleedingStrike",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956548,
+      "m_Key": "UniqueMod_AxeSpinBleedingChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956549,
+      "m_Key": "UniqueMod_ArrowRainCriticalCooldown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956550,
+      "m_Key": "UniqueMod_ShieldChargeKillCooldown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956551,
+      "m_Key": "UniqueMod_CrossbowTurretCooldown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956552,
+      "m_Key": "UniqueMod_IceOrbFreezeToCold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956553,
+      "m_Key": "UniqueMod_SnowstormEnhanceFrozenEnemy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956554,
+      "m_Key": "UniqueMod_CrossbowTurretAddAmount",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956555,
+      "m_Key": "UniqueMod_WrathOfHeavenHeal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956556,
+      "m_Key": "NeedSelectExtractionTarget",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 114228330926956557,
+      "m_Key": "SelectedExtractionTargetPreview",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 115302477907300352,
+      "m_Key": "StatCategory_Compensation",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 115301852956004352,
+      "m_Key": "StatCategory_Battle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 115301852956004353,
+      "m_Key": "StatCategory_Exploration",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117024668747239424,
+      "m_Key": "Toast_CannotSynthesisCosmic",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117024668780793856,
+      "m_Key": "Character",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117024740444672000,
+      "m_Key": "Pet",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269378863104,
+      "m_Key": "HowToObtain",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417536,
+      "m_Key": "PetName_1001",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417537,
+      "m_Key": "PetName_1002",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417538,
+      "m_Key": "PetName_1003",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417539,
+      "m_Key": "PetName_1004",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417540,
+      "m_Key": "PetName_1005",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417541,
+      "m_Key": "PetName_6001",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417542,
+      "m_Key": "PetName_6002",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117357269412417543,
+      "m_Key": "PetName_6003",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 117358205853700096,
+      "m_Key": "Abilities",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022925,
+      "m_Key": "ResetData_Notice1Text1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022926,
+      "m_Key": "ResetData_Notice1Text2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022927,
+      "m_Key": "ResetData_NeedCheckNotice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022928,
+      "m_Key": "ResetData_AgreeResetData",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022929,
+      "m_Key": "ResetData_RuningReset",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022930,
+      "m_Key": "ResetData_WarningGameQuit",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022931,
+      "m_Key": "ResetData_ReallyWantReset",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022932,
+      "m_Key": "ShowDetail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022933,
+      "m_Key": "Description_Hero101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022934,
+      "m_Key": "Description_Hero201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022935,
+      "m_Key": "Description_Hero301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022936,
+      "m_Key": "Description_Hero401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022937,
+      "m_Key": "Description_Hero501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 119331136330022938,
+      "m_Key": "Description_Hero601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274261,
+      "m_Key": "SimpleDescription_Hero101",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274262,
+      "m_Key": "SimpleDescription_Hero201",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274263,
+      "m_Key": "SimpleDescription_Hero301",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274264,
+      "m_Key": "SimpleDescription_Hero401",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274265,
+      "m_Key": "SimpleDescription_Hero501",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 120027023723274266,
+      "m_Key": "SimpleDescription_Hero601",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121399032886005760,
+      "m_Key": "Toast_BlockedItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121414182877179904,
+      "m_Key": "Toast_FailTradeInsert_BlockedItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 121768745966678016,
+      "m_Key": "Toast_ReservedSoulStone",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994054250497,
+      "m_Key": "Popup_AskAgain",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 122431994054250498,
+      "m_Key": "Setting_ShowAlchemyWarning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402112,
+      "m_Key": "Tooltip_Skill_Alt_Detail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402113,
+      "m_Key": "Tooltip_Skill_BaseAttack_Detail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402114,
+      "m_Key": "Tooltip_Skill_CoolTime_Detail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402115,
+      "m_Key": "Skill_Aura",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402116,
+      "m_Key": "Tooltip_Skill_DetailTooltip_CoolDown",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402117,
+      "m_Key": "Tooltip_Skill_DetailTooltip_Aura",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402118,
+      "m_Key": "Tooltip_Skill_DetailTooltip_BaseAttack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402119,
+      "m_Key": "Tooltip_EmptySkillSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402120,
+      "m_Key": "Tooltip_LockSkillSlot",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402121,
+      "m_Key": "Tooltip_Empty",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402122,
+      "m_Key": "UI_ChangeSkill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402123,
+      "m_Key": "UI_ShowSkillDetail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402124,
+      "m_Key": "Tooltip_EquipSkillClick",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402125,
+      "m_Key": "SynthesisResultPreview_SameGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402126,
+      "m_Key": "SynthesisResultPreview_NextGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402127,
+      "m_Key": "SynthesisResultPreview_NextNextGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511181402128,
+      "m_Key": "SynthesisResultPreview_ResultLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511185596416,
+      "m_Key": "UI_ItemTooltip_EngravingMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511185596417,
+      "m_Key": "UI_ItemTooltip_InscriptionMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511185596418,
+      "m_Key": "UI_ItemTooltip_CraftingMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124248511185596419,
+      "m_Key": "UI_ItemTooltip_OfferingMaterial",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124253190707654656,
+      "m_Key": "ItemTooltip_Material_EngravingStatList_Weapon",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124253190707654657,
+      "m_Key": "ItemTooltip_Material_EngravingStatList_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124276755536457728,
+      "m_Key": "ItemTooltip_Material_EngravingStatList_Accessory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124253190707654658,
+      "m_Key": "ItemTooltip_Material_InscriptionStatList",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124654588922343424,
+      "m_Key": "Tooltip_CharSlotLocked",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124654588947509248,
+      "m_Key": "Tooltip_CharSlotEmpty",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124654588947509249,
+      "m_Key": "UI_FreeDLC",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124654588947509250,
+      "m_Key": "UI_PaidDLC",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 124655081878892544,
+      "m_Key": "UI_PurchaseDLC",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463296,
+      "m_Key": "DLC",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463297,
+      "m_Key": "UI_PetUnlock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463298,
+      "m_Key": "UI_PetAvailable",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463299,
+      "m_Key": "UI_PetLock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463300,
+      "m_Key": "Tooltip_PetSlotEmpty",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125153390001463301,
+      "m_Key": "Pet_AcquisitionProgress",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 125288378728361984,
+      "m_Key": "UI_Opening_SelectCharacter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627207405568,
+      "m_Key": "Notice_Delete_OnlyInventoryItem",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765696,
+      "m_Key": "Shop_Bundle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765697,
+      "m_Key": "Shop_Package",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765698,
+      "m_Key": "Shop_Owned",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765699,
+      "m_Key": "Shop_FullPackageBundle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765700,
+      "m_Key": "Shop_ClassBundle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765701,
+      "m_Key": "Shop_SupporterBundle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765702,
+      "m_Key": "Shop_PriestPack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765703,
+      "m_Key": "Shop_HunterPack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765704,
+      "m_Key": "Shop_SlayerPack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765705,
+      "m_Key": "Shop_SupporterPack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127203627236765706,
+      "m_Key": "Shop_SoundTrack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127456645232373760,
+      "m_Key": "Option_SettingBoxAlpha",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127456645257539584,
+      "m_Key": "Option_FixingLog",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127456645257539585,
+      "m_Key": "Option_ToggleBoxOption",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127456645257539586,
+      "m_Key": "Tooltip_ClickBuy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127899135458586624,
+      "m_Key": "UI_Portal_Normal",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127899135483752448,
+      "m_Key": "UI_Portal_ActBoss",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 127899135483752449,
+      "m_Key": "UI_Portal_ReEnter",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128615254836842496,
+      "m_Key": "Setting_OpenAllBox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128615254866202624,
+      "m_Key": "UI_Stash_Tab1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128615254866202625,
+      "m_Key": "UI_Stash_Tab2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128615254866202626,
+      "m_Key": "UI_Stash_Tab3",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128615254866202627,
+      "m_Key": "UI_Stash_Tab4",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128970442185576448,
+      "m_Key": "Max_Level",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128970442202353664,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_Why",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128972440490414080,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_Delete",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612672,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612673,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612674,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText3",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612675,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText4",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612676,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText5",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 128974508483612677,
+      "m_Key": "Notice_Delete_OnlyInventoryItem_PopUpText6",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129000560773763072,
+      "m_Key": "CannotClickAnything_ResetPanelOn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264450555904,
+      "m_Key": "TermsOfService_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997545517056,
+      "m_Key": "TermsOfService_RevisionTitle",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997545517057,
+      "m_Key": "TermsOfService_Content",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129069264450555906,
+      "m_Key": "Agree",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129079765700120576,
+      "m_Key": "AgreeTerm_CheckText1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129079765700120577,
+      "m_Key": "AgreeTerm_CheckText2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129079765700120578,
+      "m_Key": "AgreeTerm_CheckText3",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129085393864691712,
+      "m_Key": "Warning_Linux_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129085393864691713,
+      "m_Key": "Warning_Linux_ExplainText",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649362989056,
+      "m_Key": "StatName_ElementBlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349184,
+      "m_Key": "StatName_ElementDodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349186,
+      "m_Key": "StatName_IncreaseMeleeDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349187,
+      "m_Key": "StatName_IncreaseProjectileDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349188,
+      "m_Key": "StatName_IncreaseAreaOfEffectDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349189,
+      "m_Key": "StatName_IncreaseProjectileSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349190,
+      "m_Key": "StatName_IncreaseSummonDamage",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349191,
+      "m_Key": "StatName_SkillDurationIncrease",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349192,
+      "m_Key": "StatName_AddHpPerKill",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349193,
+      "m_Key": "StatName_SkillHealIncrease",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349194,
+      "m_Key": "StatName_AddAllSkillLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349195,
+      "m_Key": "QuickMenu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349196,
+      "m_Key": "QuickMenu_AutoLayout",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349197,
+      "m_Key": "QuickMenu_ManualLayout",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349198,
+      "m_Key": "QuickMenu_FixWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129331649392349199,
+      "m_Key": "QuickMenu_UnFixWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 129391519856529408,
+      "m_Key": "Option_FixLogUI",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130034950102519808,
+      "m_Key": "PopUp_Warning_Alchemy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130034950123491328,
+      "m_Key": "Toast_NotYetContent",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130034950123491329,
+      "m_Key": "UI_StatList",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729226178560,
+      "m_Key": "UI_OpenStatus",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729226178561,
+      "m_Key": "RuneNode_PreviewModeText",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130186729226178562,
+      "m_Key": "RuneNode_PreviewModeCannotPurchase",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744832,
+      "m_Key": "PetDescription_1001",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744833,
+      "m_Key": "PetDescription_1002",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744834,
+      "m_Key": "PetDescription_1003",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744835,
+      "m_Key": "PetDescription_1004",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744836,
+      "m_Key": "PetDescription_1005",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130441450746744837,
+      "m_Key": "Claim",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130462354156990464,
+      "m_Key": "Pet_Collected ",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501184,
+      "m_Key": "UI_Setting_UILayout",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501185,
+      "m_Key": "UI_Setting_UILayout_LeftTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501186,
+      "m_Key": "UI_Setting_UILayout_CenterTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501187,
+      "m_Key": "UI_Setting_UILayout_RightTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501188,
+      "m_Key": "UI_Setting_UILayout_LeftBottom",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501189,
+      "m_Key": "UI_Setting_UILayout_CenterBottom",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501190,
+      "m_Key": "UI_Setting_UILayout_RightBottom",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501191,
+      "m_Key": "UI_Setting_OpenQuickMenu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 130856018849501192,
+      "m_Key": "UI_Setting_LanguageChange_Notice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845187178496,
+      "m_Key": "UI_Setting_FixingGameWindow",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131251845187178497,
+      "m_Key": "UI_Setting_ShowQuickMenu",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172707782656,
+      "m_Key": "Toast_LowTierSynthesis",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 131271172707782657,
+      "m_Key": "Cube_NoticeLowMaterialLevelAndTier",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132687149748129792,
+      "m_Key": "CompleteObtain",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132704892606156800,
+      "m_Key": "UI_Setting_AlwaysSettingSynthesis",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 132723490192035840,
+      "m_Key": "NormalAttackDPS",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135073695391985664,
+      "m_Key": "UI_PopUp_NotMatchSteamId",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135073695433928704,
+      "m_Key": "UI_OfflineMode_LastLogin",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135073695433928705,
+      "m_Key": "UI_OfflineMode_OfflineTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988952559616,
+      "m_Key": "UI_PopUp_SaveDataCheat",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988977725440,
+      "m_Key": "UI_ItemTooltip_Shift",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988977725441,
+      "m_Key": "UI_ItemTooltip_Ctrl",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988977725442,
+      "m_Key": "UI_ItemTooltip_F3_Fold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988977725443,
+      "m_Key": "UI_ItemTooltip_F3_Open",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135545988977725444,
+      "m_Key": "UI_Setting_AlwaysTryOnTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 135546581360250880,
+      "m_Key": "UI_PopUp_AlwaysTryOnTop",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136257227580182528,
+      "m_Key": "CurrentHp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024171208704,
+      "m_Key": "UI_ItemTooltip_Action_Auto_Equip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568832,
+      "m_Key": "UI_ItemTooltip_Action_Auto_Cube",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568833,
+      "m_Key": "UI_ItemTooltip_Action_Auto_Stash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568834,
+      "m_Key": "UI_ItemTooltip_Action_Auto_Inventory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568835,
+      "m_Key": "UI_ItemTooltip_Action_Auto_None",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568836,
+      "m_Key": "UI_ItemTooltip_Action_Auto_Unequip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568837,
+      "m_Key": "UI_ItemTooltip_Action_Unlock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568838,
+      "m_Key": "UI_ItemTooltip_Action_None",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568839,
+      "m_Key": "UI_ItemTooltip_Action_Stash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568840,
+      "m_Key": "UI_ItemTooltip_Action_Cube",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568841,
+      "m_Key": "UI_ItemTooltip_Action_Equip",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568842,
+      "m_Key": "UI_ItemTooltip_Action_Z_Close",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568843,
+      "m_Key": "UI_ItemTooltip_Action_Auto_TradeIn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568844,
+      "m_Key": "UI_ItemTooltip_Action_Auto_TradeOut",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568845,
+      "m_Key": "UI_ItemTooltip_Action_Auto_UnCube",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568846,
+      "m_Key": "Toast_NotAllowedEnchantedTrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568847,
+      "m_Key": "Toast_FullTradingStash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568848,
+      "m_Key": "Tooltip_Stat_Armor",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568849,
+      "m_Key": "Tooltip_Stat_DamageAbsorption",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568850,
+      "m_Key": "Tooltip_Stat_FireResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568851,
+      "m_Key": "Tooltip_Stat_ColdResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568852,
+      "m_Key": "Tooltip_Stat_LightningResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568853,
+      "m_Key": "Tooltip_Stat_PoisonResistance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568854,
+      "m_Key": "Tooltip_Stat_DodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568855,
+      "m_Key": "Tooltip_Stat_BlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568856,
+      "m_Key": "Tooltip_Stat_ElementDodgeChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568857,
+      "m_Key": "Tooltip_Stat_ElementBlockChance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568858,
+      "m_Key": "Tooltip_Stat_CooldownReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568859,
+      "m_Key": "Tooltip_Stat_DamageReduction",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 136971024200568860,
+      "m_Key": "UI_Setting_AlwaysShowCooltime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 137305080687693824,
+      "m_Key": "AutoOpenBoxOff",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 137305080712859648,
+      "m_Key": "AutoOpenBoxCooltime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139899326208872448,
+      "m_Key": "Warning_WindowScale_1_25",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139899326208872449,
+      "m_Key": "Map_name",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139899326208872450,
+      "m_Key": "NoticeReconnect",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 139966368576376832,
+      "m_Key": "Notice_WillGetAlchemyGoldText",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140196009601863680,
+      "m_Key": "Toast_CannotOpenCubeWhenTradingStashOn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140196009627029504,
+      "m_Key": "Toast_CannotOpenTradingStashWhenCubeOn",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140293687509327872,
+      "m_Key": "ItemTooltip_BaseStat",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140338754496696320,
+      "m_Key": "Toast_FullStash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140338754530250752,
+      "m_Key": "Toast_TargetSlotNotEmpty",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310183333888,
+      "m_Key": "Toast_NotMatchSynthesisNowSynthesisType",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082624,
+      "m_Key": "Toast_NotMatchSynthesisItemGrade",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140605439837409280,
+      "m_Key": "Toast_AlreadyInCubeSoRemoved",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082625,
+      "m_Key": "UniqueMod_WaveMoveSlowestPartyExcludeSelf",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082626,
+      "m_Key": "UniqueMod_WaveMoveFastestPartyMember",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082627,
+      "m_Key": "UniqueMod_SkillProjectileCountUp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082628,
+      "m_Key": "UniqueMod_SkillMultiStrikeCountUp",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082629,
+      "m_Key": "UniqueMod_SkillElementChange",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082630,
+      "m_Key": "UniqueMod_SkillBaseAttackCountReduce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082631,
+      "m_Key": "UniqueMod_SkillCooldownReduce",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082632,
+      "m_Key": "UniqueMod_SlayerLowHpAttackSpeed",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082633,
+      "m_Key": "UniqueMod_SorcererLightningShock",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140560310221082634,
+      "m_Key": "UniqueMod_WhirlwindFireIgnite",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140624972765663232,
+      "m_Key": "Physical",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140624972769857536,
+      "m_Key": "Fire",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140624972769857537,
+      "m_Key": "Cold",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140624972769857538,
+      "m_Key": "Lightning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 140624972769857539,
+      "m_Key": "Chaos",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142063484845101056,
+      "m_Key": "RuneName_MaxAmountActBossChest",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142063484870266880,
+      "m_Key": "Toast_OpenBoxFail",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142063484870266881,
+      "m_Key": "Shop_StashPack",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142405463785279488,
+      "m_Key": "PetDescription_6001",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142405463814639616,
+      "m_Key": "PetDescription_6002",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142405463814639617,
+      "m_Key": "PetDescription_6003",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142436761073553408,
+      "m_Key": "Notice_DetectAnticheat",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142812785363849216,
+      "m_Key": "UI_TradingStash_Description_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142812785389015040,
+      "m_Key": "UI_TradingStash_Notice1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142812785389015041,
+      "m_Key": "UI_TradingStash_Notice2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 142812785389015042,
+      "m_Key": "Toast_CannotSelectHero_FirstSetting",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143207423783665664,
+      "m_Key": "UI_DataCollect_Subject",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143198994520276992,
+      "m_Key": "UI_DataCollectGuide_Context",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143551183335915520,
+      "m_Key": "UI_Mailbox_StatusText1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143551183356887040,
+      "m_Key": "UI_Mailbox_StatusText2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143551183356887041,
+      "m_Key": "UI_Mailbox_WarningText1",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143551183356887042,
+      "m_Key": "UI_Mailbox_WarningText2",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143551183356887043,
+      "m_Key": "Toast_LockedServerIssue",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143898373286465536,
+      "m_Key": "Toast_DeleteItemOnlyAlchemy",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143898373307437056,
+      "m_Key": "Item_CannotTradeAndSynthesis",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143898373307437057,
+      "m_Key": "Toast_DeletedServerBox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 143898373307437058,
+      "m_Key": "Toast_CannotUseTradingStashLowCubeLevel",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144336722094657536,
+      "m_Key": "Setting_SteamInventoryFix",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144336722136600576,
+      "m_Key": "Deleted_RemovedInventory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144344230007869440,
+      "m_Key": "Already_Running",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144344230012063744,
+      "m_Key": "SteamInventoryFixingText",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144344230012063745,
+      "m_Key": "CannotDoSomethingFixingSteamInventory",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 144349440692391936,
+      "m_Key": "Start",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 146474805531447296,
+      "m_Key": "Notice_NotMatchAppVersion",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 146474805556613120,
+      "m_Key": "Notice_Maintenance",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099968,
+      "m_Key": "Notice_ServerLoginFailed_Ticket",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 146474805556613122,
+      "m_Key": "PopUp_BoxDropError_WrongReport",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 146474805556613123,
+      "m_Key": "PopUp_BoxDropError_DisconnectServer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 146474805556613124,
+      "m_Key": "PopUp_CannotUseTradingStash",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099969,
+      "m_Key": "Notice_ServerLoginFailed_Backend",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099970,
+      "m_Key": "PopUp_DisconnectServer",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099971,
+      "m_Key": "PopUp_DisconnectServer_TryReconnect",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099972,
+      "m_Key": "PopUp_CannotStartResetDataComplete",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099973,
+      "m_Key": "Toast_MailClaimBoxOpen",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148279997558099974,
+      "m_Key": "PopUp_ServerError",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148556996319055872,
+      "m_Key": "EntryQueue_Title",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148556996340027392,
+      "m_Key": "EntryQueue_Description",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 148556996340027393,
+      "m_Key": "EntryQueue_RemailTime",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 149295269286973440,
+      "m_Key": "PopUp_Function_DISABLED",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643196915712,
+      "m_Key": "PopUp_Alchemy_Unvalidated",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275840,
+      "m_Key": "TradingStash_PleaseCheckMailBox",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275841,
+      "m_Key": "TradingStash_PleaseWaitBecauseItemMove",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275842,
+      "m_Key": "Option_TradingStashWarning",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275843,
+      "m_Key": "Notice_TradingStashSlotDescription",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275844,
+      "m_Key": "Server_Maintenance_Popup_Description",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    },
+    {
+      "m_Id": 151184643226275845,
+      "m_Key": "UI_Portal_AbuseGuardNotice",
+      "m_Metadata": {
+        "m_Items": []
+      }
+    }
+  ],
+  "m_Metadata": {
+    "m_Items": []
+  },
+  "m_KeyGenerator": {
+    "rid": 7903433178175766881
+  },
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": 7903433178175766881,
+        "type": {
+          "class": "DistributedUIDGenerator",
+          "ns": "UnityEngine.Localization.Tables",
+          "asm": "Unity.Localization"
+        },
+        "data": {}
+      }
+    ]
+  }
+}
