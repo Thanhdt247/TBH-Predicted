@@ -5,13 +5,6 @@ function sendLog(msg, isError = false) {
     send({ type: isError ? 'error' : 'diag', msg: msg });
 }
 
-function sendData(normalQueues, bossQueues) {
-    send({ 
-        type: 'drop_data', 
-        data: { "normal": normalQueues, "boss": bossQueues }
-    });
-}
-
 function cR(a) { try { return a && !a.isNull() && Process.findRangeByAddress(a) !== null; } catch (e) { return false; } }
 function rP(b, o) { try { var v = b.add(o).readPointer(); return cR(v) ? v : null; } catch (e) { return null; } }
 function rI(b, o) { try { return b.add(o).readS32(); } catch (e) { return null; } }
@@ -120,7 +113,6 @@ if (!MOD) {
                     if (rcs2(il2cpp_method_get_name(mm)) !== 'op_Implicit') continue;
                     var rt = rcs2(il2cpp_type_get_name(il2cpp_method_get_return_type(mm)));
                     if (rt !== 'System.Int32' && rt !== 'Int32' && rt !== 'int') continue;
-                    
                     var code = mm.readPointer();
                     if (cR(code)) { DECRYPT = new NativeFunction(code, 'int', ['pointer']); }
                     break;
@@ -128,12 +120,10 @@ if (!MOD) {
             }
         } catch(e) {}
         
-        sendLog('Hệ Thống Quét Lõi (Sync Engine): SẴN SÀNG!');
+        sendLog('[System] Radar V6: Sync Cắt Lát + Chống Tràn RAM (SẴN SÀNG!)');
 
         function readItemId(bd) {
-            if (DECRYPT) { 
-                try { var v = DECRYPT(bd.add(OFF_REWARD)); if (v && v > 0) return v; } catch (e) {} 
-            }
+            if (DECRYPT) { try { var v = DECRYPT(bd.add(OFF_REWARD)); if (v && v > 0) return v; } catch (e) {} }
             try {
                 var ptr = bd.add(OFF_REWARD);
                 var key = ptr.add(0).readS32();
@@ -146,23 +136,18 @@ if (!MOD) {
             return null; 
         }
 
-        function headerOk(vw) {
-            try { return cR(vw) && vw.readPointer().equals(K); } catch (e) { return false; }
-        }
+        function headerOk(vw) { try { return cR(vw) && vw.readPointer().equals(K); } catch (e) { return false; } }
 
         function structOk(vw) {
             if (!vw || !headerOk(vw)) return false;
             var dict = rP(vw, OFF_DICT); 
             if (!dict) return false;
             var count = rI(dict, 0x20); 
-            
-            // SỬA LỖI CHÍ MẠNG: Chỉ reject khi count < 0, nương tay với Rương có count = 0 (Rương Map mới)
             if (count === null || count < 0 || count > 50) return false; 
             if (count === 0) return true;
             
             var ep = rP(dict, 0x18); 
             if (!ep) return false;
-            
             var total = 0;
             for (var i = 0; i < count; i++) {
                 var entry = ep.add(0x20 + i * 24);
@@ -170,11 +155,9 @@ if (!MOD) {
                 var lp = rP(entry, 0x10);
                 if (key === null || key < 0 || key > 5) return false;
                 if (!lp) return false;
-                
                 var arr = rP(lp, 0x10);
                 var sz = rI(lp, 0x18);
-                if (!arr) return false;
-                if (sz === null || sz < 0 || sz > 500) return false;
+                if (!arr || sz === null || sz < 0 || sz > 500) return false;
                 total += sz;
             }
             return true;
@@ -184,8 +167,7 @@ if (!MOD) {
             if (!structOk(vw)) return null; 
             var dict = rP(vw, OFF_DICT);
             var count = rI(dict, 0x20);
-            
-            if (count === 0) return { n: [], b: [] }; // Nhả mảng rỗng nếu là Rương trống
+            if (count === 0) return { n: [], b: [] }; 
 
             var ep = rP(dict, 0x18);
             var n_arr = [];
@@ -218,12 +200,13 @@ if (!MOD) {
         })();
 
         // ========================================================
-        // 🚀 ĐỘNG CƠ QUÉT ĐỒNG BỘ TIME-SLICING - CHỐNG TREO 100%
+        // 🚀 ĐỘNG CƠ CẮT LÁT THỜI GIAN KẾT HỢP DỌN RAM (NO GHOST CHEST)
         // ========================================================
         var chest_history = {}; 
         var current_active_chest = null;
-        var last_sent_key = "";
         var g_scanning = false;
+        var last_sent_key = "";
+        var force_reset_ui = false;
 
         function doFullScan() {
             if (g_scanning) return;
@@ -231,107 +214,91 @@ if (!MOD) {
 
             var ranges = Process.enumerateRanges('rw-');
             var r = 0;
-            var found = [];
+            var changed_chest = null;
+            var valid_addrs = new Set(); // Sổ tay để đối chiếu rương ma
 
             function scanTick() {
                 var start = Date.now();
                 while (r < ranges.length) {
                     var range = ranges[r++];
                     
-                    // Lọc bỏ vùng nhớ rác
+                    // Lọc RAM: 4KB - 200MB (Giữ nguyên 4KB vì Unity rất hay chia đồ vào block nhỏ)
                     if (range.size < 4096 || range.size > 1024 * 1024 * 200) continue; 
                     
                     try {
-                        // TUYỆT KỸ SCAN-SYNC: Quét từng cục bộ nhớ. Lỗi thì skip. Không xài Call-back, tránh đứng máy!
+                        // QUÉT ĐỒNG BỘ chống treo Frida
                         var hits = Memory.scanSync(range.base, range.size, PAT);
                         for (var i = 0; i < hits.length; i++) {
                             var addr = hits[i].address;
                             if (headerOk(addr) && structOk(addr)) {
-                                found.push(addr);
+                                var addrStr = addr.toString();
+                                valid_addrs.add(addrStr);
+                                
+                                var qs = readQueues(addr);
+                                if (qs) {
+                                    var totalItems = qs.n.length + qs.b.length;
+                                    var key = qs.n.length + "-" + qs.b.length;
+
+                                    if (chest_history[addrStr] === undefined) {
+                                        chest_history[addrStr] = key;
+                                        // Chỉ quan tâm rương nếu nó CÓ ĐỒ (Rương mới toanh)
+                                        if (totalItems > 0) changed_chest = addrStr;
+                                    } else {
+                                        if (chest_history[addrStr] !== key) {
+                                            chest_history[addrStr] = key;
+                                            // Rương cũ rớt thêm đồ -> Mục tiêu đang hoạt động!
+                                            if (totalItems > 0) changed_chest = addrStr;
+                                        }
+                                    }
+                                }
                             }
                         }
                     } catch (e) { }
                     
-                    // NGHỆ THUẬT CẮT LÁT THỜI GIAN:
-                    // Quét > 40ms là phải nhả luồng CPU ra cho game chạy 10ms rồi quét tiếp, chống giật game!
+                    // TIME-SLICING: Trả CPU cho game thở mỗi 40ms
                     if (Date.now() - start > 40) {
                         setTimeout(scanTick, 10);
                         return;
                     }
                 }
                 
-                // Kết thúc 1 đợt quét toàn RAM
-                processScanResults(found);
+                // ---- KẾT THÚC 1 ĐỢT QUÉT ----
                 g_scanning = false;
-                
-                // Dùng vệ tinh quét định kỳ 1.5 giây / 1 lần
+
+                // TUYỆT KỸ CHỐNG RƯƠNG MA: Nếu có rương biến động, khóa cứng nó lại!
+                // KHÔNG SO SÁNH "RƯƠNG NÀO NHIỀU ĐỒ HƠN" NHƯ TRƯỚC ĐÂY NỮA
+                if (changed_chest) {
+                    if (current_active_chest !== changed_chest) {
+                        current_active_chest = changed_chest;
+                        force_reset_ui = true; // Kích hoạt cờ dọn giao diện Python
+                        sendLog("🎯 Radar đã khóa mục tiêu Rương Map mới: " + current_active_chest);
+                    }
+                }
+
+                // Dọn rác Sổ đen: Loại bỏ các rương bị Game xóa khỏi RAM
+                var to_delete = [];
+                for (var aStr in chest_history) {
+                    if (!valid_addrs.has(aStr)) {
+                        to_delete.push(aStr);
+                    }
+                }
+                for (var i = 0; i < to_delete.length; i++) {
+                    delete chest_history[to_delete[i]];
+                }
+
+                // Chống tràn 1.2GB RAM
+                if (typeof gc === 'function') { gc(); }
+
                 setTimeout(doFullScan, 1500); 
             }
             
             scanTick();
         }
 
-        function processScanResults(found) {
-            var valid_addrs = new Set();
-            var changed_chest = null;
-            var best_chest = null;
-            var highest = -1;
-
-            for (var i = 0; i < found.length; i++) {
-                var addr = found[i];
-                var addrStr = addr.toString();
-                valid_addrs.add(addrStr);
-
-                var qs = readQueues(addr);
-                if (!qs) continue;
-
-                var total = qs.n.length + qs.b.length;
-                var key = qs.n.length + "-" + qs.b.length;
-
-                // Nếu có biến động đồ đạc, khoanh vùng ngay rương đó
-                if (chest_history[addrStr] === undefined) {
-                    chest_history[addrStr] = key;
-                    if (total > 0) changed_chest = addr;
-                } else {
-                    if (chest_history[addrStr] !== key) {
-                        chest_history[addrStr] = key;
-                        changed_chest = addr; 
-                    }
-                }
-
-                // Luôn cập nhật rương mập nhất để dự phòng
-                if (total > highest) {
-                    highest = total;
-                    best_chest = addr;
-                }
-            }
-
-            // Gạch tên mấy cái rương Bóng ma bị game xóa
-            for (var oldAddr in chest_history) {
-                if (!valid_addrs.has(oldAddr)) {
-                    delete chest_history[oldAddr];
-                }
-            }
-
-            var target_chest = changed_chest ? changed_chest : best_chest;
-
-            if (target_chest) {
-                var targetStr = target_chest.toString();
-                if (current_active_chest !== targetStr) {
-                    current_active_chest = targetStr;
-                    
-                    // RA LỆNH CHO PYTHON DỌN DẸP UI
-                    send({ type: 'new_chest_locked' });
-                    last_sent_key = ""; // Reset khóa gửi để cập nhật ngay lập tức
-                    sendLog("Khóa mục tiêu Rương Map mới: " + targetStr);
-                }
-            }
-        }
-
-        doFullScan(); // Kích hoạt tên lửa quét
+        doFullScan(); 
 
         // ========================================================
-        // 🚀 BƠM DỮ LIỆU LÊN GIAO DIỆN MỖI 0.3 GIÂY
+        // 🚀 BƠM DỮ LIỆU ĐỒNG BỘ ƯU TIÊN VỀ PYTHON
         // ========================================================
         setInterval(function () {
             if (!current_active_chest) return;
@@ -343,10 +310,18 @@ if (!MOD) {
             if (!qs) return;
             
             var current_key = qs.n.length + "-" + qs.b.length;
-            
-            if (current_key !== last_sent_key) {
+
+            if (current_key !== last_sent_key || force_reset_ui) {
                 last_sent_key = current_key;
-                sendData(qs.n, qs.b);
+                
+                var is_reset = force_reset_ui;
+                force_reset_ui = false; // Gửi xong thì cất cờ đi
+                
+                send({ 
+                    type: 'drop_data', 
+                    reset: is_reset,
+                    data: { "normal": qs.n, "boss": qs.b } 
+                });
             }
         }, 300); 
     }

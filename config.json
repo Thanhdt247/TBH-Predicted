@@ -16,12 +16,12 @@
         "HideArcana": false,
         "HideBeyond": false,
         "HideCelestial": false,
-        "HideCommon": false,
+        "HideCommon": true,
         "HideCosmic": false,
         "HideDivine": false,
         "HideImmortal": false,
         "HideLegendary": false,
-        "HideRare": false,
-        "HideUncommon": false
+        "HideRare": true,
+        "HideUncommon": true
     }
 }
