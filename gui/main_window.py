@@ -1,10 +1,11 @@
 # gui/main_window.py
 import threading
 import re
+import os
 from datetime import datetime
 
 from PyQt6.QtCore import Qt, pyqtSignal, QAbstractTableModel, QModelIndex, QSortFilterProxyModel
-from PyQt6.QtGui import QFont, QColor
+from PyQt6.QtGui import QFont, QColor, QIcon
 from PyQt6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QTableWidgetItem, 
                              QHeaderView, QLabel, QFrame)
 
@@ -24,9 +25,6 @@ except ImportError:
     def get_all_item_ids():
         return ["117001", "127001"] 
 
-# ==========================================
-# TỪ ĐIỂN UI (ĐÃ XÓA SẠCH EMOJI)
-# ==========================================
 UI_TEXT = {
     "vi": {
         "console_title": "Console & Điều Khiển",
@@ -46,6 +44,13 @@ UI_TEXT = {
         "setting_filter_group": "Radar & Bộ lọc (Ẩn đồ chờ rớt)",
         "hide": "Ẩn đồ",
         "hide_desc": "Loại bỏ đồ màu",
+        "setting_adv_group": "Tính năng Can thiệp (Hack Lõi)",
+        "adv_bypass": "Xóa thời gian chờ đổi Map",
+        "adv_bypass_desc": "Bypass Limit: Bỏ qua cảnh báo thao tác quá nhanh của Game",
+        "adv_coin": "Ép Tiền Kỷ Niệm lên đầu Rương",
+        "adv_coin_desc": "Auto Coin: Ưu tiên nhả các loại vé quay, tiền VIP ra trước",
+        "adv_arcana": "Ép đồ Arcana vào Top 5",
+        "adv_arcana_desc": "Auto Arcana: Ưu tiên rớt trang bị/nguyên liệu Arcana lên đầu",
         "log_ready": "Hệ thống đã sẵn sàng. Chờ lệnh khởi động...",
         "log_detach": "Đang rút mã tiêm, ngắt kết nối...",
         "log_search": "Đang tìm tiến trình",
@@ -88,6 +93,13 @@ UI_TEXT = {
         "setting_filter_group": "Radar & Filters (Hide pending)",
         "hide": "Hide",
         "hide_desc": "Filter out",
+        "setting_adv_group": "Advanced Features (Hack)",
+        "adv_bypass": "Bypass Map Cooldown",
+        "adv_bypass_desc": "Remove the wait time and warnings when switching maps.",
+        "adv_coin": "Promote Important Coins",
+        "adv_coin_desc": "Force Event Coins and Gacha Tickets to drop first.",
+        "adv_arcana": "Promote Arcana to Top 5",
+        "adv_arcana_desc": "Force Arcana gears and materials into the first 5 drop slots.",
         "log_ready": "System ready. Waiting for start command...",
         "log_detach": "Detaching payload, disconnecting...",
         "log_search": "Searching for process",
@@ -120,18 +132,14 @@ class ConsoleInterface(QWidget):
         self.setObjectName("ConsoleInterface")
         self.vBoxLayout = QVBoxLayout(self)
         self.vBoxLayout.setContentsMargins(20, 20, 20, 20)
-
         self.titleLabel = SubtitleLabel(UI_TEXT["vi"]["console_title"], self)
         self.vBoxLayout.addWidget(self.titleLabel)
-
         self.controlLayout = QHBoxLayout()
         self.btnToggle = PrimaryPushButton(FIF.PLAY, UI_TEXT["vi"]["btn_start"])
         self.btnToggle.setFixedWidth(150)
-        
         self.controlLayout.addWidget(self.btnToggle)
         self.controlLayout.addStretch(1)
         self.vBoxLayout.addLayout(self.controlLayout)
-
         self.logArea = TextEdit(self)
         self.logArea.setReadOnly(True)
         self.logArea.setFont(QFont("Consolas", 10)) 
@@ -155,44 +163,34 @@ class DropInterface(QWidget):
         self.vBoxLayout = QVBoxLayout(self)
         self.vBoxLayout.setContentsMargins(15, 15, 15, 15)
         self.vBoxLayout.setSpacing(10)
-
         self.wishlistLayout = QHBoxLayout()
         self.lblTrack = QLabel(UI_TEXT["vi"]["tracked_box"], self)
         self.lblTrack.setStyleSheet("font-weight: bold; font-size: 14px; color: #E0E0E0;")
-        
         self.wishlistInput = LineEdit(self)
         self.wishlistInput.setPlaceholderText(UI_TEXT["vi"]["wishlist_ph"])
-        
         self.btnAddWishlist = PushButton(FIF.ADD, UI_TEXT["vi"]["wishlist_add"], self)
         self.btnClearWishlist = PushButton(FIF.DELETE, UI_TEXT["vi"]["wishlist_clear"], self)
-        
         self.wishlistLayout.addWidget(self.lblTrack)
         self.wishlistLayout.addWidget(self.wishlistInput, 1)
         self.wishlistLayout.addWidget(self.btnAddWishlist)
         self.wishlistLayout.addWidget(self.btnClearWishlist)
-        
         self.vBoxLayout.addLayout(self.wishlistLayout)
-
         self.table_tracked = self.create_table(UI_TEXT["vi"]["headers_track"], is_track_table=True)
         self.vBoxLayout.addWidget(self.table_tracked, 1) 
-
         self.tablesLayout = QHBoxLayout()
         self.tablesLayout.setSpacing(10) 
-        
         self.normal_layout = QVBoxLayout()
         self.normalLabel = QLabel(UI_TEXT["vi"]["normal_box"], self)
         self.normalLabel.setStyleSheet("font-weight: bold; font-size: 14px; color: #E0E0E0;")
         self.table_normal = self.create_table(UI_TEXT["vi"]["headers_drop"])
         self.normal_layout.addWidget(self.normalLabel)
         self.normal_layout.addWidget(self.table_normal)
-        
         self.boss_layout = QVBoxLayout()
         self.bossLabel = QLabel(UI_TEXT["vi"]["boss_box"], self)
         self.bossLabel.setStyleSheet("font-weight: bold; font-size: 14px; color: #E0E0E0;")
         self.table_boss = self.create_table(UI_TEXT["vi"]["headers_drop"])
         self.boss_layout.addWidget(self.bossLabel)
         self.boss_layout.addWidget(self.table_boss)
-
         self.tablesLayout.addLayout(self.normal_layout)
         self.tablesLayout.addLayout(self.boss_layout)
         self.vBoxLayout.addLayout(self.tablesLayout, 2) 
@@ -204,35 +202,13 @@ class DropInterface(QWidget):
         table.setWordWrap(False) 
         table.setTextElideMode(Qt.TextElideMode.ElideRight)
         table.setShowGrid(False) 
-        
         table.setStyleSheet("""
-            QTableView { 
-                background-color: #121212; 
-                border: 1px solid #333333; 
-                color: #E0E0E0; 
-                outline: none;
-            }
-            QHeaderView::section { 
-                background-color: #1A1A1A; 
-                color: #B0B0B0; 
-                font-weight: bold; 
-                border: none; 
-                border-bottom: 2px solid #2D2D2D; 
-                padding: 4px; 
-            }
-            QTableView::item { 
-                border: none;
-                border-bottom: 1px solid #1E1E1E; 
-            }
-            QTableView::item:selected { 
-                background-color: #2A2A2A; 
-            }
-            QTableCornerButton::section { 
-                background-color: #1A1A1A; 
-                border: none; 
-            }
+            QTableView { background-color: #121212; border: 1px solid #333333; color: #E0E0E0; outline: none; }
+            QHeaderView::section { background-color: #1A1A1A; color: #B0B0B0; font-weight: bold; border: none; border-bottom: 2px solid #2D2D2D; padding: 4px; }
+            QTableView::item { border: none; border-bottom: 1px solid #1E1E1E; }
+            QTableView::item:selected { background-color: #2A2A2A; }
+            QTableCornerButton::section { background-color: #1A1A1A; border: none; }
         """)
-        
         if is_track_table:
             table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents) 
             table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents) 
@@ -242,7 +218,6 @@ class DropInterface(QWidget):
             table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents) 
             table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents) 
             table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.Stretch) 
-            
         table.verticalHeader().hide()
         table.verticalHeader().setDefaultSectionSize(26) 
         return table
@@ -255,7 +230,6 @@ class DropInterface(QWidget):
         self.table_tracked.setHorizontalHeaderLabels(t["headers_track"])
         self.table_normal.setHorizontalHeaderLabels(t["headers_drop"])
         self.table_boss.setHorizontalHeaderLabels(t["headers_drop"])
-        
         self.wishlistInput.setPlaceholderText(t["wishlist_ph"])
         self.btnAddWishlist.setText(t["wishlist_add"])
         self.btnClearWishlist.setText(t["wishlist_clear"])
@@ -297,31 +271,20 @@ class ItemTableModel(QAbstractTableModel):
         if not index.isValid(): return None
         row, col = index.row(), index.column()
         item_id = str(self.ids[row])
-        
         if role == Qt.ItemDataRole.DisplayRole:
             if col == 0: return item_id
-            elif col == 1:
-                return get_item_info(item_id, lang=self.lang_code)["name"]
-            elif col == 2:
-                # Thay đổi hiển thị hành động dạng ngoặc vuông cổ điển
-                return "[✅]" if item_id in self.tracked_items else "[+]"
-        
+            elif col == 1: return get_item_info(item_id, lang=self.lang_code)["name"]
+            elif col == 2: return "[✅]" if item_id in self.tracked_items else "[+]"
         elif role == Qt.ItemDataRole.ForegroundRole:
-            if col == 1:
-                return QColor(get_item_info(item_id, lang=self.lang_code)["color"])
-            elif col == 2:
-                return QColor("#4CAF50") if item_id in self.tracked_items else QColor("#9E9E9E")
-                
+            if col == 1: return QColor(get_item_info(item_id, lang=self.lang_code)["color"])
+            elif col == 2: return QColor("#4CAF50") if item_id in self.tracked_items else QColor("#9E9E9E")
         elif role == Qt.ItemDataRole.FontRole:
             if col == 1 or col == 2: return self.font_bold
-            
         elif role == Qt.ItemDataRole.TextAlignmentRole:
             if col == 0 or col == 2: return Qt.AlignmentFlag.AlignCenter
             return Qt.AlignmentFlag.AlignVCenter
-            
         elif role == Qt.ItemDataRole.UserRole: 
             return item_id 
-            
         return None
 
     def headerData(self, section, orientation, role=Qt.ItemDataRole.DisplayRole):
@@ -353,33 +316,27 @@ class DataInterface(QWidget):
         self.setObjectName("DataInterface")
         self.vBoxLayout = QVBoxLayout(self)
         self.vBoxLayout.setContentsMargins(20, 20, 20, 20)
-
         self.titleLabel = SubtitleLabel(UI_TEXT["vi"]["data_title"], self)
         self.searchBar = SearchLineEdit(self)
         self.searchBar.setPlaceholderText(UI_TEXT["vi"]["search_ph"])
-        
         self.table = TableView(self)
         self.model = ItemTableModel(self)
         self.proxy_model = ItemFilterProxyModel(self)
         self.proxy_model.setSourceModel(self.model)
         self.table.setModel(self.proxy_model)
-        
         self.searchBar.textChanged.connect(self.proxy_model.set_filter_text)
         self.table.clicked.connect(self.on_table_clicked)
-
         self.table.setStyleSheet("""
             QTableView { background-color: #121212; border: 1px solid #333333; color: #E0E0E0; outline: none; }
             QHeaderView::section { background-color: #1A1A1A; color: #B0B0B0; font-weight: bold; border: none; border-bottom: 2px solid #2D2D2D; padding: 4px; }
             QTableView::item { border-bottom: 1px solid #1E1E1E; }
             QTableView::item:selected { background-color: #2A2A2A; }
         """)
-
         self.table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
         self.table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
         self.table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
         self.table.verticalHeader().hide()
         self.table.verticalHeader().setDefaultSectionSize(32)
-
         self.vBoxLayout.addWidget(self.titleLabel)
         self.vBoxLayout.addWidget(self.searchBar)
         self.vBoxLayout.addWidget(self.table)
@@ -411,6 +368,13 @@ class SettingInterface(ScrollArea):
         self.setObjectName("SettingInterface")
         self.setWidgetResizable(True)
         self.scrollWidget = QWidget()
+        self.scrollWidget.setObjectName("scrollWidget")
+        self.setStyleSheet("""
+            QScrollArea { background-color: #202020; border: none; }
+            #scrollWidget { background-color: #202020; }
+        """)
+        self.viewport().setStyleSheet("background-color: transparent;")
+        
         self.setWidget(self.scrollWidget)
         self.vBoxLayout = QVBoxLayout(self.scrollWidget)
         self.vBoxLayout.setContentsMargins(30, 20, 30, 20)
@@ -418,14 +382,12 @@ class SettingInterface(ScrollArea):
         self.titleLabel = SubtitleLabel(UI_TEXT["vi"]["setting_title"], self)
         self.vBoxLayout.addWidget(self.titleLabel)
 
-        # CHUYỂN COMBOBOX NGÔN NGỮ VÀO ĐÂY
         self.langLayout = QHBoxLayout()
         self.langLabel = QLabel(UI_TEXT["vi"]["lang_label"], self.scrollWidget)
         self.langLabel.setStyleSheet("font-weight: bold; font-size: 14px; color: #E0E0E0;")
         self.comboLang = ComboBox(self.scrollWidget)
         self.comboLang.addItems(["Tiếng Việt", "English"])
         self.comboLang.setCurrentText(cfg.language.value)
-        
         self.langLayout.addWidget(self.langLabel)
         self.langLayout.addWidget(self.comboLang)
         self.langLayout.addStretch(1)
@@ -437,16 +399,23 @@ class SettingInterface(ScrollArea):
         self.displayGroup.addSettingCard(self.fontCard)
         self.vBoxLayout.addWidget(self.displayGroup)
 
+        self.advGroup = SettingCardGroup(UI_TEXT["vi"]["setting_adv_group"], self.scrollWidget)
+        self.bypassCard = SwitchSettingCard(FIF.UPDATE, UI_TEXT["vi"]["adv_bypass"], UI_TEXT["vi"]["adv_bypass_desc"], configItem=cfg.bypass_limit, parent=self.advGroup)
+        self.coinCard = SwitchSettingCard(FIF.TAG, UI_TEXT["vi"]["adv_coin"], UI_TEXT["vi"]["adv_coin_desc"], configItem=cfg.auto_coin, parent=self.advGroup)
+        self.arcanaCard = SwitchSettingCard(FIF.HEART, UI_TEXT["vi"]["adv_arcana"], UI_TEXT["vi"]["adv_arcana_desc"], configItem=cfg.auto_arcana, parent=self.advGroup)
+        self.advGroup.addSettingCard(self.bypassCard)
+        self.advGroup.addSettingCard(self.coinCard)
+        self.advGroup.addSettingCard(self.arcanaCard)
+        self.vBoxLayout.addWidget(self.advGroup)
+
         self.filterGroup = SettingCardGroup(UI_TEXT["vi"]["setting_filter_group"], self.scrollWidget)
         configs = [cfg.hide_common, cfg.hide_uncommon, cfg.hide_rare, cfg.hide_legendary, cfg.hide_immortal,
                    cfg.hide_arcana, cfg.hide_beyond, cfg.hide_celestial, cfg.hide_divine, cfg.hide_cosmic]
-                   
         self.cards = []
         for conf in configs:
             card = SwitchSettingCard(FIF.HIDE, "Hide", "Desc", configItem=conf, parent=self.filterGroup)
             self.cards.append(card)
             self.filterGroup.addSettingCard(card)
-            
         self.vBoxLayout.addWidget(self.filterGroup)
         self.vBoxLayout.addStretch(1)
 
@@ -459,12 +428,18 @@ class SettingInterface(ScrollArea):
             self.fontCard.titleLabel.setText(t["setting_font"])
             self.fontCard.contentLabel.setText(t["setting_font_desc"])
             self.filterGroup.titleLabel.setText(t["setting_filter_group"])
+            self.advGroup.titleLabel.setText(t["setting_adv_group"])
+            self.bypassCard.titleLabel.setText(t["adv_bypass"])
+            self.bypassCard.contentLabel.setText(t["adv_bypass_desc"])
+            self.coinCard.titleLabel.setText(t["adv_coin"])
+            self.coinCard.contentLabel.setText(t["adv_coin_desc"])
+            self.arcanaCard.titleLabel.setText(t["adv_arcana"])
+            self.arcanaCard.contentLabel.setText(t["adv_arcana_desc"])
             
             rarities = ["COMMON", "UNCOMMON", "RARE", "LEGENDARY", "IMMORTAL", "ARCANA", "BEYOND", "CELESTIAL", "DIVINE", "COSMIC"]
             colors_vi = ["Xám", "Xanh lá", "Xanh lam", "Cam", "Đỏ", "Hồng", "Tím", "Xanh lơ", "Đỏ nhạt", "Tím đậm"]
             colors_en = ["Gray", "Green", "Blue", "Orange", "Red", "Pink", "Purple", "Cyan", "Light Red", "Dark Purple"]
             colors = colors_vi if lang_code == "vi" else colors_en
-            
             for i, card in enumerate(self.cards):
                 card.titleLabel.setText(f"{t['hide']} {rarities[i]}")
                 card.contentLabel.setText(f"{t['hide_desc']} {colors[i]}")
@@ -477,29 +452,39 @@ class TaskbarHeroToolUI(FluentWindow):
     signal_alert = pyqtSignal(str, str) 
 
     def __init__(self):
-        super().__init__()
+        qconfig.set(qconfig.themeMode, Theme.DARK)
         setTheme(Theme.DARK)
-        self.setWindowTitle(f"TaskbarHero Tiên Tri - {CURRENT_VERSION}")
-        self.resize(1100, 750) 
         
+        super().__init__()
+        
+        self.setWindowTitle(f"TaskbarHero Tiên Tri - {CURRENT_VERSION}")
+        try:
+            base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            logo_path = os.path.join(base_path, "resources", "assets", "logo.ico")
+            if os.path.exists(logo_path):
+                self.setWindowIcon(QIcon(logo_path))
+        except Exception:
+            pass
+
+        self.resize(1100, 750) 
         self.is_running = False
         self.is_first_load = True 
         
         self.baseline_data = {"normal": [], "boss": []}
-        self.current_counts = {"normal": 0, "boss": 0}
         self.tracked_items = set()
+        saved_tracked = cfg.tracked_items.value.strip()
+        if saved_tracked:
+            self.tracked_items = set(saved_tracked.split(','))
         self.alerted_items_indices = set() 
-
+        
         self.consoleInterface = ConsoleInterface(self)
         self.dropInterface = DropInterface(self)
         self.dataInterface = DataInterface(self) 
         self.settingInterface = SettingInterface(self)
-
         self.initNavigation()
-
-        self.consoleInterface.btnToggle.clicked.connect(self.toggle_tool)
-        self.settingInterface.comboLang.currentTextChanged.connect(self.change_language) # Kết nối lang từ Setting
         
+        self.consoleInterface.btnToggle.clicked.connect(self.toggle_tool)
+        self.settingInterface.comboLang.currentTextChanged.connect(self.change_language) 
         self.dropInterface.btnAddWishlist.clicked.connect(self.add_wishlist)
         self.dropInterface.btnClearWishlist.clicked.connect(self.clear_wishlist)
         self.dataInterface.signal_toggle_track.connect(self.toggle_wishlist_item) 
@@ -508,7 +493,7 @@ class TaskbarHeroToolUI(FluentWindow):
         self.signal_log.connect(self.consoleInterface.print_log)
         self.signal_status.connect(self.show_toast_status)
         self.signal_alert.connect(self.show_alert_toast)
-
+        
         cfg.font_size.valueChanged.connect(self.refresh_table)
         cfg.hide_common.valueChanged.connect(self.refresh_table)
         cfg.hide_uncommon.valueChanged.connect(self.refresh_table)
@@ -520,9 +505,28 @@ class TaskbarHeroToolUI(FluentWindow):
         cfg.hide_celestial.valueChanged.connect(self.refresh_table)
         cfg.hide_divine.valueChanged.connect(self.refresh_table)
         cfg.hide_cosmic.valueChanged.connect(self.refresh_table)
-
+        cfg.bypass_limit.valueChanged.connect(self.sync_advanced_configs)
+        cfg.auto_coin.valueChanged.connect(self.sync_advanced_configs)
+        cfg.auto_arcana.valueChanged.connect(self.sync_advanced_configs)
+        
         self.frida_mgr = FridaManager(self.on_frida_message)
         self.apply_language() 
+
+    def sync_advanced_configs(self):
+        if self.is_running and hasattr(self.frida_mgr, 'script') and self.frida_mgr.script:
+            payload = {
+                "type": "update_config",
+                "bypass_limit": cfg.bypass_limit.value,
+                "auto_coin": cfg.auto_coin.value,
+                "auto_arcana": cfg.auto_arcana.value
+            }
+            try:
+                self.frida_mgr.script.post(payload)
+                lang = "vi" if cfg.language.value == "Tiếng Việt" else "en"
+                msg = "Đã đồng bộ cấu hình Hack xuống Game!" if lang == "vi" else "Synced advanced config to Game!"
+                self.signal_log.emit(msg, "#4CAF50", False)
+            except Exception as e:
+                self.signal_log.emit(f"Lỗi đồng bộ: {e}", "#E57373", True)
 
     def initNavigation(self):
         self.addSubInterface(self.consoleInterface, FIF.COMMAND_PROMPT, UI_TEXT["vi"]["nav_console"])
@@ -532,6 +536,9 @@ class TaskbarHeroToolUI(FluentWindow):
         self.navigationInterface.setExpandWidth(180)
 
     def sync_tracking_state(self):
+        cfg.tracked_items.value = ",".join(self.tracked_items)
+        qconfig.save()
+        
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
         self.dropInterface.update_texts(lang_code, self.tracked_items)
         self.dataInterface.update_tracking_status(self.tracked_items)
@@ -573,29 +580,23 @@ class TaskbarHeroToolUI(FluentWindow):
     def apply_language(self):
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
         t = UI_TEXT[lang_code]
-        
         self.consoleInterface.update_texts(lang_code, self.is_running)
         self.settingInterface.update_texts(lang_code)
-        
         self.dataInterface.start_loading(lang_code, self.tracked_items)
         self.dataInterface.update_texts(lang_code)
-        
         self.sync_tracking_state() 
-        
         try:
             self.navigationInterface.widget(self.consoleInterface.objectName()).setText(t["nav_console"])
             self.navigationInterface.widget(self.dropInterface.objectName()).setText(t["nav_drop"])
             self.navigationInterface.widget(self.dataInterface.objectName()).setText(t["nav_data"])
             self.navigationInterface.widget(self.settingInterface.objectName()).setText(t["nav_setting"])
         except: pass
-
         if self.is_first_load:
             self.signal_log.emit(t["log_ready"], "#E0E0E0", False)
 
     def toggle_tool(self):
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
         t = UI_TEXT[lang_code]
-        
         if not self.is_running:
             self.consoleInterface.btnToggle.setText(t["btn_stop"])
             self.consoleInterface.btnToggle.setIcon(FIF.PAUSE_BOLD)
@@ -617,112 +618,91 @@ class TaskbarHeroToolUI(FluentWindow):
         if success:
             self.signal_log.emit(msg, "#81C784", True)
             self.signal_status.emit(msg, True)
+            self.sync_advanced_configs()
         else:
             self.signal_log.emit(msg, "#E57373", True)
             self.signal_status.emit(msg, False)
 
+    # =======================================================
+    # BỘ GIẢI MÃ MỚI: TƯƠNG THÍCH HOÀN TOÀN VỚI SYNTTX.JS
+    # =======================================================
     def on_frida_message(self, message, data):
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
+        
         if message['type'] == 'send':
             payload = message['payload']
-            if payload['type'] == 'drop_data':
-                self.process_tracking_logic(payload['data'])
-            elif payload['type'] == 'new_chest_locked':
-                self.baseline_data = {"normal": [], "boss": []}
-                self.current_counts = {"normal": 0, "boss": 0}
-                self.alerted_items_indices.clear()
-                self.signal_update_table.emit()
-            elif payload['type'] == 'seed_info':
-                prefix = "Seed mới" if lang_code == "vi" else "New Seed"
-                self.signal_log.emit(f"{prefix}: {payload['msg']}", "#FFD54F", True)
-            elif payload['type'] == 'diag':
-                self.signal_log.emit(payload['msg'], "#9E9E9E", False)
-            elif payload['type'] == 'error':
-                prefix = "Lỗi Agent" if lang_code == "vi" else "Agent Error"
-                self.signal_log.emit(f"{prefix}: {payload['msg']}", "#E57373", True)
+            p_type = payload.get('type')
+            
+            if p_type == 'queues':
+                parsed_data = {"normal": [], "boss": []}
+                for q in payload.get('queues', []):
+                    if q.get('eboxType') == 0:
+                        parsed_data["normal"] = q.get('items', [])
+                    elif q.get('eboxType') == 1:
+                        parsed_data["boss"] = q.get('items', [])
+                self.process_tracking_logic(parsed_data)
+                
+            elif p_type == 'log':
+                self.signal_log.emit(payload.get('payload', ''), "#B0BEC5", False)
+                
+            elif p_type == 'ready':
+                self.signal_log.emit(f"Lõi Synttx.js đã sẵn sàng: {payload.get('version')}", "#4CAF50", True)
+                self.sync_advanced_configs()
+                
+            elif p_type == 'selected':
+                item_id = payload.get('itemId')
+                info = get_item_info(str(item_id), lang=lang_code)
+                self.signal_log.emit(f"🎁 Game vừa nhả đồ: {info['name']} (ID: {item_id})", "#FFD54F", True)
+                
+            elif p_type == 'auto_stage_result':
+                msg = payload.get('message', '')
+                self.signal_log.emit(f"🗺️ Auto Stage: {msg}", "#64B5F6", False)
+                
+        elif message['type'] == 'error':
+            self.signal_log.emit(f"Frida Error: {message.get('description', '')}", "#E57373", True)
 
     def process_tracking_logic(self, new_data):
+        self.baseline_data["normal"] = new_data.get("normal", [])
+        self.baseline_data["boss"] = new_data.get("boss", [])
+        
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
         t = UI_TEXT[lang_code]
-        updated = False
-
-        n_len = len(new_data.get("normal", []))
-        b_len = len(new_data.get("boss", []))
-
-        if self.is_first_load:
-            if n_len > 0 or b_len > 0:
-                self.signal_log.emit(f"{t['found']}: {n_len} {t['normal_count']}, {b_len} {t['boss_count']}", "#FFD54F", True)
-            else:
-                self.signal_log.emit(t['empty_warning'], "#E57373", True)
-            self.is_first_load = False
-
+        
         for chest_type in ["normal", "boss"]:
-            new_list = new_data.get(chest_type, [])
-            base_list = self.baseline_data[chest_type]
-            
-            is_new_map = False
-            if not base_list or len(new_list) > self.current_counts[chest_type]:
-                is_new_map = True
-            elif len(new_list) > 0 and new_list != base_list[-len(new_list):]:
-                is_new_map = True
-
-            if is_new_map:
-                self.baseline_data[chest_type] = new_list.copy()
-                self.current_counts[chest_type] = len(new_list)
-                self.alerted_items_indices.clear() 
-                updated = True
-                continue
-
-            old_count = self.current_counts[chest_type]
-            new_count = len(new_list)
-            
-            if new_count < old_count:
-                opened_amount = old_count - new_count
-                for i in range(opened_amount):
-                    item_index = len(base_list) - old_count + i
-                    if item_index < len(base_list):
-                        item_id = base_list[item_index]
-                        info = get_item_info(item_id, lang=lang_code)
-                        type_name = t["normal_box"] if chest_type == "normal" else t["boss_box"]
+            for i, item_id in enumerate(self.baseline_data[chest_type]):
+                item_id_str = str(item_id)
+                if item_id_str in self.tracked_items:
+                    alert_key = f"{chest_type}_{i}_{item_id_str}"
+                    if alert_key not in self.alerted_items_indices:
+                        info = get_item_info(item_id_str, lang=lang_code)
+                        self.signal_alert.emit(t["alert_title"], f"{info['name']} ({item_id_str})\n{t['alert_desc']}")
+                        self.alerted_items_indices.add(alert_key)
                         
-                        log_msg = f"{t['claimed']} {info['name']} ({item_id}) - {type_name} #{item_index + 1}"
-                        self.signal_log.emit(log_msg, "#BCAAA4", False)
-                
-                self.current_counts[chest_type] = new_count
-                updated = True
-
-        if updated:
-            self.signal_update_table.emit()
+        self.signal_update_table.emit()
 
     def refresh_table(self):
         font_size = cfg.font_size.value
         if font_size <= 0: font_size = 9 
-            
         lang_code = "vi" if cfg.language.value == "Tiếng Việt" else "en"
-        t = UI_TEXT[lang_code]
         font = QFont("Consolas" if lang_code == "en" else "Segoe UI", font_size)
 
         table_track = self.dropInterface.table_tracked
         table_track.setRowCount(0)
         sorted_tracked = sorted(list(self.tracked_items), key=lambda x: int(x) if x.isdigit() else x)
-        
         for item_id_str in sorted_tracked:
             info = get_item_info(item_id_str, lang=lang_code)
             row = table_track.rowCount()
             table_track.insertRow(row)
-
             cells = [
                 QTableWidgetItem(item_id_str),
                 QTableWidgetItem(info["rarity"]),
                 QTableWidgetItem(info["name"])
             ]
-
             for col, cell in enumerate(cells):
                 cell.setFont(font)
                 cell.setTextAlignment(Qt.AlignmentFlag.AlignCenter if col < 2 else Qt.AlignmentFlag.AlignVCenter)
                 cell.setForeground(QColor(info["color"])) 
                 table_track.setItem(row, col, cell)
-                
         table_track.resizeRowsToContents()
 
         active_filters = {
@@ -735,59 +715,42 @@ class TaskbarHeroToolUI(FluentWindow):
 
         def populate_table(table, chest_type_key):
             table.setRowCount(0)
-            base_list = self.baseline_data[chest_type_key]
-            current_count = self.current_counts[chest_type_key]
-            opened_count = len(base_list) - current_count
-
-            for i, item_id in enumerate(base_list):
+            items = self.baseline_data[chest_type_key]
+            
+            for i, item_id in enumerate(items):
                 item_id_str = str(item_id)
                 info = get_item_info(item_id_str, lang=lang_code)
-                is_opened = i < opened_count
                 is_tracked = item_id_str in self.tracked_items
-
-                if is_tracked and not is_opened:
-                    alert_key = f"{chest_type_key}_{i}"
-                    if alert_key not in self.alerted_items_indices:
-                        self.signal_alert.emit(t["alert_title"], f"{info['name']} ({item_id_str})\n{t['alert_desc']}")
-                        self.alerted_items_indices.add(alert_key)
-
-                if not is_opened and not is_tracked:
+                
+                if not is_tracked:
                     if active_filters.get(info["rarity"], False):
                         continue
-
+                        
                 row = table.rowCount()
                 table.insertRow(row)
-
                 cells = [
                     QTableWidgetItem(str(i + 1)),
                     QTableWidgetItem(item_id_str),
                     QTableWidgetItem(info["rarity"]),
                     QTableWidgetItem(info["name"])  
                 ]
-
-                item_font = QFont(font)
-                if is_opened: 
-                    item_font.setStrikeOut(True)
                 
+                item_font = QFont(font)
                 for col, cell in enumerate(cells):
                     cell.setFont(item_font)
                     cell.setTextAlignment(Qt.AlignmentFlag.AlignCenter if col < 3 else Qt.AlignmentFlag.AlignVCenter)
                     
-                    if is_opened:
-                        cell.setForeground(QColor("#555555")) 
+                    if is_tracked:
+                        f = cell.font()
+                        f.setBold(True)
+                        cell.setFont(f)
+                        cell.setForeground(QColor(info["color"]))
+                    elif col in [1, 2, 3]: 
+                        cell.setForeground(QColor(info["color"])) 
                     else:
-                        if is_tracked:
-                            f = cell.font()
-                            f.setBold(True)
-                            cell.setFont(f)
-                            cell.setForeground(QColor(info["color"]))
-                        elif col in [1, 2, 3]: 
-                            cell.setForeground(QColor(info["color"])) 
-                        else:
-                            cell.setForeground(QColor("#E0E0E0")) 
+                        cell.setForeground(QColor("#E0E0E0")) 
                         
                     table.setItem(row, col, cell)
-            
             table.resizeRowsToContents()
 
         populate_table(self.dropInterface.table_normal, "normal")
