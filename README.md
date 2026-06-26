@@ -6,13 +6,12 @@
 
 ---
 
-[Giao diện tool](resources/assets/readme_0.png)
-[Giao diện tool](resources/assets/readme_1.png)
-[Giao diện tool](resources/assets/readme_2.png)
-[Giao diện tool](resources/assets/readme_3.png)
-[Giao diện tool](resources/assets/readme_4.png)
-[Giao diện tool](resources/assets/readme_5.png)
-[Giao diện tool](resources/assets/readme_6.png)
+![Giao diện tool](resources/assets/readme_0.png)
+![Giao diện tool](resources/assets/readme_1.png)
+![Giao diện tool](resources/assets/readme_2.png)
+![Giao diện tool](resources/assets/readme_3.png)
+![Giao diện tool](resources/assets/readme_4.png)
+![Giao diện tool](resources/assets/readme_5.png)
 
 ---
 
