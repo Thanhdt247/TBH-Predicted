@@ -457,7 +457,7 @@ class TaskbarHeroToolUI(FluentWindow):
         
         super().__init__()
         
-        self.setWindowTitle(f"TaskbarHero Tiên Tri - {CURRENT_VERSION}")
+        self.setWindowTitle(f"TBH Abyss - {CURRENT_VERSION}")
         try:
             base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
             logo_path = os.path.join(base_path, "resources", "assets", "logo.ico")

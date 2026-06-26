@@ -1,5 +1,5 @@
 'use strict';
-var PROBE_VERSION = 'v64-force-select-explicit-id-raw-queue-20260624 (Fixed Drop Issue)';
+var PROBE_VERSION = 'v64-force-select-explicit-id-raw-queue-20260624 (English/Fixed)';
 send({ type: 'ready', version: PROBE_VERSION });
 console.log = function() {
     var parts = [];
@@ -340,9 +340,7 @@ if (typeof found['ObscuredInt.hiddenValue'] !== 'number' || typeof found['Obscur
     console.log('  CodeStage.AntiCheat.ObscuredTypes.ObscuredInt decrypt fields: NOT FOUND; encrypted reward fallback disabled');
 }
 
-// ==============================================================
-// 👑 VÁ LỖI HIỂN THỊ RƯƠNG BOSS: TÌM HÀM GIẢI MÃ CHUẨN CỦA GAME
-// ==============================================================
+// Search for DECRYPT function
 var g_decryptFn = null;
 console.log('Searching for DECRYPT function (op_Implicit)...');
 for (var a = 0; a < cnt; a++) {
@@ -375,7 +373,6 @@ for (var a = 0; a < cnt; a++) {
         break;
     }
 }
-// ==============================================================
 
 // Known class names: vw has jsq/jsl/jso, other class has iqg/iql
 // First find vw methods
@@ -576,7 +573,6 @@ var g_autoStagePortalMethods = {
 };
 
 // ===============================================
-// THÔNG SỐ ĐƯỢC ĐIỀU KHIỂN BỞI GIAO DIỆN PYTHON
 var BYPASS_STAGE_SWITCH_LIMIT = false;
 var AUTO_IMPORTANT_COIN_HEAD = false;
 var AUTO_ARCANA_TOP5 = false;
@@ -670,7 +666,7 @@ function now() { var d = new Date(); return '[' + d.toISOString().slice(11, 23) 
 function log(msg) { console.log(now() + ' ' + msg); }
 
 function labelForEboxType(ebt) {
-    return ebt === 0 ? '\u666e\u901a\u6389\u843d' : ebt === 1 ? '\u9996\u9886\u6389\u843d' : ebt === 2 ? 'ACT\u6389\u843d' : ebt === 3 ? '\u5e55\u9996\u9886Boss\u6389\u843d' : '\u672a\u77e5\u6389\u843d(' + ebt + ')';
+    return ebt === 0 ? 'Normal Drop' : ebt === 1 ? 'Boss Drop' : ebt === 2 ? 'ACT Drop' : ebt === 3 ? 'Act Boss Drop' : 'Unknown Drop(' + ebt + ')';
 }
 
 function metadataOffset(key, fallback) {
@@ -705,10 +701,6 @@ function readBoxDataObscuredInt(boxPtr, key) {
     }
 }
 
-// =========================================================================
-// 👑 VÁ LỖI CỦA TÁC GIẢ VIP: ĐƯA THUẬT TOÁN ĐỌC ITEM ID CỦA BẠN LÊN SỐ 1
-// CHẶN KHÔNG CHO HIỆN VỎ RƯƠNG NẾU KHÔNG CÓ ĐỒ
-// =========================================================================
 function readBoxDataItemId(boxPtr) {
     if (!boxPtr || boxPtr.isNull()) return 0;
     
@@ -716,7 +708,6 @@ function readBoxDataItemId(boxPtr) {
     if (typeof offReward === 'number') {
         var ptrObj = boxPtr.add(offReward);
         
-        // 1. DÙNG HÀM GIẢI MÃ CHUẨN CỦA GAME (TỶ LỆ CHÍNH XÁC 100%)
         if (g_decryptFn) {
             try {
                 var val = g_decryptFn(ptrObj);
@@ -724,7 +715,6 @@ function readBoxDataItemId(boxPtr) {
             } catch(e) {}
         }
 
-        // 2. DÙNG THUẬT TOÁN XOR DỰ PHÒNG CỦA THÀNH
         try {
             var key = ptrObj.add(0).readS32();
             var hidden = ptrObj.add(4).readS32();
@@ -733,7 +723,6 @@ function readBoxDataItemId(boxPtr) {
         } catch(e) {}
     }
 
-    // 3. THUẬT TOÁN CỦA TÁC GIẢ SYNTTX
     var rewardItemId = readBoxDataObscuredInt(boxPtr, 'BoxData.o_rewardItemId');
     if (isPlausibleItemId(rewardItemId)) return rewardItemId;
     
@@ -742,7 +731,6 @@ function readBoxDataItemId(boxPtr) {
         if (isPlausibleItemId(rewardItemId)) return rewardItemId;
     } catch(e) {}
     
-    // 4. CHẶN KHÔNG CHO HIỂN THỊ ID VỎ RƯƠNG (91xxxx, 92xxxx, v.v.) LÊN MÀN HÌNH
     var itemId = readBoxDataObscuredInt(boxPtr, 'BoxData.o_itemId');
     if (isPlausibleItemId(itemId)) {
         if (itemId < 900000 || itemId > 999999) return itemId;
@@ -753,9 +741,8 @@ function readBoxDataItemId(boxPtr) {
         if (plainId < 900000 || plainId > 999999) return plainId;
     }
     
-    return 0; // Trả về 0 để không hiện rác lên UI
+    return 0; 
 }
-// =========================================================================
 
 function readBoxDataRewardItemId(boxPtr) {
     return boxPtr.add(boxDataRewardItemIdOffset()).readS32();
@@ -903,11 +890,11 @@ function readBexlQueues() {
 }
 
 function displayQueue(q) {
-    log('  [' + q.label + ']  ' + q.items.length + '\u9879' + (q.items.length > 0 ? '  item[0]=' + q.items[0] : ''));
+    log('  [' + q.label + ']  ' + q.items.length + ' items' + (q.items.length > 0 ? '  item[0]=' + q.items[0] : ''));
     var line = q.items.join(',');
     if (line.length <= 90) { log('    items=[' + line + ']'); }
     else { var half = Math.ceil(q.items.length / 2); log('    items=[' + q.items.slice(0, half).join(',')); log('           ' + q.items.slice(half).join(',') + ']'); }
-    if (q.items.length > 0) log('    >> \u4e0b\u4e00\u4e2a: ' + q.items[0] + ' <<');
+    if (q.items.length > 0) log('    >> Next: ' + q.items[0] + ' <<');
 }
 
 function emitQueues(source, queues) {
@@ -915,7 +902,7 @@ function emitQueues(source, queues) {
         send({
             type: 'queues',
             source: source,
-            note: '\u6e38\u620f\u5185\u5b58\u961f\u5217\u539f\u987a\u5e8f\uff0c\u5e8f\u53f71\u662f\u4e0b\u4e00\u6b21\u547d\u4e2d',
+            note: 'Original game memory queue order, index 1 is the next hit',
             queues: queues.map(function(q) {
                 return {
                     eboxType: q.eboxType,
@@ -964,7 +951,7 @@ function matchSelectedItem(ret, itemId, queuesOverride) {
 }
 
 function describeMatchesForLog(matches) {
-    if (!matches || matches.length === 0) return '\u672a\u547d\u4e2d\u5f53\u524d\u9762\u677f\u961f\u5217';
+    if (!matches || matches.length === 0) return 'Not found in the current panel queue';
     var parts = [];
     for (var i = 0; i < Math.min(matches.length, 6); i++) {
         var m = matches[i];
@@ -1029,9 +1016,9 @@ function shouldUseSoftManualQueueMode(itemId) {
 
 function shouldAllowSoftManualMove(reason) {
     var text = String(reason || '');
-    if (text.indexOf('\u53d1\u5956\u524d') >= 0) return false;
-    if (text.indexOf('\u6389\u843d\u524d') >= 0) return false;
-    if (text.indexOf('\u5730\u56fe/\u66f4\u65b0') >= 0) return false;
+    if (text.indexOf('Before award') >= 0) return false;
+    if (text.indexOf('Before drop') >= 0) return false;
+    if (text.indexOf('Map/Update') >= 0) return false;
     if (text.indexOf('auto:') === 0) return false;
     return true;
 }
@@ -1042,17 +1029,17 @@ function queueSlotIndex(q, logicalIndex) {
 }
 
 function swapQueueSlots(q, leftIndex, rightIndex) {
-    if (!q || !q.arrPtr || q.arrPtr.isNull()) return { ok: false, reason: '\u961f\u5217\u6570\u7ec4\u6307\u9488\u4e3a\u7a7a' };
-    if (leftIndex < 0 || leftIndex >= q.items.length) return { ok: false, reason: '\u5de6\u4fa7\u5e8f\u53f7\u8d8a\u754c' };
-    if (rightIndex < 0 || rightIndex >= q.items.length) return { ok: false, reason: '\u53f3\u4fa7\u5e8f\u53f7\u8d8a\u754c' };
+    if (!q || !q.arrPtr || q.arrPtr.isNull()) return { ok: false, reason: 'Queue array pointer is null' };
+    if (leftIndex < 0 || leftIndex >= q.items.length) return { ok: false, reason: 'Left index out of bounds' };
+    if (rightIndex < 0 || rightIndex >= q.items.length) return { ok: false, reason: 'Right index out of bounds' };
     if (leftIndex === rightIndex) return { ok: true, changed: false, itemId: q.items[leftIndex] };
 
     var slotLeft = q.arrPtr.add(0x20 + queueSlotIndex(q, leftIndex) * Process.pointerSize);
     var slotRight = q.arrPtr.add(0x20 + queueSlotIndex(q, rightIndex) * Process.pointerSize);
     var ptrLeft = slotLeft.readPointer();
     var ptrRight = slotRight.readPointer();
-    if (!ptrLeft || ptrLeft.isNull()) return { ok: false, reason: '\u5de6\u4fa7\u6307\u9488\u4e3a\u7a7a' };
-    if (!ptrRight || ptrRight.isNull()) return { ok: false, reason: '\u76ee\u6807\u6307\u9488\u4e3a\u7a7a' };
+    if (!ptrLeft || ptrLeft.isNull()) return { ok: false, reason: 'Left pointer is null' };
+    if (!ptrRight || ptrRight.isNull()) return { ok: false, reason: 'Target pointer is null' };
 
     slotLeft.writePointer(ptrRight);
     slotRight.writePointer(ptrLeft);
@@ -1159,8 +1146,8 @@ function promoteArcanaTop5(reason, verbose) {
         var currentMs = nowMs();
         if (verbose || currentMs - g_lastAutoArcanaLogAt > 3000) {
             g_lastAutoArcanaLogAt = currentMs;
-            var label = AUTO_ARCANA_TOP5 ? '\u7eaa\u5ff5\u5e01\u524d\u7f6e/\u81f3\u5b9d\u524d05' : '\u7eaa\u5ff5\u5e01\u524d\u7f6e';
-            log('[' + label + '] ' + reason + ': \u5df2\u6574\u7406 ' + touched + ' \u4e2a\u961f\u5217' + (details.length ? ' (' + details.join('; ') + ')' : ''));
+            var label = AUTO_ARCANA_TOP5 ? 'Important Coin front / Arcana top 05' : 'Important Coin front';
+            log('[' + label + '] ' + reason + ': Sorted ' + touched + ' queues' + (details.length ? ' (' + details.join('; ') + ')' : ''));
         }
     }
     return changed;
@@ -1283,9 +1270,9 @@ function enforceActiveForcedSelections(reason, verbose) {
             changed = true;
             if (verbose) {
                 if (result.softMode) {
-                    log('[\u624b\u52a8\u7f13\u6539\u4fdd\u6301] ' + reason + ': ' + labelForEboxType(result.eboxType) + ' itemId=' + result.itemId + ' \u5411\u524d\u79fb\u52a8 ' + result.changed + '/' + result.total + ' \u4efd' + (result.bestIndex > 0 ? '\uff0c\u5f53\u524d\u6700\u524d #' + result.bestIndex : '') + '\uff0c\u4e0d\u5f3a\u6539\u53d1\u5956ID');
+                    log('[Manual soft change keep] ' + reason + ': ' + labelForEboxType(result.eboxType) + ' itemId=' + result.itemId + ' Moved forward ' + result.changed + '/' + result.total + ' copies' + (result.bestIndex > 0 ? ', current front #' + result.bestIndex : '') + ', do not force change reward ID');
                 } else {
-                    log('[\u624b\u52a8\u7f6e\u9876\u4fdd\u6301] ' + reason + ': ' + labelForEboxType(result.eboxType) + ' itemId=' + result.itemId + ' \u5df2\u8865\u5230 01\uff0c\u540c\u6b65 ' + (result.changed + result.already) + '/' + result.total + ' \u4efd');
+                    log('[Manual pin keep] ' + reason + ': ' + labelForEboxType(result.eboxType) + ' itemId=' + result.itemId + ' Filled to 01, synced ' + (result.changed + result.already) + '/' + result.total + ' copies');
                 }
             }
         }
@@ -1324,10 +1311,10 @@ function clearConsumedForcedSelection(itemId, matches) {
                 source: 'selected'
             };
             delete g_forcedSelections[key];
-            log('[\u624b\u52a8\u7f6e\u9876] \u76ee\u6807\u5df2\u9009\u4e2d\uff0c\u5df2\u79fb\u9664\u624b\u52a8\u4fdd\u6301\uff0c\u4ec5\u4fdd\u7559\u672c\u6b21\u53d1\u5956\u786e\u8ba4\uff1a' + labelForEboxType(selection.eboxType) + ' itemId=' + itemId + (headPointerMatch ? '' : '\uff08\u975e01/\u9690\u85cf\u6e38\u6807\u547d\u4e2d\uff09'));
+            log('[Manual pin] Target selected, removed manual keep, only keeping this reward confirmation: ' + labelForEboxType(selection.eboxType) + ' itemId=' + itemId + (headPointerMatch ? '' : '(Not 01/Hidden cursor hit)'));
         } else {
             delete g_forcedSelections[key];
-            log('[\u624b\u52a8\u7f13\u6539\u5b89\u5168\u6a21\u5f0f] \u76ee\u6807\u5df2\u81ea\u7136\u9009\u4e2d\uff0c\u505c\u6b62\u4fdd\u6301\uff1a' + labelForEboxType(selection.eboxType) + ' itemId=' + itemId + '\uff0c\u4e0d\u5f3a\u6539\u53d1\u5956ID');
+            log('[Manual soft change safe mode] Target naturally selected, stop keeping: ' + labelForEboxType(selection.eboxType) + ' itemId=' + itemId + ', do not force change reward ID');
         }
         g_snapshots.clear();
         g_queuesDisplayed = false;
@@ -1342,7 +1329,7 @@ function completeForcedSelection(eboxType, itemId, reason) {
         if (selection.eboxType !== eboxType) continue;
         if (itemId > 0 && parseInt(selection.itemId || '0', 10) !== itemId) continue;
         delete g_forcedSelections[key];
-        log('[\u624b\u52a8\u7f6e\u9876] ' + reason + '\uff0c\u505c\u6b62\u4fdd\u6301\uff1a' + labelForEboxType(eboxType) + ' itemId=' + itemId);
+        log('[Manual pin] ' + reason + ', stop keeping: ' + labelForEboxType(eboxType) + ' itemId=' + itemId);
     }
 }
 
@@ -1464,11 +1451,11 @@ function forceBoxRewardId(boxPtr, targetItemId, sourceName) {
         var oldRewardItemId = readBoxDataRewardItemId(boxPtr);
         if (oldRewardItemId !== targetItemId) {
             writeBoxDataRewardItemId(boxPtr, targetItemId);
-            log('[\u624b\u52a8\u7f6e\u9876\u53d1\u5956\u9884\u5199/' + sourceName + '] rewardItemId=' + oldRewardItemId + ' -> ' + targetItemId);
+            log('[Manual pin reward pre-write/' + sourceName + '] rewardItemId=' + oldRewardItemId + ' -> ' + targetItemId);
         }
         return true;
     } catch(e) {
-        log('[\u624b\u52a8\u7f6e\u9876\u53d1\u5956\u9884\u5199/' + sourceName + '] \u5199\u5165\u5931\u8d25: ' + e);
+        log('[Manual pin reward pre-write/' + sourceName + '] Write failed: ' + e);
     }
     return false;
 }
@@ -1484,7 +1471,7 @@ function maybeReplaceVisibleHeadReturn(ret, itemId, preQueues, sourceName) {
         forceBoxRewardId(headReward.targetPtr, headReward.itemId, sourceName + ':head-target');
         if (!headReward.targetPtr.equals(ret)) {
             ret.replace(headReward.targetPtr);
-            log('[\u7f6e\u987601\u53d1\u653e\u4fee\u6b63/' + sourceName + '] ' + headReward.label + ' #' + headReward.selectedIndex + ' ' + itemId + ' -> 01 ' + headReward.itemId + ' / ' + headReward.reason);
+            log('[Pin 01 distribution correction/' + sourceName + '] ' + headReward.label + ' #' + headReward.selectedIndex + ' ' + itemId + ' -> 01 ' + headReward.itemId + ' / ' + headReward.reason);
         }
         g_pendingForcedReward = {
             itemId: headReward.itemId,
@@ -1494,7 +1481,7 @@ function maybeReplaceVisibleHeadReturn(ret, itemId, preQueues, sourceName) {
         };
         return { ptr: headReward.targetPtr, itemId: headReward.itemId, selection: null, visibleHead: headReward };
     } catch(e) {
-        log('[\u7f6e\u987601\u53d1\u653e\u4fee\u6b63/' + sourceName + '] \u66ff\u6362\u8fd4\u56de\u503c\u5931\u8d25: ' + e);
+        log('[Pin 01 distribution correction/' + sourceName + '] Failed to replace return value: ' + e);
     }
     return null;
 }
@@ -1517,7 +1504,7 @@ function maybeReplaceForcedReturn(ret, itemId, matchedBefore, preQueues, sourceN
             var safeLogAt = nowMs();
             if (safeLogAt - g_lastSafeManualLogAt > 3000) {
                 g_lastSafeManualLogAt = safeLogAt;
-                log('[\u624b\u52a8\u7f13\u6539\u5b89\u5168\u6a21\u5f0f/' + sourceName + '] ' + labelForEboxType(selection.eboxType) + ' itemId=' + targetItemId + ' \u4ec5\u7f13\u6539\u961f\u5217\uff0c\u8df3\u8fc7\u53d1\u5956ID/\u8fd4\u56de\u503c\u5f3a\u4fee\u6b63');
+                log('[Manual soft change safe mode/' + sourceName + '] ' + labelForEboxType(selection.eboxType) + ' itemId=' + targetItemId + ' only soft change queue, skip forcing reward ID/return value correction');
             }
             continue;
         }
@@ -1527,7 +1514,7 @@ function maybeReplaceForcedReturn(ret, itemId, matchedBefore, preQueues, sourceN
             forceBoxRewardId(targetPtr, targetItemId, sourceName + ':target');
             if (!targetPtr.equals(ret)) {
                 ret.replace(targetPtr);
-                log('[\u624b\u52a8\u7f6e\u9876\u9009\u4e2d\u4fee\u6b63/' + sourceName + '] ' + labelForEboxType(selection.eboxType) + ' ' + itemId + ' -> ' + targetItemId);
+                log('[Manual pin selection correction/' + sourceName + '] ' + labelForEboxType(selection.eboxType) + ' ' + itemId + ' -> ' + targetItemId);
             }
             g_pendingForcedReward = {
                 itemId: targetItemId,
@@ -1540,10 +1527,10 @@ function maybeReplaceForcedReturn(ret, itemId, matchedBefore, preQueues, sourceN
             delete g_forcedSelections[key];
             g_snapshots.clear();
             g_queuesDisplayed = false;
-            log('[\u624b\u52a8\u7f6e\u9876\u9009\u4e2d\u4fee\u6b63/' + sourceName + '] \u76ee\u6807\u5df2\u9009\u4e2d\uff0c\u7acb\u5373\u79fb\u9664\u624b\u52a8\u4fdd\u6301\uff1a' + labelForEboxType(selection.eboxType) + ' itemId=' + targetItemId);
+            log('[Manual pin selection correction/' + sourceName + '] target selected, remove manual keep immediately: ' + labelForEboxType(selection.eboxType) + ' itemId=' + targetItemId);
             return { ptr: targetPtr, itemId: targetItemId, selection: selection };
         } catch(e) {
-            log('[\u624b\u52a8\u7f6e\u9876\u9009\u4e2d\u4fee\u6b63/' + sourceName + '] \u66ff\u6362\u8fd4\u56de\u503c\u5931\u8d25: ' + e);
+            log('[Manual pin selection correction/' + sourceName + '] Failed to replace return value: ' + e);
         }
     }
     return maybeReplaceVisibleHeadReturn(ret, itemId, preQueues, sourceName);
@@ -1568,7 +1555,7 @@ function applyForcedSelection(cmd) {
         }
 
         if (!displayQueue) {
-            send({ type: 'force_result', ok: false, message: '未找到指定掉落队列 eboxType=' + eboxType });
+            send({ type: 'force_result', ok: false, message: 'Target drop queue not found eboxType=' + eboxType });
             return;
         }
 
@@ -1597,14 +1584,14 @@ function applyForcedSelection(cmd) {
         }
 
         if (targetItemId > 0 && (targetIndex < 0 || !q)) {
-            send({ type: 'force_result', ok: false, message: '目标物品ID不在当前' + labelForEboxType(eboxType) + '队列内：' + targetItemId });
+            send({ type: 'force_result', ok: false, message: 'Target Item ID is not in current ' + labelForEboxType(eboxType) + ' queue: ' + targetItemId });
             return;
         }
 
         if (!q) q = displayQueue;
 
         if (targetIndex < 0 || targetIndex >= q.items.length) {
-            send({ type: 'force_result', ok: false, message: '目标不在当前队列内。请填序号 1-' + q.items.length + ' 或当前列表里的物品ID' });
+            send({ type: 'force_result', ok: false, message: 'Target not in current queue. Please input index 1-' + q.items.length + ' or Item ID in the current list' });
             return;
         }
 
@@ -1621,7 +1608,7 @@ function applyForcedSelection(cmd) {
         var result = enforceForcedSelection(selection, true, true);
 
         if (!result.ok) {
-            send({ type: 'force_result', ok: false, message: '置顶失败：没有可写入的' + labelForEboxType(eboxType) + '队列' });
+            send({ type: 'force_result', ok: false, message: 'Pin failed: no writable ' + labelForEboxType(eboxType) + ' queue' });
             return;
         }
 
@@ -1630,12 +1617,12 @@ function applyForcedSelection(cmd) {
         g_snapshots.clear();
         g_queuesDisplayed = false;
         var synced = result.changed + result.already;
-        var softMessage = '\u5df2\u5f00\u542f\u624b\u52a8\u7f13\u6539\uff1a\u7b2c ' + (targetIndex + 1) + ' \u9879 itemId=' + desiredItemId + ' \u4f1a\u9010\u6b65\u524d\u79fb\u5230 01\uff0c\u4ec5\u6539\u961f\u5217\uff0c\u4e0d\u5f3a\u6539\u53d1\u5956ID';
-        if (result.bestIndex > 0) softMessage += '\uff0c\u5f53\u524d\u6700\u524d #' + result.bestIndex;
-        softMessage += '\uff08\u540c\u6b65 ' + synced + '/' + result.total + ' \u4efd ' + labelForEboxType(eboxType) + '\u961f\u5217\uff09';
-        var message = '已把第 ' + (targetIndex + 1) + ' 项置顶到 01（同步 ' + synced + '/' + result.total + ' 份' + labelForEboxType(eboxType) + '队列）';
+        var softMessage = 'Started manual soft change: #' + (targetIndex + 1) + ' item itemId=' + desiredItemId + ' will gradually move to 01, only change queue, do not force change reward ID';
+        if (result.bestIndex > 0) softMessage += ', current front #' + result.bestIndex;
+        softMessage += ' (Sync ' + synced + '/' + result.total + ' copies of ' + labelForEboxType(eboxType) + ' queue)';
+        var message = 'Pinned #' + (targetIndex + 1) + ' to 01 (Sync ' + synced + '/' + result.total + ' copies of ' + labelForEboxType(eboxType) + ' queue)';
         if (result.fallback > 0) {
-            message += '；' + result.fallback + ' 份未找到同物品，已按同序号置顶';
+            message += '; ' + result.fallback + ' copies not found same item, pinned by index instead';
         }
         if (softMode) message = softMessage;
         send({
@@ -1646,9 +1633,9 @@ function applyForcedSelection(cmd) {
             itemId: desiredItemId,
             index: targetIndex + 1
         });
-        showBexlQueues('手动置顶', true);
+        showBexlQueues('Manual pin', true);
     } catch(e) {
-        send({ type: 'force_result', ok: false, message: '置顶失败: ' + e });
+        send({ type: 'force_result', ok: false, message: 'Pin failed: ' + e });
     }
 }
 
@@ -1667,14 +1654,14 @@ function sendBossDropQueueFromMemory() {
             send({
                 type: 'boss_queue',
                 ok: false,
-                message: '\u672a\u8bfb\u5230\u9996\u9886Boss\u6389\u843d\u961f\u5217\uff0c\u5148\u8fdb\u56fe/\u62ff\u7bb1\u5b50/\u5207\u56fe\u89e6\u53d1\u5237\u65b0'
+                message: 'Boss drop queue not read, enter map/loot box/switch map to refresh'
             });
             return;
         }
         send({
             type: 'boss_queue',
             ok: true,
-            source: '\u6e38\u620f\u5185\u5b58\u5b9e\u65f6\u8bfb\u53d6',
+            source: 'Real-time game memory read',
             queue: {
                 eboxType: bossQueue.eboxType,
                 label: bossQueue.label,
@@ -1683,7 +1670,7 @@ function sendBossDropQueueFromMemory() {
             }
         });
     } catch(e) {
-        send({ type: 'boss_queue', ok: false, message: '\u8bfb\u53d6\u9996\u9886Boss\u6389\u843d\u5931\u8d25: ' + e });
+        send({ type: 'boss_queue', ok: false, message: 'Failed to read Boss drop: ' + e });
     }
 }
 
@@ -1743,15 +1730,15 @@ function readS32Field(instance, key, fallback) {
 
 function difficultyName(difficulty) {
     difficulty = parseInt(difficulty || '0', 10) || 0;
-    if (difficulty === 0) return '普通';
-    if (difficulty === 1) return '噩梦';
-    if (difficulty === 2) return '地狱';
-    if (difficulty === 3) return '折磨';
-    return '难度' + difficulty;
+    if (difficulty === 0) return 'Normal';
+    if (difficulty === 1) return 'Nightmare';
+    if (difficulty === 2) return 'Hell';
+    if (difficulty === 3) return 'Torment';
+    return 'Difficulty ' + difficulty;
 }
 
 function autoStageTargetLabel(level, difficulty) {
-    return difficultyName(difficulty) + ' 等级' + level;
+    return difficultyName(difficulty) + ' Level ' + level;
 }
 
 function normalizeDifficulty(difficulty) {
@@ -2191,9 +2178,9 @@ function autoStagePortalResultOk(info, result) {
 
 function autoStagePortalResultText(info, result) {
     var retName = String(info.retName || '');
-    if (retName.indexOf('Void') !== -1) return '已调用';
-    if (retName.indexOf('Boolean') !== -1) return '返回 ' + (result !== 0 ? 'true' : 'false');
-    return '返回 ' + stageEnterResultName(result);
+    if (retName.indexOf('Void') !== -1) return 'called';
+    if (retName.indexOf('Boolean') !== -1) return 'returned ' + (result !== 0 ? 'true' : 'false');
+    return 'returned ' + stageEnterResultName(result);
 }
 
 function autoStagePointerCacheKey(info, ret, args) {
@@ -2250,7 +2237,7 @@ function cacheStageInfoData(stageInfoPtr, source) {
 
         if ((!old || old.stageKey !== stageKey) && !g_stageInfoLogKeys[key]) {
             g_stageInfoLogKeys[key] = true;
-            log('✓ 捕获地图映射：' + autoStageTargetLabel(level, difficulty) + ' -> StageKey=' + stageKey + ' Act=' + act + ' StageNo=' + stageNo + ' by ' + (source || 'unknown'));
+            log('✓ Captured map mapping: ' + autoStageTargetLabel(level, difficulty) + ' -> StageKey=' + stageKey + ' Act=' + act + ' StageNo=' + stageNo + ' by ' + (source || 'unknown'));
         }
         if (g_lastCurrentLevel === level) {
             rememberStageSeen(level, difficulty, (source || 'StageInfoData') + '.current-map', stageKey, 0, { current: true, stageKey: stageKey });
@@ -2397,7 +2384,7 @@ function notifyPendingStageSwitchFailure(source, resultName) {
         slot: '',
         method: source || '',
         result: null,
-        message: '游戏返回 ' + (resultName || 'Failed') + '，本次切图没有真正进图；已保留游戏冷却弹窗，队列等待下次成功进图后刷新'
+        message: 'Game returned ' + (resultName || 'Failed') + ', switch map didn\'t really enter; game cooldown popup kept, waiting for next successful enter to refresh queue'
     });
     return true;
 }
@@ -2422,8 +2409,8 @@ function resetDropQueueAfterConfirmedStageSwitch(source, level, difficulty) {
     g_lastGoodQueueOwner = null;
     g_snapshots.clear();
     g_queuesDisplayed = false;
-    log('✓ [' + (source || 'confirmed-stage') + '] 确认切图：' + autoStageTargetLabel(level, difficulty) + '，已重置掉落队列读取');
-    scheduleQueueChecks((source || '确认切图'), true);
+    log('✓ [' + (source || 'Confirm map switch') + '] Confirmed map switch: ' + autoStageTargetLabel(level, difficulty) + ', drop queue read reset');
+    scheduleQueueChecks((source || 'Confirm map switch'), true);
     return true;
 }
 
@@ -2470,11 +2457,11 @@ function sameDifficultyAndAct(left, right) {
 function setPortalDifficultyField(difficulty) {
     try {
         if (!validCachedPtr(g_lastUIPortal)) {
-            return { ok: false, message: '还没捕获到关卡面板实例' };
+            return { ok: false, message: 'Stage panel instance not captured yet' };
         }
         var offset = found['UI_Portal.m_currentStageDifficulty'];
         if (typeof offset !== 'number' || offset < 0) {
-            return { ok: false, message: '没有找到关卡面板当前难度字段' };
+            return { ok: false, message: 'Stage panel current difficulty field not found' };
         }
         difficulty = normalizeDifficulty(difficulty);
         var field = g_lastUIPortal.add(offset);
@@ -2486,7 +2473,7 @@ function setPortalDifficultyField(difficulty) {
             message: 'UI_Portal.m_currentStageDifficulty -> ' + difficultyName(actual)
         };
     } catch(e) {
-        return { ok: false, message: '写入关卡面板当前难度失败: ' + e };
+        return { ok: false, message: 'Failed to write stage panel current difficulty: ' + e };
     }
 }
 
@@ -2499,16 +2486,16 @@ function callPortalRefreshNoArg(key, label) {
         var retName = String(meta.retName || '');
         var ret = retName.indexOf('Void') !== -1 ? 'void' : 'int';
         var fn = autoStageNativeFunction(key + '.auto-stage-refresh', ret, ['pointer'], key);
-        if (!fn) return { ok: false, message: key + ' NativeFunction 创建失败' };
+        if (!fn) return { ok: false, message: key + ' NativeFunction creation failed' };
         var result = 0;
         if (ret === 'void') fn(g_lastUIPortal);
         else result = fn(g_lastUIPortal);
         return {
             ok: ret === 'void' || result === 0 || result === 1,
-            message: key + '(' + (label || 'refresh') + ') ' + (ret === 'void' ? '已调用' : ('返回 ' + result))
+            message: key + '(' + (label || 'refresh') + ') ' + (ret === 'void' ? 'called' : ('returned ' + result))
         };
     } catch(e) {
-        return { ok: false, message: key + ' 刷新调用失败: ' + e };
+        return { ok: false, message: key + ' refresh call failed: ' + e };
     }
 }
 
@@ -2522,22 +2509,22 @@ function refreshPortalAfterDifficultyChange(failures, details) {
             cachePortalStageMaps(g_lastUIPortal, 'auto-stage-flow.refresh.' + keys[i]);
             return true;
         }
-        pushAutoStageFailure(failures, '刷新步骤失败: ' + result.message);
+        pushAutoStageFailure(failures, 'Refresh step failed: ' + result.message);
     }
     cachePortalStageMaps(g_lastUIPortal, 'auto-stage-flow.refresh-cache-only');
     return false;
 }
 
 function autoStageFlowMessage(steps, details) {
-    var prefix = steps.length ? ('流程已执行：' + steps.join(' -> ')) : '流程未执行模拟步骤';
-    return prefix + (details.length ? '；' + details.join('；') : '');
+    var prefix = steps.length ? ('Flow executed: ' + steps.join(' -> ')) : 'Flow simulated steps not executed';
+    return prefix + (details.length ? '; ' + details.join('; ') : '');
 }
 
 function invokePortalStageOnlyMethod(info, value, label) {
     var ret = autoStagePortalReturnType(info);
     var args = ['pointer', 'int'];
     var fn = autoStageNativeFunctionFromPointer(autoStagePointerCacheKey(info, ret, args), info.fp, ret, args);
-    if (!fn) return { ok: false, message: info.key + ' NativeFunction 创建失败' };
+    if (!fn) return { ok: false, message: info.key + ' NativeFunction creation failed' };
 
     try {
         ensureIl2cppThreadAttached();
@@ -2552,13 +2539,13 @@ function invokePortalStageOnlyMethod(info, value, label) {
             result: result
         };
     } catch(e) {
-        return { ok: false, message: info.key + ' 调用失败: ' + e };
+        return { ok: false, message: info.key + ' call failed: ' + e };
     }
 }
 
 function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) {
     if (!validCachedPtr(g_lastUIPortal)) {
-        pushAutoStageFailure(failures, '跨难度/跨章节需要先捕获关卡面板实例；请打开关卡选择界面一次');
+        pushAutoStageFailure(failures, 'Cross-difficulty/chapter requires capturing stage panel instance; please open stage selection once');
         return null;
     }
 
@@ -2569,7 +2556,7 @@ function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) 
     var currentAct = currentInfo ? (parseInt(currentInfo.act || '0', 10) || 0) : 0;
 
     if (targetAct <= 0) {
-        pushAutoStageFailure(failures, '目标地图缺少章节信息，无法按难度->章节->等级流程切图');
+        pushAutoStageFailure(failures, 'Target map missing chapter info, cannot switch by difficulty->chapter->level flow');
         return null;
     }
 
@@ -2579,10 +2566,10 @@ function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) 
     if (currentDifficulty !== targetDifficulty) {
         var difficultyResult = setPortalDifficultyField(targetDifficulty);
         if (!difficultyResult.ok) {
-            pushAutoStageFailure(failures, '难度步骤失败: ' + difficultyResult.message);
+            pushAutoStageFailure(failures, 'Difficulty step failed: ' + difficultyResult.message);
             return null;
         }
-        steps.push('难度=' + difficultyName(targetDifficulty));
+        steps.push('Difficulty=' + difficultyName(targetDifficulty));
         stepDetails.push(difficultyResult.message);
         refreshPortalAfterDifficultyChange(failures, stepDetails);
         cachePortalStageMaps(g_lastUIPortal, 'auto-stage-flow.after-difficulty');
@@ -2594,7 +2581,7 @@ function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) 
             .concat(g_autoStagePortalMethods.stageOnlyVoid || [])
             .concat(g_autoStagePortalMethods.stageOnlyBool || []);
         if (chapterMethods.length === 0) {
-            stepDetails.push('未捕获章节按钮入口，跳过章节模拟，改用 StageKey 精确切图');
+            stepDetails.push('Chapter button entry not captured, skipping chapter simulation, using exact StageKey switch instead');
             return {
                 ok: true,
                 message: autoStageFlowMessage(steps, stepDetails)
@@ -2606,14 +2593,14 @@ function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) 
             var chapterResult = invokePortalStageOnlyMethod(chapterMethods[j], targetAct, 'act');
             if (chapterResult.ok) {
                 chapterOk = true;
-                steps.push('章节=' + targetAct);
+                steps.push('Chapter=' + targetAct);
                 stepDetails.push(chapterResult.message);
                 break;
             }
-            pushAutoStageFailure(failures, '章节步骤失败: ' + chapterResult.message);
+            pushAutoStageFailure(failures, 'Chapter step failed: ' + chapterResult.message);
         }
         if (!chapterOk) {
-            stepDetails.push('章节模拟未成功，跳过章节模拟，改用 StageKey 精确切图');
+            stepDetails.push('Chapter simulation unsuccessful, skipping, using exact StageKey switch instead');
             return {
                 ok: true,
                 message: autoStageFlowMessage(steps, stepDetails)
@@ -2624,13 +2611,13 @@ function runAutoStagePortalNavigation(stageInfo, currentInfo, source, failures) 
 
     return {
         ok: true,
-        message: steps.length ? autoStageFlowMessage(steps, stepDetails) : '当前已在目标难度和章节'
+        message: steps.length ? autoStageFlowMessage(steps, stepDetails) : 'Already at target difficulty and chapter'
     };
 }
 
 function callStageNodeButtonSwitch(stageInfo, source) {
     if (!stageInfo || !stageInfo.stageKey) {
-        return { ok: false, message: '还没解析到目标地图节点' };
+        return { ok: false, message: 'Target map node not parsed yet' };
     }
     try {
         ensureIl2cppThreadAttached();
@@ -2646,7 +2633,7 @@ function callStageNodeButtonSwitch(stageInfo, source) {
                 return {
                     ok: true,
                     waitConfirm: true,
-                    message: 'StageNode.button_Enter.Press(' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', StageKey=' + stageInfo.stageKey + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') 已调用，等待游戏确认进图后刷新队列 @ ' + (source || 'game-thread'),
+                    message: 'StageNode.button_Enter.Press(' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', StageKey=' + stageInfo.stageKey + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') called, waiting for game confirmation to refresh queue @ ' + (source || 'game-thread'),
                     method: 'StageNode.button_Enter.Press',
                     result: 0,
                     stageKey: stageInfo.stageKey
@@ -2662,7 +2649,7 @@ function callStageNodeButtonSwitch(stageInfo, source) {
                 return {
                     ok: true,
                     waitConfirm: true,
-                    message: 'StageNode.button_Enter.onClick.Invoke(' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', StageKey=' + stageInfo.stageKey + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') 已调用，等待游戏确认进图后刷新队列 @ ' + (source || 'game-thread'),
+                    message: 'StageNode.button_Enter.onClick.Invoke(' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', StageKey=' + stageInfo.stageKey + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') called, waiting for game confirmation to refresh queue @ ' + (source || 'game-thread'),
                     method: 'StageNode.button_Enter.onClick',
                     result: 0,
                     stageKey: stageInfo.stageKey
@@ -2670,10 +2657,10 @@ function callStageNodeButtonSwitch(stageInfo, source) {
             }
         }
 
-        return { ok: false, message: '目标地图节点没有可调用的 button_Enter/onClick' };
+        return { ok: false, message: 'Target map node has no callable button_Enter/onClick' };
     } catch(e) {
         clearPendingStageSwitchConfirm('StageNode.button-call-failed');
-        return { ok: false, message: 'StageNode 按钮调用失败: ' + e };
+        return { ok: false, message: 'StageNode button call failed: ' + e };
     }
 }
 
@@ -2681,7 +2668,7 @@ function invokeAutoStagePortalMethod(info, stageId, difficulty, mode) {
     var ret = autoStagePortalReturnType(info);
     var args = mode === 'difficultyStage' ? ['pointer', 'int', 'int'] : ['pointer', 'int'];
     var fn = autoStageNativeFunctionFromPointer(autoStagePointerCacheKey(info, ret, args), info.fp, ret, args);
-    if (!fn) return { ok: false, message: info.key + ' NativeFunction 创建失败' };
+    if (!fn) return { ok: false, message: info.key + ' NativeFunction creation failed' };
 
     var oldExecuting = g_autoStageSwitchExecuting;
     g_autoStageSwitchExecuting = true;
@@ -2707,7 +2694,7 @@ function invokeAutoStagePortalMethod(info, stageId, difficulty, mode) {
             result: result
         };
     } catch(e) {
-        return { ok: false, message: info.key + ' 调用失败: ' + e };
+        return { ok: false, message: info.key + ' call failed: ' + e };
     } finally {
         g_autoStageSwitchExecuting = oldExecuting;
     }
@@ -2724,43 +2711,43 @@ function tryAutoStagePortalList(methods, stageId, difficulty, mode, failures) {
 
 function callRegisteredPortalAutoSwitch(stageId, difficulty) {
     if (!validCachedPtr(g_lastUIPortal)) {
-        return { ok: false, message: '还没捕获到关卡面板实例，先打开关卡选择界面一次' };
+        return { ok: false, message: 'Stage panel instance not captured yet, please open stage selection once' };
     }
 
     var failures = [];
     var result = tryAutoStagePortalList(g_autoStagePortalMethods.difficultyStage, stageId, difficulty, 'difficultyStage', failures);
     if (result) {
         result.ok = false;
-        result.message = result.message + '；这只是难度+等级校验，不当作真正换图成功';
+        result.message = result.message + '; this is only difficulty+level validation, not considered actual successful map switch';
         return result;
     }
 
     if (autoStagePortalCandidateCount() === 0) {
-        return { ok: false, message: '没有找到可用的 UI_Portal 新换图入口' };
+        return { ok: false, message: 'No available UI_Portal new map switch entry found' };
     }
-    return { ok: false, message: failures.length > 0 ? failures.join('；') : 'UI_Portal 难度+等级校验入口没有成功' };
+    return { ok: false, message: failures.length > 0 ? failures.join('; ') : ' UI_Portal difficulty+level validation entry unsuccessful' };
 }
 
 function callAutoStageSwitchV52(stageId, difficulty) {
-    return { ok: false, message: '旧自动换图入口已禁用：当前版本必须先把地图等级解析成 StageKey，避免把等级当章节跳错' };
+    return { ok: false, message: 'Old auto map switch entry disabled: current version must parse map level to StageKey first, to avoid treating level as chapter' };
 }
 
 function callStageManagerStageKeySwitch(stageInfo, source, expectedLevel, expectedDifficulty) {
     if (!stageInfo || !stageInfo.stageKey) {
-        return { ok: false, message: '还没解析到目标地图的 StageKey' };
+        return { ok: false, message: 'Target map StageKey not parsed yet' };
     }
     if (!isStageInfoExactTarget(stageInfo, expectedLevel, expectedDifficulty)) {
-        return { ok: false, message: 'StageKey 映射和目标不一致，已拒绝执行非精确目标' };
+        return { ok: false, message: 'StageKey mapping and target mismatch, executing non-exact target rejected' };
     }
     if (!found['StageManager.igs']) {
-        return { ok: false, message: 'StageManager.igs 未找到' };
+        return { ok: false, message: 'StageManager.igs not found' };
     }
     if (!validCachedPtr(g_lastStageManager)) {
-        return { ok: false, message: '还没捕获到 StageManager 实例，先手动切一次图或等一次关卡刷新' };
+        return { ok: false, message: 'StageManager instance not captured yet, switch map manually once or wait for stage refresh' };
     }
     var fn = autoStageNativeFunction('StageManager.igs.stageKey', 'void', ['pointer', 'int', 'int'], 'StageManager.igs');
     if (!fn) {
-        return { ok: false, message: 'StageManager.igs NativeFunction 创建失败' };
+        return { ok: false, message: 'StageManager.igs NativeFunction creation failed' };
     }
     try {
         ensureIl2cppThreadAttached();
@@ -2769,13 +2756,13 @@ function callStageManagerStageKeySwitch(stageInfo, source, expectedLevel, expect
         markAutoStageTargetCurrent(stageInfo, 'StageManager.igs.auto-stage');
         return {
             ok: true,
-            message: 'StageManager.igs(StageKey=' + stageInfo.stageKey + ', ' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') 已调用 @ ' + (source || 'game-thread'),
+            message: 'StageManager.igs(StageKey=' + stageInfo.stageKey + ', ' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ', Act=' + stageInfo.act + ', StageNo=' + stageInfo.stageNo + ') called @ ' + (source || 'game-thread'),
             method: 'StageManager.igs',
             result: 0,
             stageKey: stageInfo.stageKey
         };
     } catch(e) {
-        return { ok: false, message: 'StageManager.igs 调用失败: ' + e };
+        return { ok: false, message: 'StageManager.igs call failed: ' + e };
     }
 }
 
@@ -2792,14 +2779,14 @@ function callAutoStageSwitchOnGameThread(stageId, difficulty, source) {
 
         var stageInfo = resolveStageInfoForLevel(level, difficulty);
         if (!stageInfo) {
-            pushAutoStageFailure(failures, '还没捕获到 ' + autoStageTargetLabel(level, difficulty) + ' 对应的 StageKey；请打开关卡面板或手动进一次这个等级，让脚本缓存 StageLevel->StageKey');
+            pushAutoStageFailure(failures, 'Not captured ' + autoStageTargetLabel(level, difficulty) + ' corresponding StageKey; open stage panel or enter this level manually once, let script cache StageLevel->StageKey');
             if (validCachedPtr(g_lastUIPortal)) {
-                pushAutoStageFailure(failures, '已跳过 UI_Portal.lrv/lsd(' + level + ')，这些入口会把等级当章节跳错');
+                pushAutoStageFailure(failures, 'Skipped UI_Portal.lrv/lsd(' + level + '), these entries will treat level as chapter and switch incorrectly');
             }
             return { ok: false, message: failures.join(' / ') };
         }
         if (!isStageInfoExactTarget(stageInfo, level, difficulty)) {
-            return { ok: false, message: 'StageKey 映射和目标不一致，已拒绝换图：目标=' + autoStageTargetLabel(level, difficulty) + ' / 缓存=' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ' StageKey=' + stageInfo.stageKey };
+            return { ok: false, message: 'StageKey mapping and target mismatch, map switch rejected: Target=' + autoStageTargetLabel(level, difficulty) + ' / Cache=' + autoStageTargetLabel(stageInfo.level, stageInfo.difficulty) + ' StageKey=' + stageInfo.stageKey };
         }
 
         var currentInfo = currentAutoStageInfo();
@@ -2815,13 +2802,13 @@ function callAutoStageSwitchOnGameThread(stageId, difficulty, source) {
         var button = callStageNodeButtonSwitch(stageInfo, source || 'game-thread');
         if (button.ok) {
             if (flowResult && flowResult.message) button.message = flowResult.message + ' / ' + button.message;
-            else button.message = '同难度同章节，直接切等级 / ' + button.message;
+            else button.message = 'Same difficulty and chapter, switching level directly / ' + button.message;
             return button;
         }
         pushAutoStageFailure(failures, button.message);
-        pushAutoStageFailure(failures, 'StageManager.igs 已禁用为自动换图成功路径，因为它只会刷新脚本状态，不会真实进图');
+        pushAutoStageFailure(failures, 'StageManager.igs disabled as successful auto map switch path, because it only refreshes script state, doesn\'t really enter map');
 
-        if (failures.length === 0) pushAutoStageFailure(failures, '还没捕获到可执行换图的游戏实例');
+        if (failures.length === 0) pushAutoStageFailure(failures, 'Playable map switch game instance not captured yet');
         return { ok: false, message: failures.join(' / ') };
     } finally {
         g_autoStageSwitchExecuting = oldExecuting;
@@ -2839,7 +2826,7 @@ function queuePendingAutoStageSwitch(stageId, difficulty, slot) {
     return {
         ok: false,
         pending: true,
-        message: '已排队到游戏主线程，等待下一次关卡状态刷新后执行'
+        message: 'Queued to game main thread, waiting for next stage state refresh to execute'
     };
 }
 
@@ -2882,16 +2869,16 @@ function finishAutoStageSwitchResult(stageId, difficulty, slot, result) {
     if (result.ok && !result.waitConfirm) {
         g_snapshots.clear();
         g_queuesDisplayed = false;
-        scheduleQueueChecks('自动换图', true);
+        scheduleQueueChecks('Auto map switch', true);
     }
 }
 
 function callStageManagerAutoSwitch(stageId, difficulty) {
     if (!found['StageManager.ifo']) {
-        return { ok: false, message: 'StageManager.ifo 未找到' };
+        return { ok: false, message: 'StageManager.ifo not found' };
     }
     if (!validCachedPtr(g_lastStageManager)) {
-        return { ok: false, message: '还没捕获到 StageManager 实例，先手动切一次图或进图拿一次箱子' };
+        return { ok: false, message: 'StageManager instance not captured yet, switch map manually once or loot box once' };
     }
     var argc = methodParamCount('StageManager.ifo');
     var useTwoArgs = argc >= 2;
@@ -2900,7 +2887,7 @@ function callStageManagerAutoSwitch(stageId, difficulty) {
     var returnsVoid = retName.indexOf('Void') !== -1;
     var fn = autoStageNativeFunction('StageManager.ifo' + (useTwoArgs ? '.2' : '.1') + (returnsVoid ? '.void' : '.int'), returnsVoid ? 'void' : 'int', useTwoArgs ? ['pointer', 'int', 'int'] : ['pointer', 'int'], 'StageManager.ifo');
     if (!fn) {
-        return { ok: false, message: 'StageManager.ifo NativeFunction 创建失败' };
+        return { ok: false, message: 'StageManager.ifo NativeFunction creation failed' };
     }
     try {
         ensureIl2cppThreadAttached();
@@ -2920,18 +2907,18 @@ function callStageManagerAutoSwitch(stageId, difficulty) {
         }
         return {
             ok: returnsVoid || result === 0,
-            message: 'StageManager.ifo(' + (useTwoArgs ? ('arg1=' + first + ', arg2=' + second + ', difficulty=' + (difficulty || 0) + ', stage=' + stageId) : ('stage=' + stageId)) + ') ' + (returnsVoid ? '已调用' : ('返回 ' + stageEnterResultName(result))),
+            message: 'StageManager.ifo(' + (useTwoArgs ? ('arg1=' + first + ', arg2=' + second + ', difficulty=' + (difficulty || 0) + ', stage=' + stageId) : ('stage=' + stageId)) + ') ' + (returnsVoid ? 'called' : ('returned ' + stageEnterResultName(result))),
             method: 'StageManager.ifo',
             result: result
         };
     } catch(e) {
-        return { ok: false, message: 'StageManager.ifo 调用失败: ' + e };
+        return { ok: false, message: 'StageManager.ifo call failed: ' + e };
     }
 }
 
 function callPortalAutoSwitch(stageId, difficulty) {
     if (!validCachedPtr(g_lastUIPortal)) {
-        return { ok: false, message: '还没捕获到关卡面板实例，先打开关卡选择界面一次' };
+        return { ok: false, message: 'Stage panel instance not captured yet, please open stage selection once' };
     }
     try {
         ensureIl2cppThreadAttached();
@@ -2952,13 +2939,13 @@ function callPortalAutoSwitch(stageId, difficulty) {
                 if (lqiResult !== 0) {
                     return {
                         ok: true,
-                        message: 'UI_Portal.lqi(arg1=' + first + ', arg2=' + second + ', difficulty=' + (difficulty || 0) + ', stage=' + stageId + ') 已调用，返回 true',
+                        message: 'UI_Portal.lqi(arg1=' + first + ', arg2=' + second + ', difficulty=' + (difficulty || 0) + ', stage=' + stageId + ') called, returned true',
                         method: 'UI_Portal.lqi',
                         result: lqiResult
                     };
                 }
             } catch(e) {
-                return { ok: false, message: 'UI_Portal.lqi 调用失败: ' + e };
+                return { ok: false, message: 'UI_Portal.lqi call failed: ' + e };
             }
         }
     }
@@ -2970,17 +2957,17 @@ function callPortalAutoSwitch(stageId, difficulty) {
                 var lqfResult = lqf(g_lastUIPortal, stageId);
                 return {
                     ok: lqfResult !== 0,
-                    message: 'UI_Portal.lqf 返回 ' + (lqfResult !== 0 ? 'true' : 'false'),
+                    message: 'UI_Portal.lqf returned ' + (lqfResult !== 0 ? 'true' : 'false'),
                     method: 'UI_Portal.lqf',
                     result: lqfResult
                 };
             } catch(e) {
-                return { ok: false, message: 'UI_Portal.lqf 调用失败: ' + e };
+                return { ok: false, message: 'UI_Portal.lqf call failed: ' + e };
             }
         }
     }
 
-    return { ok: false, message: 'UI_Portal.lqi/lqf 未找到' };
+    return { ok: false, message: 'UI_Portal.lqi/lqf not found' };
 }
 
 function applyAutoStageSwitch(cmd) {
@@ -2988,7 +2975,7 @@ function applyAutoStageSwitch(cmd) {
     var difficulty = parseInt(cmd.difficulty || '0', 10) || 0;
     var slot = String(cmd.slot || '');
     if (stageId <= 0) {
-        send({ type: 'auto_stage_result', ok: false, stageId: stageId, level: stageId, slot: slot, message: '地图等级无效' });
+        send({ type: 'auto_stage_result', ok: false, stageId: stageId, level: stageId, slot: slot, message: 'Invalid map level' });
         return;
     }
 
@@ -3008,20 +2995,16 @@ function waitForPanelCommands() {
             } else if (message && message.type === 'auto_stage_switch') {
                 applyAutoStageSwitch(message);
             } else if (message && message.type === 'auto_stage_control') {
-                send({ type: 'auto_stage_result', ok: true, stageId: 0, slot: '', message: '自动换图已停止' });
+                send({ type: 'auto_stage_result', ok: true, stageId: 0, slot: '', message: 'Auto map switch stopped' });
             } 
-            // ==============================================================
-            // 👑 CHỈ KÍCH HOẠT HACK KHI PYTHON BÁO CÔNG TẮC ON
-            // ==============================================================
             else if (message && message.type === 'update_config') {
                 BYPASS_STAGE_SWITCH_LIMIT = message.bypass_limit;
                 AUTO_IMPORTANT_COIN_HEAD = message.auto_coin;
                 AUTO_ARCANA_TOP5 = message.auto_arcana;
 
-                // Nếu bật tính năng Hack Bypass Map trên giao diện
                 if (BYPASS_STAGE_SWITCH_LIMIT && !g_bypassHooked) {
                     g_bypassHooked = true;
-                    log('🚀 Công tắc Bypass BẬT: Bắt đầu tiêm mã can thiệp Lõi Game...');
+                    log('🚀 Bypass Switch ON: Starting to inject core hooks...');
                     hookStageSwitchLimitBypass();
                     
                     if (!found['jsq'] && !g_vwCandidatesHooked) {
@@ -3031,7 +3014,7 @@ function waitForPanelCommands() {
                 }
             }
         } catch(e) {
-            send({ type: 'force_result', ok: false, message: '命令处理失败: ' + e });
+            send({ type: 'force_result', ok: false, message: 'Command processing failed: ' + e });
         }
         waitForPanelCommands();
     });
@@ -3053,17 +3036,17 @@ function queuesChanged(queues) {
 }
 
 function showBexlQueues(source, forceLog) {
-    if (source !== '手动置顶' && source !== '手动置顶确认') {
+    if (source !== 'Manual pin' && source !== 'Manual pin confirm') {
         enforceActiveForcedSelections(source, forceLog);
     }
     promoteArcanaTop5(source, forceLog);
     var queues = readBexlQueues();
     if (queues.length === 0) {
-        if (forceLog) log('[' + source + '] 已触发，但暂时没读到掉落队列。vw=' + (g_vw && !g_vw.isNull() ? g_vw : 'null'));
+        if (forceLog) log('[' + source + '] triggered, but drop queue not read temporarily. vw=' + (g_vw && !g_vw.isNull() ? g_vw : 'null'));
         return false;
     }
     if (!queuesChanged(queues)) {
-        if (forceLog) log('[' + source + '] 已触发，掉落队列未变化。当前队列=' + queues.length + ' 个');
+        if (forceLog) log('[' + source + '] triggered, drop queue unchanged. Current queue=' + queues.length + ' items');
         return true;
     }
     g_snapshots.clear();
@@ -3072,7 +3055,7 @@ function showBexlQueues(source, forceLog) {
         g_snapshots.set(queueSnapshotKey(q), { eboxType: q.eboxType, label: q.label, items: q.items.slice(), size: q.size });
     }
     log('');
-    log('[' + source + '] ' + queues.length + ' \u4e2a\u6389\u843d\u961f\u5217:');
+    log('[' + source + '] ' + queues.length + ' drop queues:');
     for (var qi2 = 0; qi2 < queues.length; qi2++) {
         displayQueue(queues[qi2]);
     }
@@ -3095,9 +3078,9 @@ function onStageSignal(source) {
     g_lastStageSignalAt = signalAt;
     g_stageEventCount++;
     log('');
-    log('>>> [' + source + ' #' + g_stageEventCount + '] 检测到进图/切图/箱子UI事件');
+    log('>>> [' + source + ' #' + g_stageEventCount + '] map enter/switch/box UI event detected');
     refreshVwInstance();
-    showBexlQueues(source + '立即检查', true);
+    showBexlQueues(source + ' check immediately', true);
     scheduleQueueChecks(source, true);
 }
 function attachSignalHook(key, label, updateVw) {
@@ -3165,7 +3148,7 @@ function clearPortalStaticTimers(source) {
         }
     } catch(e) {}
     if (changed) {
-        logStageBypass('UI_Portal.cooldown.static', '[关卡限制解除] UI_Portal static bfxe/bfxf -> 0 by ' + source, 1200);
+        logStageBypass('UI_Portal.cooldown.static', '[Stage Limit Removed] UI_Portal static bfxe/bfxf -> 0 by ' + source, 1200);
     }
     return changed;
 }
@@ -3200,7 +3183,7 @@ function registerAndHideAbusePopup(instance, source) {
         }
     } catch(e) {}
     if (changed) {
-        logStageBypass('UI_Portal.abusePopup.hide', '[关卡限制解除] abuse guard popup hidden by ' + source, 1200);
+        logStageBypass('UI_Portal.abusePopup.hide', '[Stage Limit Removed] abuse guard popup hidden by ' + source, 1200);
     }
     return changed;
 }
@@ -3230,7 +3213,7 @@ function hookAbusePopupSetActiveBypass() {
                 try {
                     if (g_abusePopupPtrs[ptrKey(args[0])] && args[1].toInt32() !== 0) {
                         args[1] = ptr(0);
-                        logStageBypass('UnityEngine.GameObject.SetActive.abusePopup', '[关卡限制解除] abuse guard popup SetActive(true) -> false', 1200);
+                        logStageBypass('UnityEngine.GameObject.SetActive.abusePopup', '[Stage Limit Removed] abuse guard popup SetActive(true) -> false', 1200);
                     }
                 } catch(e) {}
             }
@@ -3256,9 +3239,9 @@ function hookAbuseRemainTextBypass(key, label) {
                 try {
                     var oldText = readIl2cppString(args[1]);
                     if (!shouldClampAbuseRemainText(args[0], oldText)) return;
-                    if (!g_abuseRemainString) g_abuseRemainString = makeIl2cppString('剩余时间 1秒');
+                    if (!g_abuseRemainString) g_abuseRemainString = makeIl2cppString('Remaining 1 sec');
                     args[1] = g_abuseRemainString;
-                    logStageBypass(key + '.remainText', '[关卡限制解除] abuse remain text "' + oldText + '" -> "剩余时间 1秒"', 800);
+                    logStageBypass(key + '.remainText', '[Stage Limit Removed] abuse remain text "' + oldText + '" -> "Remaining 1 sec"', 800);
                 } catch(e) {}
             }
         });
@@ -3291,7 +3274,7 @@ function hookBoolBypass(key, label, describeArg) {
                     var value = ret.toInt32();
                     if (value === 0) {
                         ret.replace(ptr(1));
-                        logStageBypass(key, '[关卡限制解除] ' + label + (this.extra ? ' ' + this.extra : '') + ' false -> true', 1200);
+                        logStageBypass(key, '[Stage Limit Removed] ' + label + (this.extra ? ' ' + this.extra : '') + ' false -> true', 1200);
                     }
                 } catch(e) {}
             }
@@ -3312,7 +3295,7 @@ function forceStageNodeCanChange(nodePtr, source) {
             var oldValue = flag.readU8();
             if (oldValue === 0) {
                 flag.writeU8(1);
-                logStageBypass('StageNode.bdbh', '[关卡限制解除] StageNode.bdbh false -> true by ' + source, 800);
+                logStageBypass('StageNode.bdbh', '[Stage Limit Removed] StageNode.bdbh false -> true by ' + source, 800);
             }
         }
     } catch(e) {}
@@ -3347,7 +3330,7 @@ function hookStageNodeLimitBypass() {
                         var oldValue = args[1].toInt32();
                         if (oldValue === 0) {
                             args[1] = ptr(1);
-                            logStageBypass('StageNode.hre', '[关卡限制解除] StageNode.hre false -> true', 800);
+                            logStageBypass('StageNode.hre', '[Stage Limit Removed] StageNode.hre false -> true', 800);
                         }
                     } catch(e) {}
                 }
@@ -3426,7 +3409,7 @@ function hookBoolArgForce(key, label, argIndex, forcedValue, describeArg) {
                         try {
                             if (describeArg) extra = describeArg(args);
                         } catch(e) {}
-                        logStageBypass(key, '[关卡限制解除] ' + label + (extra ? ' ' + extra : '') + ' arg' + argIndex + '=' + oldValue + ' -> ' + forcedValue, 1200);
+                        logStageBypass(key, '[Stage Limit Removed] ' + label + (extra ? ' ' + extra : '') + ' arg' + argIndex + '=' + oldValue + ' -> ' + forcedValue, 1200);
                     }
                 } catch(e) {}
             }
@@ -3450,7 +3433,7 @@ function hookVoidTrace(key, label, describeArg) {
                 try {
                     if (describeArg) extra = describeArg(args);
                 } catch(e) {}
-                logStageBypass(key + '.trace', '[关卡限制追踪] ' + label + (extra ? ' ' + extra : '') + ' called', 1200);
+                logStageBypass(key + '.trace', '[Stage Limit Trace] ' + label + (extra ? ' ' + extra : '') + ' called', 1200);
             }
         });
         log('✓ Hooked ' + label + ' trace');
@@ -3467,8 +3450,8 @@ function hookStageSwitchLimitBypass() {
     } else {
         log('↷ Stage switch limit bypass disabled; game cooldown result and popup stay normal');
     }
-    hookStageProbeDiscovery();
-    hookUIPortalInstanceDiscovery();
+    // hookStageProbeDiscovery();
+    // hookUIPortalInstanceDiscovery();
     hookAbusePopupSetActiveBypass();
     hookAbuseRemainTextBypass('TMPro.TMP_Text.set_text', 'TMPro.TMP_Text.set_text');
     hookAbuseRemainTextBypass('TMPro.TextMeshProUGUI.set_text', 'TMPro.TextMeshProUGUI.set_text');
@@ -3499,7 +3482,7 @@ function hookStageSwitchLimitBypass() {
                             notifyPendingStageSwitchFailure('StageManager.ifo', stageEnterResultName(result));
                             if (BYPASS_STAGE_SWITCH_LIMIT) {
                                 ret.replace(ptr(0));
-                                logStageBypass('StageManager.ifo.' + result, '[关卡限制解除] StageManager.ifo difficulty=' + (this.difficulty || 0) + ' stage=' + this.stageId + ' ' + stageEnterResultName(result) + ' -> Success', 800);
+                                logStageBypass('StageManager.ifo.' + result, '[Stage Limit Removed] StageManager.ifo difficulty=' + (this.difficulty || 0) + ' stage=' + this.stageId + ' ' + stageEnterResultName(result) + ' -> Success', 800);
                             }
                         }
                     } catch(e) {}
@@ -3528,7 +3511,7 @@ function hookStageSwitchLimitBypass() {
                             notifyPendingStageSwitchFailure('StageManager.ifn', stageEnterResultName(result));
                             if (BYPASS_STAGE_SWITCH_LIMIT) {
                                 args[1] = ptr(0);
-                                logStageBypass('StageManager.ifn.' + result, '[关卡限制解除] StageManager.ifn toast=' + toast + ' ' + stageEnterResultName(result) + ' -> Success', 1200);
+                                logStageBypass('StageManager.ifn.' + result, '[Stage Limit Removed] StageManager.ifn toast=' + toast + ' ' + stageEnterResultName(result) + ' -> Success', 1200);
                             }
                         }
                     } catch(e) {}
@@ -3594,7 +3577,6 @@ function readRewardItemIdForDisplay(boxPtr) {
         return { itemId: 0, raw: 0, source: 'read-failed' };
     }
     
-    // Sử dụng hàm giải mã mạnh nhất của chúng ta để hiển thị
     var decryptedId = readBoxDataItemId(boxPtr);
     if (decryptedId > 0) {
         return { itemId: decryptedId, raw: rawRewardItemId, source: 'DECRYPT' };
@@ -3631,8 +3613,8 @@ function hookVwDropCandidates() {
                 Interceptor.attach(cand.fp, {
                     onEnter: function(args) {
                         if (args[0] && !args[0].isNull()) setQueueOwnerIfValid(args[0], 'auto:' + cand.name);
-                        enforceActiveForcedSelections('auto:' + cand.name + '\u524d', false);
-                        promoteArcanaTop5('auto:' + cand.name + '\u524d', false);
+                        enforceActiveForcedSelections('auto:' + cand.name + 'Before ', false);
+                        promoteArcanaTop5('auto:' + cand.name + 'Before ', false);
                         this.preQueues = readBexlQueueEntries();
                     },
                     onLeave: function(ret) {
@@ -3658,9 +3640,9 @@ function hookVwDropCandidates() {
 
                             var matchedAfter = matchSelectedItem(effectiveRet, itemId);
                             g_dropCount++;
-                            log('  [\u6389\u843d #' + g_dropCount + ' / auto:' + cand.name + '] \u9009\u4e2d: ' + itemId);
-                            log('    \u6d88\u8d39\u524d\u53cd\u67e5: ' + describeMatchesForLog(matchedBefore.matches));
-                            log('    \u6d88\u8d39\u540e\u53cd\u67e5: ' + describeMatchesForLog(matchedAfter.matches));
+                            log('  [Drop #' + g_dropCount + ' / auto:' + cand.name + '] Selected: ' + itemId);
+                            log('    Pre-consume lookup: ' + describeMatchesForLog(matchedBefore.matches));
+                            log('    Post-consume lookup: ' + describeMatchesForLog(matchedAfter.matches));
                             clearConsumedForcedSelection(itemId, matchedBefore.matches);
                             send({
                                 type: 'selected',
@@ -3673,7 +3655,7 @@ function hookVwDropCandidates() {
                                 afterMatches: matchedAfter.matches,
                                 afterHeads: matchedAfter.heads
                             });
-                            scheduleQueueChecks('\u6389\u843d\u540e', true);
+                            scheduleQueueChecks('After drop', true);
                         } catch(e) {}
                     }
                 });
@@ -3691,14 +3673,14 @@ if (found['jsq']) {
     Interceptor.attach(found['jsq'], {
         onEnter: function(args) {
             if (args[0] && !args[0].isNull()) setQueueOwnerIfValid(args[0], 'jsq');
-            enforceActiveForcedSelections('\u6389\u843d\u524d', true);
-            promoteArcanaTop5('\u6389\u843d\u524d', true);
+            enforceActiveForcedSelections('Before drop', true);
+            promoteArcanaTop5('Before drop', true);
             this.preQueues = readBexlQueueEntries();
             if (!g_firstJsqSeen) {
                 g_firstJsqSeen = true;
-                if (!showBexlQueues('\u542f\u52a8')) scheduleQueueChecks('\u542f\u52a8\u5ef6\u8fdf', true);
+                if (!showBexlQueues('Startup')) scheduleQueueChecks('Startup delay', true);
             } else {
-                showBexlQueues('\u5730\u56fe/\u66f4\u65b0', true);
+                showBexlQueues('Map/Update', true);
             }
         },
         onLeave: function(ret) {
@@ -3714,9 +3696,9 @@ if (found['jsq']) {
                     }
                     var matchedAfter = matchSelectedItem(effectiveRet, itemId);
                     g_dropCount++;
-                    log('  [\u6389\u843d #' + g_dropCount + '] \u9009\u4e2d: ' + itemId);
-                    log('    \u6d88\u8d39\u524d\u53cd\u67e5: ' + describeMatchesForLog(matchedBefore.matches));
-                    log('    \u6d88\u8d39\u540e\u53cd\u67e5: ' + describeMatchesForLog(matchedAfter.matches));
+                    log('  [Drop #' + g_dropCount + '] Selected: ' + itemId);
+                    log('    Pre-consume lookup: ' + describeMatchesForLog(matchedBefore.matches));
+                    log('    Post-consume lookup: ' + describeMatchesForLog(matchedAfter.matches));
                     clearConsumedForcedSelection(itemId, matchedBefore.matches);
                     send({
                         type: 'selected',
@@ -3731,7 +3713,7 @@ if (found['jsq']) {
                     });
                 } catch(e) {}
             }
-            scheduleQueueChecks('\u6389\u843d\u540e', true);
+            scheduleQueueChecks('After drop', true);
         }
     });
     log('\u2713 Hooked jsq');
@@ -3746,9 +3728,9 @@ if (found['jsl']) {
         onEnter: function(args) {
             if (args[0] && !args[0].isNull()) setQueueOwnerIfValid(args[0], 'jsl');
             log('\n========================================');
-            log('=== \u8fdb\u5165\u65b0\u5730\u56fe ===');
+            log('=== Entering new map ===');
             log('========================================');
-            scheduleQueueChecks('\u5207\u56fe', true);
+            scheduleQueueChecks('Switch map', true);
         }
     });
     log('\u2713 Hooked jsl');
@@ -3759,8 +3741,8 @@ if (found['jso']) {
     Interceptor.attach(found['jso'], {
         onEnter: function(args) {
             try {
-                enforceActiveForcedSelections('\u53d1\u5956\u524d:jso', false);
-                promoteArcanaTop5('\u53d1\u5956\u524d:jso', false);
+                enforceActiveForcedSelections('Before award:jso', false);
+                promoteArcanaTop5('Before award:jso', false);
             } catch(e) {}
         },
         onLeave: function(ret) {
@@ -3773,7 +3755,7 @@ if (found['jso']) {
                         if (forcedReward.targetPtr && !forcedReward.targetPtr.isNull() && !forcedReward.targetPtr.equals(ret)) {
                             forceBoxRewardId(forcedReward.targetPtr, forcedReward.itemId, 'jso:target');
                             ret.replace(forcedReward.targetPtr);
-                            log('  [jso] \u7f6e\u987601\u8fd4\u56de\u4fee\u6b63: ' + rewardItemId + ' -> ' + forcedReward.itemId + ' / ' + (forcedReward.reason || forcedReward.source || 'forced'));
+                            log('  [jso] Pin 01 return correction: ' + rewardItemId + ' -> ' + forcedReward.itemId + ' / ' + (forcedReward.reason || forcedReward.source || 'forced'));
                         }
                         rewardItemId = forcedReward.itemId;
                         g_pendingForcedReward = {
@@ -3783,10 +3765,10 @@ if (found['jso']) {
                             source: 'jso'
                         };
                     }
-                    log('  [jso] \u79fb\u9664 BoxData: rewardItemId=' + rewardItemId);
+                    log('  [jso] Remove BoxData: rewardItemId=' + rewardItemId);
                 } catch(e) {}
             }
-            scheduleQueueChecks('\u5f00\u7bb1', true);
+            scheduleQueueChecks('Open box', true);
         }
     });
     log('\u2713 Hooked jso');
@@ -3797,8 +3779,8 @@ if (found['jtg']) {
     Interceptor.attach(found['jtg'], {
         onEnter: function(args) {
             try {
-                enforceActiveForcedSelections('\u53d1\u5956\u524d:jtg', false);
-                promoteArcanaTop5('\u53d1\u5956\u524d:jtg', false);
+                enforceActiveForcedSelections('Before award:jtg', false);
+                promoteArcanaTop5('Before award:jtg', false);
                 var boxPtr = args[1];
                 if (!boxPtr || boxPtr.isNull()) return;
                 var eboxType = args[2].toInt32();
@@ -3809,7 +3791,7 @@ if (found['jtg']) {
                 if (forcedReward.targetPtr && !forcedReward.targetPtr.isNull() && !forcedReward.targetPtr.equals(boxPtr)) {
                     forceBoxRewardId(forcedReward.targetPtr, forcedReward.itemId, 'jtg:target');
                     try { args[1] = forcedReward.targetPtr; } catch(e) {}
-                    log('  [jtg] ' + labelForEboxType(eboxType) + ' \u7f6e\u987601\u53c2\u6570\u4fee\u6b63: ' + rewardItemId + ' -> ' + forcedReward.itemId + ' / ' + (forcedReward.reason || forcedReward.source || 'forced'));
+                    log('  [jtg] ' + labelForEboxType(eboxType) + ' Pin 01 param correction: ' + rewardItemId + ' -> ' + forcedReward.itemId + ' / ' + (forcedReward.reason || forcedReward.source || 'forced'));
                 }
                 g_pendingForcedReward = {
                     itemId: forcedReward.itemId,
@@ -3839,8 +3821,8 @@ if (found['iql']) {
     Interceptor.attach(found['iql'], {
         onEnter: function(args) {
             try {
-                enforceActiveForcedSelections('\u53d1\u5956\u524d:iql', false);
-                promoteArcanaTop5('\u53d1\u5956\u524d:iql', false);
+                enforceActiveForcedSelections('Before award:iql', false);
+                promoteArcanaTop5('Before award:iql', false);
                 var rewardRead = readRewardItemIdForDisplay(args[0]);
                 var rewardItemId = rewardRead.itemId > 0 ? rewardRead.itemId : rewardRead.raw;
                 var forcedReward = null;
@@ -3864,19 +3846,19 @@ if (found['iql']) {
                 if (forcedReward && forcedReward.itemId > 0) {
                     if (rewardItemId !== forcedReward.itemId) {
                         writeBoxDataRewardItemId(args[0], forcedReward.itemId);
-                        log('  [\u624b\u52a8\u7f6e\u9876\u53d1\u5956\u4fee\u6b63] rewardItemId=' + rewardItemId + ' -> ' + forcedReward.itemId + (forcedReward.matched ? ' / queue-match' : ' / pending'));
+                        log('  [Manual pin reward correction] rewardItemId=' + rewardItemId + ' -> ' + forcedReward.itemId + (forcedReward.matched ? ' / queue-match' : ' / pending'));
                         rewardItemId = forcedReward.itemId;
                     }
-                    completeForcedSelection(forcedReward.eboxType, forcedReward.itemId, '\u5df2\u53d1\u5956\u786e\u8ba4');
+                    completeForcedSelection(forcedReward.eboxType, forcedReward.itemId, 'Reward confirmed');
                 }
                 if (!isPlausibleItemId(rewardItemId)) {
-                    log('  [\u53d1\u5956] rewardItemId\u5b57\u6bb5\u975e\u7269\u54c1ID: raw=' + rewardRead.raw + ' source=' + rewardRead.source + '\uff0c\u8df3\u8fc7\u9762\u677f\u53d1\u5956\u663e\u793a');
+                    log('  [Reward] Field is not item ID: raw=' + rewardRead.raw + ' source=' + rewardRead.source + ', skip panel reward display');
                     return;
                 }
                 if (rewardRead.source === 'boxItemId') {
-                    log('  [\u53d1\u5956] rewardItemId\u5b57\u6bb5\u975e\u7269\u54c1ID: raw=' + rewardRead.raw + ' -> BoxData.itemId=' + rewardItemId);
+                    log('  [Reward] Field is not item ID: raw=' + rewardRead.raw + ' -> BoxData.itemId=' + rewardItemId);
                 }
-                log('  [\u53d1\u5956] rewardItemId=' + rewardItemId);
+                log('  [Reward] rewardItemId=' + rewardItemId);
                 send({ type: 'reward', itemId: rewardItemId });
             } catch(e) {}
         }
@@ -3884,26 +3866,26 @@ if (found['iql']) {
     log('\u2713 Hooked iql');
 }
 
-attachSignalHook('jsp', 'vw.jsp进图检查', true);
-attachSignalHook('efk', 'vw.efk进图检查', true);
-attachSignalHook('el', 'vw.el进图缓存', true);
-attachSignalHook('gmz', 'vw.gmz进图缓存', true);
-attachSignalHook('nvm', 'vw.nvm进图缓存', true);
-attachSignalHook('idd', 'vw.idd进图缓存', true);
-attachSignalHook('jsm', 'vw.jsm箱子同步', true);
-attachSignalHook('llp', 'vw.llp箱子同步', true);
-attachSignalHook('UI_Stage.huq', 'UI_Stage.huq进图', false);
-attachSignalHook('UI_Stage.hva', 'UI_Stage.hva箱子数量', false);
-attachSignalHook('UI_Stage.hvc', 'UI_Stage.hvc箱子进度', false);
-attachSignalHook('StageManager.ign', 'StageManager.ign获得箱子', false);
-attachSignalHook('StageBox.lgy', 'StageBox.lgy箱子数量', false);
-attachSignalHook('StageBox.lhb', 'StageBox.lhb箱子数量', false);
+attachSignalHook('jsp', 'vw.jsp map enter check', true);
+attachSignalHook('efk', 'vw.efk map enter check', true);
+attachSignalHook('el', 'vw.el map enter cache', true);
+attachSignalHook('gmz', 'vw.gmz map enter cache', true);
+attachSignalHook('nvm', 'vw.nvm map enter cache', true);
+attachSignalHook('idd', 'vw.idd map enter cache', true);
+attachSignalHook('jsm', 'vw.jsm box sync', true);
+attachSignalHook('llp', 'vw.llp box sync', true);
+attachSignalHook('UI_Stage.huq', 'UI_Stage.huq enter map', false);
+attachSignalHook('UI_Stage.hva', 'UI_Stage.hva box count', false);
+attachSignalHook('UI_Stage.hvc', 'UI_Stage.hvc box progress', false);
+attachSignalHook('StageManager.ign', 'StageManager.ign get box', false);
+attachSignalHook('StageBox.lgy', 'StageBox.lgy box count', false);
+attachSignalHook('StageBox.lhb', 'StageBox.lhb box count', false);
 
 setInterval(function() {
     refreshVwInstance();
     g_pollTick++;
     if (g_vw && !g_vw.isNull()) {
-        showBexlQueues('\u8f6e\u8be2', false);
+        showBexlQueues('Polling', false);
         if (g_pollTick % 20 === 0) send({ type: 'heartbeat', status: 'polling', vw: String(g_vw) });
     } else if (g_pollTick % 20 === 0) {
         send({ type: 'heartbeat', status: 'waiting_vw' });
@@ -3914,6 +3896,6 @@ setInterval(function() {
 
 refreshVwInstance();
 waitForPanelCommands();
-scheduleQueueChecks('\u542f\u52a8');
+scheduleQueueChecks('Startup');
 
-log('\n=== Drop Items Info v64 \u5c31\u7eea ===');
+log('\n=== Drop Items Info v4 Ready ===');
